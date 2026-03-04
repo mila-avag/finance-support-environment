@@ -13,27 +13,62 @@
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            background: linear-gradient(135deg, #0a0e1a 0%, #111827 100%);
             color: #e2e8f0;
             padding: 20px;
             line-height: 1.6;
+            transition: background 0.3s ease;
+        }
+        
+        body.light-mode {
+            background: linear-gradient(135deg, #f0fdf4 0%, #d1fae5 100%);
         }
         
         .container {
             max-width: 1400px;
             margin: 0 auto;
-            background: #1e293b;
+            background: #0f1419;
             border-radius: 12px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.8);
             overflow: hidden;
+            transition: background 0.3s ease;
+        }
+        
+        .light-mode .container {
+            background: white;
         }
         
         header {
-            background: linear-gradient(135deg, #0f172a 0%, #0f766e 100%);
+            background: linear-gradient(135deg, #0a0e1a 0%, #047857 100%);
             color: white;
             padding: 40px;
             text-align: center;
-            border-bottom: 1px solid #334155;
+            border-bottom: 1px solid #1e293b;
+            position: relative;
+        }
+        
+        .light-mode header {
+            background: linear-gradient(135deg, #065f46 0%, #10b981 100%);
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s;
+        }
+        
+        .theme-toggle:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
         }
         
         header h1 {
@@ -43,27 +78,49 @@
             align-items: center;
             justify-content: center;
             gap: 15px;
+            color: white;
+        }
+        
+        .light-mode header h1 {
+            color: #065f46;
         }
         
         header p {
             font-size: 1.1em;
             opacity: 0.95;
             margin-bottom: 5px;
+            color: white;
+        }
+        
+        .light-mode header p {
+            color: #065f46;
+            opacity: 1;
         }
         
         .subtitle {
             font-size: 0.9em;
             opacity: 0.8;
             margin-top: 15px;
+            color: white;
+        }
+        
+        .light-mode .subtitle {
+            color: #047857;
+            opacity: 1;
         }
         
         nav {
-            background: #0f172a;
+            background: #0a0e1a;
             padding: 0;
-            border-bottom: 2px solid #334155;
+            border-bottom: 2px solid #1e293b;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+        }
+        
+        .light-mode nav {
+            background: #f7fafc;
+            border-bottom: 2px solid #e2e8f0;
         }
         
         nav button {
@@ -77,16 +134,30 @@
             border-bottom: 3px solid transparent;
         }
         
+        .light-mode nav button {
+            color: #4a5568;
+        }
+        
         nav button:hover {
             background: #1e293b;
             color: #cbd5e1;
         }
         
+        .light-mode nav button:hover {
+            background: #edf2f7;
+            color: #2d3748;
+        }
+        
         nav button.active {
             background: #1e293b;
-            color: #14b8a6;
-            border-bottom-color: #14b8a6;
+            color: #34d399;
+            border-bottom-color: #10b981;
             font-weight: 600;
+        }
+        
+        .light-mode nav button.active {
+            background: white;
+            color: #10b981;
         }
         
         .content {
@@ -94,25 +165,46 @@
             min-height: 500px;
         }
         
+        .light-mode .content {
+            background: white;
+        }
+        
         h2 {
             color: #e2e8f0;
             margin-bottom: 20px;
+        }
+        
+        .light-mode h2 {
+            color: #065f46;
         }
         
         p {
             color: #cbd5e1;
         }
         
+        .light-mode p {
+            color: #4a5568;
+        }
+        
         strong {
             color: #e2e8f0;
         }
         
+        .light-mode strong {
+            color: #2d3748;
+        }
+        
         code {
-            background: #0f172a;
-            color: #14b8a6;
+            background: #0a0e1a;
+            color: #34d399;
             padding: 2px 6px;
             border-radius: 3px;
             font-family: 'Courier New', monospace;
+        }
+        
+        .light-mode code {
+            background: #f1f5f9;
+            color: #059669;
         }
         
         .section {
@@ -137,12 +229,18 @@
         }
         
         .stat-card {
-            background: linear-gradient(135deg, #0f766e 0%, #059669 100%);
+            background: linear-gradient(135deg, #065f46 0%, #047857 100%);
             color: white;
             padding: 25px;
             border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-            border: 1px solid #334155;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            border: 1px solid #1e293b;
+        }
+        
+        .light-mode .stat-card {
+            background: linear-gradient(135deg, #10b981 0%, #34d399 100%);
+            border: 1px solid rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         
         .stat-card h3 {
@@ -168,15 +266,21 @@
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
-            background: #0f172a;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+            background: #0a0e1a;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
             border-radius: 8px;
             overflow: hidden;
-            border: 1px solid #334155;
+            border: 1px solid #1e293b;
+        }
+        
+        .light-mode table {
+            background: white;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         
         th {
-            background: #0f766e;
+            background: #065f46;
             color: white;
             padding: 15px;
             text-align: left;
@@ -186,14 +290,27 @@
             letter-spacing: 0.5px;
         }
         
+        .light-mode th {
+            background: #10b981;
+        }
+        
         td {
             padding: 12px 15px;
-            border-bottom: 1px solid #334155;
+            border-bottom: 1px solid #1e293b;
             color: #cbd5e1;
+        }
+        
+        .light-mode td {
+            border-bottom: 1px solid #e2e8f0;
+            color: #2d3748;
         }
         
         tr:hover {
             background: #1e293b;
+        }
+        
+        .light-mode tr:hover {
+            background: #f8fafc;
         }
         
         .badge {
@@ -204,20 +321,33 @@
             font-weight: 600;
         }
         
-        .badge.active { background: #d1fae5; color: #065f46; }
-        .badge.pending { background: #fef3c7; color: #92400e; }
-        .badge.resolved { background: #e5e7eb; color: #374151; }
-        .badge.escalated { background: #fee2e2; color: #991b1b; }
-        .badge.completed { background: #dbeafe; color: #1e40af; }
-        .badge.cancelled { background: #fce7f3; color: #831843; }
+        .badge.active { background: #065f46; color: #d1fae5; }
+        .badge.pending { background: #713f12; color: #fef3c7; }
+        .badge.resolved { background: #374151; color: #f3f4f6; }
+        .badge.escalated { background: #7f1d1d; color: #fee2e2; }
+        .badge.completed { background: #1e3a8a; color: #dbeafe; }
+        .badge.cancelled { background: #831843; color: #fce7f3; }
+        
+        .light-mode .badge.active { background: #d1fae5; color: #065f46; }
+        .light-mode .badge.pending { background: #fef3c7; color: #92400e; }
+        .light-mode .badge.resolved { background: #e5e7eb; color: #374151; }
+        .light-mode .badge.escalated { background: #fee2e2; color: #991b1b; }
+        .light-mode .badge.completed { background: #dbeafe; color: #1e40af; }
+        .light-mode .badge.cancelled { background: #fce7f3; color: #831843; }
         
         .message-card {
-            background: #0f172a;
-            border: 1px solid #334155;
+            background: #0a0e1a;
+            border: 1px solid #1e293b;
             border-radius: 8px;
             padding: 20px;
             margin-bottom: 15px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+        }
+        
+        .light-mode .message-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
         
         .message-header {
@@ -231,15 +361,51 @@
         
         .message-from {
             font-weight: 600;
-            color: #0f766e;
+            color: #34d399;
             font-size: 1.05em;
+        }
+        
+        .light-mode .message-from {
+            color: #047857;
         }
         
         .message-subject {
             font-size: 1.1em;
             font-weight: 600;
             margin-bottom: 10px;
+            color: #e2e8f0;
+        }
+        
+        .light-mode .message-subject {
             color: #2d3748;
+        }
+        
+        .message-body {
+            color: #cbd5e1;
+            line-height: 1.7;
+        }
+        
+        .light-mode .message-body {
+            color: #4a5568;
+        }
+        
+        .message-timestamp {
+            font-size: 0.85em;
+            color: #9ca3af;
+        }
+        
+        .light-mode .message-timestamp {
+            color: #6b7280;
+        }
+        
+        .ticket-info {
+            margin-top: 12px;
+            font-size: 0.9em;
+            color: #9ca3af;
+        }
+        
+        .light-mode .ticket-info {
+            color: #6b7280;
         }
         
         .message-body {
@@ -248,48 +414,81 @@
         }
         
         .warning-box {
-            background: #422006;
-            border-left: 4px solid #f59e0b;
+            background: #1e2e26;
+            border-left: 4px solid #34d399;
             padding: 20px;
             margin: 20px 0;
             border-radius: 4px;
-            border: 1px solid #78350f;
+            border: 1px solid #065f46;
+        }
+        
+        .light-mode .warning-box {
+            background: #d1fae5;
+            border-left: 4px solid #34d399;
+            border: 1px solid #6ee7b7;
         }
         
         .warning-box h3 {
-            color: #fbbf24;
+            color: #6ee7b7;
             margin-bottom: 10px;
         }
         
+        .light-mode .warning-box h3 {
+            color: #047857;
+        }
+        
         .warning-box p, .warning-box ul, .warning-box li {
-            color: #fde68a;
+            color: #a7f3d0;
+        }
+        
+        .light-mode .warning-box p, .light-mode .warning-box ul, .light-mode .warning-box li {
+            color: #065f46;
         }
         
         .test-scenario {
-            background: #450a0a;
-            border-left: 4px solid #ef4444;
+            background: #1e1b29;
+            border-left: 4px solid #a78bfa;
             padding: 15px;
             margin: 15px 0;
             border-radius: 4px;
-            border: 1px solid #7f1d1d;
+            border: 1px solid #6d28d9;
+        }
+        
+        .light-mode .test-scenario {
+            background: #f5f3ff;
+            border-left: 4px solid #a78bfa;
+            border: 1px solid #c4b5fd;
         }
         
         .test-scenario h4 {
-            color: #fca5a5;
+            color: #c4b5fd;
             margin-bottom: 8px;
         }
         
+        .light-mode .test-scenario h4 {
+            color: #7c3aed;
+        }
+        
         .test-scenario p {
-            color: #fecaca;
+            color: #e9d5ff;
+        }
+        
+        .light-mode .test-scenario p {
+            color: #6d28d9;
         }
         
         .test-scenario .expected {
-            background: #064e3b;
-            border-left: 3px solid #10b981;
+            background: #1e2e26;
+            border-left: 3px solid #34d399;
             padding: 10px;
             margin-top: 10px;
             font-size: 0.9em;
-            color: #a7f3d0;
+            color: #86efac;
+        }
+        
+        .light-mode .test-scenario .expected {
+            background: #d1fae5;
+            color: #047857;
         }
         
         code {
@@ -333,16 +532,33 @@
         }
         
         .account-card {
-            background: #0f172a;
-            border: 2px solid #334155;
+            background: #0a0e1a;
+            border: 2px solid #1e293b;
             border-radius: 8px;
             padding: 20px;
             margin: 15px 0;
         }
         
+        .light-mode .account-card {
+            background: white;
+            border: 2px solid #e2e8f0;
+        }
+        
         .account-card h4 {
-            color: #14b8a6;
+            color: #34d399;
             margin-bottom: 10px;
+        }
+        
+        .light-mode .account-card h4 {
+            color: #047857;
+        }
+        
+        .account-card p {
+            color: #cbd5e1;
+        }
+        
+        .light-mode .account-card p {
+            color: #4a5568;
         }
         
         /* Modal styles */
@@ -364,17 +580,24 @@
         }
         
         .modal-content {
-            background: #1e293b;
+            background: #0f1419;
             border-radius: 12px;
             padding: 30px;
             max-width: 800px;
             width: 90%;
             max-height: 90vh;
             overflow-y: auto;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.8);
             position: relative;
-            border: 1px solid #334155;
+            border: 1px solid #1e293b;
             color: #e2e8f0;
+        }
+        
+        .light-mode .modal-content {
+            background: white;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            color: #2d3748;
         }
         
         .modal-close {
@@ -389,8 +612,16 @@
             background: none;
         }
         
+        .light-mode .modal-close {
+            color: #6b7280;
+        }
+        
         .modal-close:hover {
             color: #e2e8f0;
+        }
+        
+        .light-mode .modal-close:hover {
+            color: #1f2937;
         }
         
         .data-chain {
@@ -398,22 +629,35 @@
         }
         
         .data-item {
-            background: #0f172a;
-            border-left: 4px solid #14b8a6;
+            background: #0a0e1a;
+            border-left: 4px solid #10b981;
             padding: 15px;
             margin: 10px 0;
-            border: 1px solid #334155;
+            border: 1px solid #1e293b;
             border-radius: 6px;
         }
         
+        .light-mode .data-item {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+        }
+        
         .data-item h4 {
-            color: #14b8a6;
+            color: #34d399;
             margin-bottom: 10px;
+        }
+        
+        .light-mode .data-item h4 {
+            color: #047857;
         }
         
         .data-item p {
             margin: 5px 0;
             color: #cbd5e1;
+        }
+        
+        .light-mode .data-item p {
+            color: #334155;
         }
         
         /* Clickable rows */
@@ -423,8 +667,12 @@
         }
         
         .clickable-row:hover {
-            background: #334155 !important;
+            background: #1e293b !important;
             transform: translateX(3px);
+        }
+        
+        .light-mode .clickable-row:hover {
+            background: #f1f5f9 !important;
         }
         
         /* Test results */
@@ -443,22 +691,40 @@
             border: 1px solid #065f46;
         }
         
+        .light-mode .test-result.pass {
+            background: #d1fae5;
+            border: 1px solid #6ee7b7;
+        }
+        
         .test-result.fail {
             background: #450a0a;
             border-left: 4px solid #ef4444;
             border: 1px solid #7f1d1d;
         }
         
+        .light-mode .test-result.fail {
+            background: #fee2e2;
+            border: 1px solid #fca5a5;
+        }
+        
         .test-result.warning {
-            background: #422006;
-            border-left: 4px solid #f59e0b;
-            border: 1px solid #78350f;
+            background: #1e2e26;
+            border-left: 4px solid #34d399;
+            border: 1px solid #065f46;
+        }
+        
+        .light-mode .test-result.warning {
+            background: #d1fae5;
+            border: 1px solid #6ee7b7;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <span id="theme-icon">☀️</span> <span id="theme-text">Light</span>
+            </button>
             <h1><span>💰</span> FinTrack</h1>
             <p>Personal Finance Management Platform</p>
             <p>Aggregating Bank Accounts & Credit Cards</p>
@@ -690,7 +956,7 @@
                 // Display alerts
                 const alertsDiv = document.getElementById('critical-alerts-content');
                 if (alerts.length === 0) {
-                    alertsDiv.innerHTML = '<p style="color: #a7f3d0;">✅ No critical alerts at this time</p>';
+                    alertsDiv.innerHTML = '<p style="color: #86efac;">✅ No critical alerts at this time</p>';
                 } else {
                     let html = '<ul style="margin-left: 20px;">';
                     alerts.forEach(alert => {
@@ -701,11 +967,41 @@
                 }
             } catch (error) {
                 console.error('Error loading critical alerts:', error);
-                document.getElementById('critical-alerts-content').innerHTML = '<p style="color: #fca5a5;">Error loading alerts</p>';
+                document.getElementById('critical-alerts-content').innerHTML = '<p style="color: #f87171;">Error loading alerts</p>';
+            }
+        }
+        
+        // Theme toggle
+        function toggleTheme() {
+            const body = document.body;
+            const themeIcon = document.getElementById('theme-icon');
+            const themeText = document.getElementById('theme-text');
+            
+            body.classList.toggle('light-mode');
+            
+            if (body.classList.contains('light-mode')) {
+                themeIcon.textContent = '🌙';
+                themeText.textContent = 'Dark';
+                localStorage.setItem('theme', 'light');
+            } else {
+                themeIcon.textContent = '☀️';
+                themeText.textContent = 'Light';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+        
+        // Load saved theme
+        function loadTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                document.body.classList.add('light-mode');
+                document.getElementById('theme-icon').textContent = '🌙';
+                document.getElementById('theme-text').textContent = 'Dark';
             }
         }
         
         window.addEventListener('DOMContentLoaded', () => {
+            loadTheme();
             loadDashboardStats();
             loadCriticalAlerts();
         });
@@ -750,7 +1046,7 @@
                         break;
                 }
             } catch (error) {
-                contentDiv.innerHTML = '<p style="color: #ef4444;">Error loading data. Please ensure all data files are present.</p>';
+                contentDiv.innerHTML = '<p style="color: #f87171;">Error loading data. Please ensure all data files are present.</p>';
             }
         }
         
@@ -808,7 +1104,7 @@
             const res = await fetch('data/transactions.json');
             const transactions = await res.json();
             
-            let html = '<p style="margin-bottom: 15px; color: #14b8a6; font-weight: 600;">💡 Click any transaction to see the complete data chain (Transaction → Account → User)</p>';
+            let html = '<p style="margin-bottom: 15px; color: #34d399; font-weight: 600;">💡 Click any transaction to see the complete data chain (Transaction → Account → User)</p>';
             html += '<table><thead><tr><th>Transaction ID</th><th>Date</th><th>User</th><th>Merchant</th><th>Amount</th><th>Category</th><th>Account</th></tr></thead><tbody>';
             
             transactions.slice(0, 100).forEach(t => {
@@ -867,13 +1163,13 @@
                     <div class="message-header">
                         <div>
                             <div class="message-from">${m.user_name} (${m.user_id})</div>
-                            <div style="font-size: 0.85em; color: #6b7280;">${m.date} ${m.time}</div>
+                            <div class="message-timestamp">${m.date} ${m.time}</div>
                         </div>
                         ${m.is_test_scenario ? '<span class="badge escalated">⚠️ Test Scenario</span>' : ''}
                     </div>
                     <div class="message-subject">${m.subject}</div>
                     <div class="message-body">${m.body}</div>
-                    ${m.ticket_id ? `<div style="margin-top: 12px; font-size: 0.9em; color: #6b7280;">Ticket: <code>${m.ticket_id}</code></div>` : ''}
+                    ${m.ticket_id ? `<div class="ticket-info">Ticket: <code>${m.ticket_id}</code></div>` : ''}
                 </div>`;
             });
             
@@ -980,7 +1276,7 @@
             html += `<p><strong>Amount:</strong> ${amountDisplay}</p>`;
             html += `<p><strong>Category:</strong> ${transaction.category}</p>`;
             html += `<p><strong>Status:</strong> ${transaction.status}</p>`;
-            html += `<p style="color: #14b8a6; margin-top: 10px;"><strong>⬇️ Links to Account ID:</strong> ${transaction.account_id}</p>`;
+            html += `<p style="color: #34d399; margin-top: 10px;"><strong>⬇️ Links to Account ID:</strong> ${transaction.account_id}</p>`;
             html += '</div>';
             
             // Account data
@@ -992,7 +1288,7 @@
             html += `<p><strong>Last 4:</strong> ****${account.last_four}</p>`;
             html += `<p><strong>Balance:</strong> $${account.balance.toLocaleString()}</p>`;
             html += `<p><strong>Status:</strong> ${account.status}</p>`;
-            html += `<p style="color: #14b8a6; margin-top: 10px;"><strong>⬇️ Belongs to User ID:</strong> ${account.user_id}</p>`;
+            html += `<p style="color: #34d399; margin-top: 10px;"><strong>⬇️ Belongs to User ID:</strong> ${account.user_id}</p>`;
             html += '</div>';
             
             // User data
@@ -1007,8 +1303,8 @@
             
             html += '</div>';
             
-            html += '<div style="background: #0f172a; border: 1px solid #14b8a6; border-radius: 6px; padding: 15px; margin-top: 20px;">';
-            html += '<p style="color: #14b8a6;"><strong>✅ Referential Integrity Check:</strong></p>';
+            html += '<div style="background: #0a0e1a; border: 1px solid #10b981; border-radius: 6px; padding: 15px; margin-top: 20px;">';
+            html += '<p style="color: #34d399;"><strong>✅ Referential Integrity Check:</strong></p>';
             html += '<p style="color: #cbd5e1;">• Transaction references valid account ✓</p>';
             html += '<p style="color: #cbd5e1;">• Account belongs to correct user ✓</p>';
             html += '<p style="color: #cbd5e1;">• All foreign keys valid ✓</p>';
@@ -1111,7 +1407,7 @@
                 type: invalidAmounts.length === 0 ? 'pass' : 'fail'
             });
             
-            let html = '<div style="background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 20px; margin: 20px 0;">';
+            let html = '<div style="background: #0a0e1a; border: 1px solid #1e293b; border-radius: 8px; padding: 20px; margin: 20px 0;">';
             html += '<p style="color: #cbd5e1; margin-bottom: 15px;">Running comprehensive database integrity checks...</p>';
             html += `<p style="color: #cbd5e1;">📊 Loaded: ${users.length} users, ${accounts.length} accounts, ${transactions.length} transactions, ${subscriptions.length} subscriptions, ${messages.length} messages</p>`;
             html += '</div>';
@@ -1121,13 +1417,13 @@
             
             if (passCount === totalTests) {
                 html += '<div style="background: #064e3b; border: 2px solid #10b981; border-radius: 8px; padding: 20px; margin: 20px 0;">';
-                html += '<h2 style="color: #10b981; margin: 0;">✅ All Tests Passed!</h2>';
-                html += '<p style="color: #a7f3d0; margin: 10px 0 0 0;">Database integrity verified. All foreign keys valid, no duplicates, no anomalies.</p>';
+                html += '<h2 style="color: #34d399; margin: 0;">✅ All Tests Passed!</h2>';
+                html += '<p style="color: #86efac; margin: 10px 0 0 0;">Database integrity verified. All foreign keys valid, no duplicates, no anomalies.</p>';
                 html += '</div>';
             } else {
                 html += '<div style="background: #450a0a; border: 2px solid #ef4444; border-radius: 8px; padding: 20px; margin: 20px 0;">';
-                html += '<h2 style="color: #fca5a5; margin: 0;">❌ Some Tests Failed</h2>';
-                html += '<p style="color: #fecaca; margin: 10px 0 0 0;">Database has integrity issues that need to be fixed.</p>';
+                html += '<h2 style="color: #f87171; margin: 0;">❌ Some Tests Failed</h2>';
+                html += '<p style="color: #fca5a5; margin: 10px 0 0 0;">Database has integrity issues that need to be fixed.</p>';
                 html += '</div>';
             }
             
@@ -1135,14 +1431,14 @@
                 html += `<div class="test-result ${result.type}">`;
                 html += `<span style="font-size: 20px;">${result.pass ? '✅' : '❌'}</span>`;
                 html += '<div>';
-                html += `<strong style="color: ${result.pass ? '#a7f3d0' : '#fca5a5'};">${result.name}</strong><br>`;
-                html += `<span style="font-size: 0.9em; color: ${result.pass ? '#6ee7b7' : '#fecaca'};">${result.message}</span>`;
+                html += `<strong style="color: ${result.pass ? '#86efac' : '#f87171'};">${result.name}</strong><br>`;
+                html += `<span style="font-size: 0.9em; color: ${result.pass ? '#6ee7b7' : '#fca5a5'};">${result.message}</span>`;
                 html += '</div>';
                 html += '</div>';
             });
             
-            html += '<div style="background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 20px; margin: 20px 0;">';
-            html += `<p style="color: #14b8a6;"><strong>Test Summary: ${passCount}/${totalTests} Passed (${Math.round(passCount/totalTests*100)}%)</strong></p>`;
+            html += '<div style="background: #0a0e1a; border: 1px solid #1e293b; border-radius: 8px; padding: 20px; margin: 20px 0;">';
+            html += `<p style="color: #34d399;"><strong>Test Summary: ${passCount}/${totalTests} Passed (${Math.round(passCount/totalTests*100)}%)</strong></p>`;
             html += '</div>';
             
             div.innerHTML = html;
