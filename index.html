@@ -1510,20 +1510,20 @@
                 type: invalidTxnUsers.length === 0 ? 'pass' : 'fail'
             });
             
-            // Test 3: Foreign Key - Transactions → Accounts
-            const invalidTxnAccounts = transactions.filter(t => !accounts.find(a => a.account_id === t.account_id));
+            // Test 3: Foreign Key - Transactions → Accounts (via user_id + account_last_four)
+            const invalidTxnAccounts = transactions.filter(t => !accounts.find(a => a.user_id === t.user_id && a.last_four === t.account_last_four));
             results.push({
                 name: 'Foreign Key: Transactions → Accounts',
                 pass: invalidTxnAccounts.length === 0,
                 message: invalidTxnAccounts.length === 0 
-                    ? `All transactions reference valid accounts` 
+                    ? `All ${transactions.length} transactions reference valid accounts (user_id + last_four)` 
                     : `${invalidTxnAccounts.length} transactions reference invalid accounts`,
                 type: invalidTxnAccounts.length === 0 ? 'pass' : 'fail'
             });
             
-            // Test 4: Transaction belongs to user's account
+            // Test 4: Transaction's account belongs to same user
             const invalidTxnOwnership = transactions.filter(t => {
-                const account = accounts.find(a => a.account_id === t.account_id);
+                const account = accounts.find(a => a.user_id === t.user_id && a.last_four === t.account_last_four);
                 return account && account.user_id !== t.user_id;
             });
             results.push({
