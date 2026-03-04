@@ -1,0 +1,8183 @@
+[
+  {
+    "transaction_id": "TXN001",
+    "date": "2026-02-25",
+    "user_id": "U001",
+    "merchant": "Shell",
+    "amount": -63.36,
+    "category": "Gas",
+    "account_last_four": "8863"
+  },
+  {
+    "transaction_id": "TXN002",
+    "date": "2026-02-04",
+    "user_id": "U001",
+    "merchant": "Peloton",
+    "amount": -137.22,
+    "category": "Health & Fitness",
+    "account_last_four": "8863"
+  },
+  {
+    "transaction_id": "TXN003",
+    "date": "2026-02-07",
+    "user_id": "U001",
+    "merchant": "Mobil",
+    "amount": -56.02,
+    "category": "Gas",
+    "account_last_four": "9654"
+  },
+  {
+    "transaction_id": "TXN004",
+    "date": "2026-02-19",
+    "user_id": "U001",
+    "merchant": "Best Buy",
+    "amount": -262.06,
+    "category": "Shopping",
+    "account_last_four": "9654"
+  },
+  {
+    "transaction_id": "TXN005",
+    "date": "2026-02-04",
+    "user_id": "U002",
+    "merchant": "Kroger",
+    "amount": -67.98,
+    "category": "Groceries",
+    "account_last_four": "5775"
+  },
+  {
+    "transaction_id": "TXN006",
+    "date": "2026-02-11",
+    "user_id": "U002",
+    "merchant": "Chevron",
+    "amount": -74.14,
+    "category": "Gas",
+    "account_last_four": "5775"
+  },
+  {
+    "transaction_id": "TXN007",
+    "date": "2026-02-05",
+    "user_id": "U002",
+    "merchant": "Subway",
+    "amount": -28.49,
+    "category": "Food & Drink",
+    "account_last_four": "8674"
+  },
+  {
+    "transaction_id": "TXN008",
+    "date": "2026-02-24",
+    "user_id": "U002",
+    "merchant": "Southwest Airlines",
+    "amount": -142.29,
+    "category": "Transportation",
+    "account_last_four": "8674"
+  },
+  {
+    "transaction_id": "TXN009",
+    "date": "2026-02-19",
+    "user_id": "U002",
+    "merchant": "Best Buy",
+    "amount": -84.12,
+    "category": "Electronics",
+    "account_last_four": "8674"
+  },
+  {
+    "transaction_id": "TXN010",
+    "date": "2026-02-12",
+    "user_id": "U003",
+    "merchant": "Apple Store",
+    "amount": -180.25,
+    "category": "Electronics",
+    "account_last_four": "3358"
+  },
+  {
+    "transaction_id": "TXN011",
+    "date": "2026-02-02",
+    "user_id": "U003",
+    "merchant": "Exxon",
+    "amount": -44.81,
+    "category": "Gas",
+    "account_last_four": "3876"
+  },
+  {
+    "transaction_id": "TXN012",
+    "date": "2026-02-02",
+    "user_id": "U003",
+    "merchant": "Dropbox",
+    "amount": -88.97,
+    "category": "Software",
+    "account_last_four": "2395"
+  },
+  {
+    "transaction_id": "TXN013",
+    "date": "2026-02-22",
+    "user_id": "U003",
+    "merchant": "Ulta",
+    "amount": -46.76,
+    "category": "Beauty",
+    "account_last_four": "3876"
+  },
+  {
+    "transaction_id": "TXN014",
+    "date": "2026-02-12",
+    "user_id": "U003",
+    "merchant": "Amazon.com",
+    "amount": -439.55,
+    "category": "Shopping",
+    "account_last_four": "2395"
+  },
+  {
+    "transaction_id": "TXN015",
+    "date": "2026-02-24",
+    "user_id": "U003",
+    "merchant": "Exxon",
+    "amount": -55.07,
+    "category": "Gas",
+    "account_last_four": "3358"
+  },
+  {
+    "transaction_id": "TXN016",
+    "date": "2026-03-03",
+    "user_id": "U003",
+    "merchant": "Zoom",
+    "amount": -16.15,
+    "category": "Software",
+    "account_last_four": "3876"
+  },
+  {
+    "transaction_id": "TXN017",
+    "date": "2026-02-19",
+    "user_id": "U003",
+    "merchant": "Ulta",
+    "amount": -157.71,
+    "category": "Beauty",
+    "account_last_four": "5950"
+  },
+  {
+    "transaction_id": "TXN018",
+    "date": "2026-02-18",
+    "user_id": "U004",
+    "merchant": "Comcast",
+    "amount": -103.9,
+    "category": "Utilities",
+    "account_last_four": "4838"
+  },
+  {
+    "transaction_id": "TXN019",
+    "date": "2026-02-17",
+    "user_id": "U004",
+    "merchant": "Walmart",
+    "amount": -66.92,
+    "category": "Shopping",
+    "account_last_four": "5681"
+  },
+  {
+    "transaction_id": "TXN020",
+    "date": "2026-02-20",
+    "user_id": "U004",
+    "merchant": "Lowe's",
+    "amount": -207.85,
+    "category": "Shopping",
+    "account_last_four": "8657"
+  },
+  {
+    "transaction_id": "TXN021",
+    "date": "2026-02-17",
+    "user_id": "U004",
+    "merchant": "Apple Music",
+    "amount": -55.4,
+    "category": "Entertainment",
+    "account_last_four": "4838"
+  },
+  {
+    "transaction_id": "TXN022",
+    "date": "2026-02-13",
+    "user_id": "U005",
+    "merchant": "Panera",
+    "amount": -30.37,
+    "category": "Food & Drink",
+    "account_last_four": "1303"
+  },
+  {
+    "transaction_id": "TXN023",
+    "date": "2026-03-01",
+    "user_id": "U005",
+    "merchant": "Apple Music",
+    "amount": -19.83,
+    "category": "Entertainment",
+    "account_last_four": "7508"
+  },
+  {
+    "transaction_id": "TXN024",
+    "date": "2026-03-03",
+    "user_id": "U005",
+    "merchant": "Best Buy",
+    "amount": -295.05,
+    "category": "Electronics",
+    "account_last_four": "6447"
+  },
+  {
+    "transaction_id": "TXN025",
+    "date": "2026-02-03",
+    "user_id": "U005",
+    "merchant": "SoulCycle",
+    "amount": -158.8,
+    "category": "Health & Fitness",
+    "account_last_four": "1303"
+  },
+  {
+    "transaction_id": "TXN026",
+    "date": "2026-02-22",
+    "user_id": "U005",
+    "merchant": "Home Depot",
+    "amount": -175.05,
+    "category": "Shopping",
+    "account_last_four": "1987"
+  },
+  {
+    "transaction_id": "TXN027",
+    "date": "2026-02-17",
+    "user_id": "U005",
+    "merchant": "Ulta",
+    "amount": -37.15,
+    "category": "Beauty",
+    "account_last_four": "6447"
+  },
+  {
+    "transaction_id": "TXN028",
+    "date": "2026-02-08",
+    "user_id": "U006",
+    "merchant": "Zoom",
+    "amount": -93.62,
+    "category": "Software",
+    "account_last_four": "8127"
+  },
+  {
+    "transaction_id": "TXN029",
+    "date": "2026-02-24",
+    "user_id": "U006",
+    "merchant": "Walmart Grocery",
+    "amount": -174.27,
+    "category": "Groceries",
+    "account_last_four": "8127"
+  },
+  {
+    "transaction_id": "TXN030",
+    "date": "2026-02-08",
+    "user_id": "U006",
+    "merchant": "HBO Max",
+    "amount": -26.5,
+    "category": "Entertainment",
+    "account_last_four": "8127"
+  },
+  {
+    "transaction_id": "TXN031",
+    "date": "2026-02-14",
+    "user_id": "U006",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -89.16,
+    "category": "Software",
+    "account_last_four": "8127"
+  },
+  {
+    "transaction_id": "TXN032",
+    "date": "2026-03-01",
+    "user_id": "U007",
+    "merchant": "Netflix",
+    "amount": -60.28,
+    "category": "Entertainment",
+    "account_last_four": "9365"
+  },
+  {
+    "transaction_id": "TXN033",
+    "date": "2026-02-23",
+    "user_id": "U007",
+    "merchant": "GameStop",
+    "amount": -50.35,
+    "category": "Entertainment",
+    "account_last_four": "3065"
+  },
+  {
+    "transaction_id": "TXN034",
+    "date": "2026-02-18",
+    "user_id": "U007",
+    "merchant": "Comcast",
+    "amount": -92.21,
+    "category": "Utilities",
+    "account_last_four": "3065"
+  },
+  {
+    "transaction_id": "TXN035",
+    "date": "2026-03-01",
+    "user_id": "U007",
+    "merchant": "IKEA",
+    "amount": -32.95,
+    "category": "Shopping",
+    "account_last_four": "8216"
+  },
+  {
+    "transaction_id": "TXN036",
+    "date": "2026-02-20",
+    "user_id": "U007",
+    "merchant": "SoulCycle",
+    "amount": -23.74,
+    "category": "Health & Fitness",
+    "account_last_four": "3065"
+  },
+  {
+    "transaction_id": "TXN037",
+    "date": "2026-02-06",
+    "user_id": "U007",
+    "merchant": "Best Buy",
+    "amount": -305.71,
+    "category": "Shopping",
+    "account_last_four": "3065"
+  },
+  {
+    "transaction_id": "TXN038",
+    "date": "2026-02-15",
+    "user_id": "U007",
+    "merchant": "Walmart Grocery",
+    "amount": -183.83,
+    "category": "Groceries",
+    "account_last_four": "8216"
+  },
+  {
+    "transaction_id": "TXN039",
+    "date": "2026-03-02",
+    "user_id": "U007",
+    "merchant": "PlayStation Store",
+    "amount": -24.4,
+    "category": "Entertainment",
+    "account_last_four": "9365"
+  },
+  {
+    "transaction_id": "TXN040",
+    "date": "2026-02-01",
+    "user_id": "U008",
+    "merchant": "76",
+    "amount": -37.08,
+    "category": "Gas",
+    "account_last_four": "9556"
+  },
+  {
+    "transaction_id": "TXN041",
+    "date": "2026-02-24",
+    "user_id": "U008",
+    "merchant": "Sephora",
+    "amount": -196.54,
+    "category": "Beauty",
+    "account_last_four": "8453"
+  },
+  {
+    "transaction_id": "TXN042",
+    "date": "2026-02-06",
+    "user_id": "U008",
+    "merchant": "PG&E",
+    "amount": -81.24,
+    "category": "Utilities",
+    "account_last_four": "9556"
+  },
+  {
+    "transaction_id": "TXN043",
+    "date": "2026-02-09",
+    "user_id": "U008",
+    "merchant": "Exxon",
+    "amount": -87.6,
+    "category": "Gas",
+    "account_last_four": "8453"
+  },
+  {
+    "transaction_id": "TXN044",
+    "date": "2026-02-23",
+    "user_id": "U008",
+    "merchant": "PlayStation Store",
+    "amount": -22.91,
+    "category": "Entertainment",
+    "account_last_four": "9556"
+  },
+  {
+    "transaction_id": "TXN045",
+    "date": "2026-03-01",
+    "user_id": "U008",
+    "merchant": "Verizon",
+    "amount": -72.07,
+    "category": "Utilities",
+    "account_last_four": "9556"
+  },
+  {
+    "transaction_id": "TXN046",
+    "date": "2026-02-24",
+    "user_id": "U008",
+    "merchant": "Five Guys",
+    "amount": -40.91,
+    "category": "Food & Drink",
+    "account_last_four": "3727"
+  },
+  {
+    "transaction_id": "TXN047",
+    "date": "2026-02-01",
+    "user_id": "U009",
+    "merchant": "Zoom",
+    "amount": -68.02,
+    "category": "Software",
+    "account_last_four": "6196"
+  },
+  {
+    "transaction_id": "TXN048",
+    "date": "2026-02-03",
+    "user_id": "U009",
+    "merchant": "MAC Cosmetics",
+    "amount": -289.81,
+    "category": "Beauty",
+    "account_last_four": "4506"
+  },
+  {
+    "transaction_id": "TXN049",
+    "date": "2026-02-15",
+    "user_id": "U009",
+    "merchant": "Peloton",
+    "amount": -38.33,
+    "category": "Health & Fitness",
+    "account_last_four": "4506"
+  },
+  {
+    "transaction_id": "TXN050",
+    "date": "2026-02-07",
+    "user_id": "U009",
+    "merchant": "Apple Store",
+    "amount": -45.3,
+    "category": "Electronics",
+    "account_last_four": "6196"
+  },
+  {
+    "transaction_id": "TXN051",
+    "date": "2026-02-06",
+    "user_id": "U009",
+    "merchant": "76",
+    "amount": -72.51,
+    "category": "Gas",
+    "account_last_four": "6196"
+  },
+  {
+    "transaction_id": "TXN052",
+    "date": "2026-02-04",
+    "user_id": "U009",
+    "merchant": "Ulta",
+    "amount": -270.85,
+    "category": "Beauty",
+    "account_last_four": "6196"
+  },
+  {
+    "transaction_id": "TXN053",
+    "date": "2026-02-28",
+    "user_id": "U009",
+    "merchant": "Uber",
+    "amount": -252.12,
+    "category": "Transportation",
+    "account_last_four": "6196"
+  },
+  {
+    "transaction_id": "TXN054",
+    "date": "2026-02-19",
+    "user_id": "U009",
+    "merchant": "United Airlines",
+    "amount": -253.8,
+    "category": "Transportation",
+    "account_last_four": "7141"
+  },
+  {
+    "transaction_id": "TXN055",
+    "date": "2026-02-09",
+    "user_id": "U010",
+    "merchant": "Hilton",
+    "amount": -382.6,
+    "category": "Travel",
+    "account_last_four": "5643"
+  },
+  {
+    "transaction_id": "TXN056",
+    "date": "2026-02-18",
+    "user_id": "U010",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -90.7,
+    "category": "Software",
+    "account_last_four": "5643"
+  },
+  {
+    "transaction_id": "TXN057",
+    "date": "2026-02-04",
+    "user_id": "U010",
+    "merchant": "Walmart Grocery",
+    "amount": -81.05,
+    "category": "Groceries",
+    "account_last_four": "5643"
+  },
+  {
+    "transaction_id": "TXN058",
+    "date": "2026-02-23",
+    "user_id": "U010",
+    "merchant": "Amtrak",
+    "amount": -551.8,
+    "category": "Transportation",
+    "account_last_four": "2776"
+  },
+  {
+    "transaction_id": "TXN059",
+    "date": "2026-02-26",
+    "user_id": "U010",
+    "merchant": "McDonald's",
+    "amount": -38.02,
+    "category": "Food & Drink",
+    "account_last_four": "5643"
+  },
+  {
+    "transaction_id": "TXN060",
+    "date": "2026-02-20",
+    "user_id": "U011",
+    "merchant": "Booking.com",
+    "amount": -723.17,
+    "category": "Travel",
+    "account_last_four": "1618"
+  },
+  {
+    "transaction_id": "TXN061",
+    "date": "2026-02-16",
+    "user_id": "U011",
+    "merchant": "Orangetheory",
+    "amount": -168.63,
+    "category": "Health & Fitness",
+    "account_last_four": "1618"
+  },
+  {
+    "transaction_id": "TXN062",
+    "date": "2026-02-26",
+    "user_id": "U011",
+    "merchant": "Home Depot",
+    "amount": -418.37,
+    "category": "Shopping",
+    "account_last_four": "1618"
+  },
+  {
+    "transaction_id": "TXN063",
+    "date": "2026-02-28",
+    "user_id": "U011",
+    "merchant": "Trader Joe's",
+    "amount": -66.8,
+    "category": "Groceries",
+    "account_last_four": "9709"
+  },
+  {
+    "transaction_id": "TXN064",
+    "date": "2026-03-02",
+    "user_id": "U011",
+    "merchant": "Walmart Grocery",
+    "amount": -48.03,
+    "category": "Groceries",
+    "account_last_four": "9709"
+  },
+  {
+    "transaction_id": "TXN065",
+    "date": "2026-02-27",
+    "user_id": "U011",
+    "merchant": "Orangetheory",
+    "amount": -22.75,
+    "category": "Health & Fitness",
+    "account_last_four": "9709"
+  },
+  {
+    "transaction_id": "TXN066",
+    "date": "2026-02-02",
+    "user_id": "U011",
+    "merchant": "Target",
+    "amount": -395.13,
+    "category": "Shopping",
+    "account_last_four": "1618"
+  },
+  {
+    "transaction_id": "TXN067",
+    "date": "2026-02-08",
+    "user_id": "U011",
+    "merchant": "BP",
+    "amount": -70.0,
+    "category": "Gas",
+    "account_last_four": "1618"
+  },
+  {
+    "transaction_id": "TXN068",
+    "date": "2026-02-16",
+    "user_id": "U012",
+    "merchant": "Planet Fitness",
+    "amount": -158.05,
+    "category": "Health & Fitness",
+    "account_last_four": "7503"
+  },
+  {
+    "transaction_id": "TXN069",
+    "date": "2026-02-02",
+    "user_id": "U012",
+    "merchant": "BP",
+    "amount": -47.91,
+    "category": "Gas",
+    "account_last_four": "9970"
+  },
+  {
+    "transaction_id": "TXN070",
+    "date": "2026-03-02",
+    "user_id": "U012",
+    "merchant": "Exxon",
+    "amount": -67.21,
+    "category": "Gas",
+    "account_last_four": "7503"
+  },
+  {
+    "transaction_id": "TXN071",
+    "date": "2026-03-01",
+    "user_id": "U012",
+    "merchant": "Mobil",
+    "amount": -72.16,
+    "category": "Gas",
+    "account_last_four": "7503"
+  },
+  {
+    "transaction_id": "TXN072",
+    "date": "2026-03-03",
+    "user_id": "U012",
+    "merchant": "LA Fitness",
+    "amount": -136.04,
+    "category": "Health & Fitness",
+    "account_last_four": "4637"
+  },
+  {
+    "transaction_id": "TXN073",
+    "date": "2026-02-21",
+    "user_id": "U012",
+    "merchant": "IKEA",
+    "amount": -128.12,
+    "category": "Shopping",
+    "account_last_four": "9970"
+  },
+  {
+    "transaction_id": "TXN074",
+    "date": "2026-02-12",
+    "user_id": "U012",
+    "merchant": "Sephora",
+    "amount": -181.52,
+    "category": "Beauty",
+    "account_last_four": "7503"
+  },
+  {
+    "transaction_id": "TXN075",
+    "date": "2026-02-24",
+    "user_id": "U013",
+    "merchant": "Amtrak",
+    "amount": -375.96,
+    "category": "Transportation",
+    "account_last_four": "4236"
+  },
+  {
+    "transaction_id": "TXN076",
+    "date": "2026-02-08",
+    "user_id": "U013",
+    "merchant": "Panera",
+    "amount": -20.3,
+    "category": "Food & Drink",
+    "account_last_four": "6473"
+  },
+  {
+    "transaction_id": "TXN077",
+    "date": "2026-02-02",
+    "user_id": "U013",
+    "merchant": "Ulta",
+    "amount": -204.73,
+    "category": "Beauty",
+    "account_last_four": "4131"
+  },
+  {
+    "transaction_id": "TXN078",
+    "date": "2026-02-03",
+    "user_id": "U013",
+    "merchant": "Grubhub",
+    "amount": -14.04,
+    "category": "Food & Drink",
+    "account_last_four": "4131"
+  },
+  {
+    "transaction_id": "TXN079",
+    "date": "2026-02-16",
+    "user_id": "U013",
+    "merchant": "Microsoft Store",
+    "amount": -82.14,
+    "category": "Electronics",
+    "account_last_four": "4131"
+  },
+  {
+    "transaction_id": "TXN080",
+    "date": "2026-02-08",
+    "user_id": "U014",
+    "merchant": "Apple Music",
+    "amount": -19.74,
+    "category": "Entertainment",
+    "account_last_four": "1689"
+  },
+  {
+    "transaction_id": "TXN081",
+    "date": "2026-02-07",
+    "user_id": "U014",
+    "merchant": "SoulCycle",
+    "amount": -74.97,
+    "category": "Health & Fitness",
+    "account_last_four": "4959"
+  },
+  {
+    "transaction_id": "TXN082",
+    "date": "2026-02-13",
+    "user_id": "U014",
+    "merchant": "Best Buy",
+    "amount": -102.74,
+    "category": "Electronics",
+    "account_last_four": "4959"
+  },
+  {
+    "transaction_id": "TXN083",
+    "date": "2026-02-24",
+    "user_id": "U014",
+    "merchant": "Uber",
+    "amount": -557.0,
+    "category": "Transportation",
+    "account_last_four": "4959"
+  },
+  {
+    "transaction_id": "TXN084",
+    "date": "2026-02-16",
+    "user_id": "U014",
+    "merchant": "Panera",
+    "amount": -9.81,
+    "category": "Food & Drink",
+    "account_last_four": "8118"
+  },
+  {
+    "transaction_id": "TXN085",
+    "date": "2026-02-14",
+    "user_id": "U014",
+    "merchant": "Uber Eats",
+    "amount": -45.33,
+    "category": "Food & Drink",
+    "account_last_four": "4959"
+  },
+  {
+    "transaction_id": "TXN086",
+    "date": "2026-02-03",
+    "user_id": "U014",
+    "merchant": "Enterprise",
+    "amount": -227.85,
+    "category": "Travel",
+    "account_last_four": "4259"
+  },
+  {
+    "transaction_id": "TXN087",
+    "date": "2026-02-20",
+    "user_id": "U015",
+    "merchant": "Costco",
+    "amount": -87.06,
+    "category": "Groceries",
+    "account_last_four": "4049"
+  },
+  {
+    "transaction_id": "TXN088",
+    "date": "2026-02-14",
+    "user_id": "U015",
+    "merchant": "Uber",
+    "amount": -94.92,
+    "category": "Transportation",
+    "account_last_four": "5617"
+  },
+  {
+    "transaction_id": "TXN089",
+    "date": "2026-02-28",
+    "user_id": "U015",
+    "merchant": "Hertz",
+    "amount": -462.47,
+    "category": "Travel",
+    "account_last_four": "6490"
+  },
+  {
+    "transaction_id": "TXN090",
+    "date": "2026-02-24",
+    "user_id": "U015",
+    "merchant": "Target",
+    "amount": -472.95,
+    "category": "Shopping",
+    "account_last_four": "7371"
+  },
+  {
+    "transaction_id": "TXN091",
+    "date": "2026-02-06",
+    "user_id": "U015",
+    "merchant": "76",
+    "amount": -86.93,
+    "category": "Gas",
+    "account_last_four": "7371"
+  },
+  {
+    "transaction_id": "TXN092",
+    "date": "2026-02-20",
+    "user_id": "U015",
+    "merchant": "MAC Cosmetics",
+    "amount": -99.97,
+    "category": "Beauty",
+    "account_last_four": "6490"
+  },
+  {
+    "transaction_id": "TXN093",
+    "date": "2026-02-18",
+    "user_id": "U015",
+    "merchant": "IKEA",
+    "amount": -222.3,
+    "category": "Shopping",
+    "account_last_four": "5617"
+  },
+  {
+    "transaction_id": "TXN094",
+    "date": "2026-02-04",
+    "user_id": "U016",
+    "merchant": "Enterprise",
+    "amount": -174.24,
+    "category": "Travel",
+    "account_last_four": "2932"
+  },
+  {
+    "transaction_id": "TXN095",
+    "date": "2026-02-21",
+    "user_id": "U016",
+    "merchant": "Spectrum",
+    "amount": -106.61,
+    "category": "Utilities",
+    "account_last_four": "2932"
+  },
+  {
+    "transaction_id": "TXN096",
+    "date": "2026-02-05",
+    "user_id": "U016",
+    "merchant": "Ulta",
+    "amount": -243.55,
+    "category": "Beauty",
+    "account_last_four": "2932"
+  },
+  {
+    "transaction_id": "TXN097",
+    "date": "2026-02-16",
+    "user_id": "U016",
+    "merchant": "Ulta",
+    "amount": -140.72,
+    "category": "Beauty",
+    "account_last_four": "2932"
+  },
+  {
+    "transaction_id": "TXN098",
+    "date": "2026-02-23",
+    "user_id": "U016",
+    "merchant": "Hilton",
+    "amount": -771.76,
+    "category": "Travel",
+    "account_last_four": "3042"
+  },
+  {
+    "transaction_id": "TXN099",
+    "date": "2026-02-14",
+    "user_id": "U017",
+    "merchant": "Slack",
+    "amount": -44.13,
+    "category": "Software",
+    "account_last_four": "9266"
+  },
+  {
+    "transaction_id": "TXN100",
+    "date": "2026-02-24",
+    "user_id": "U017",
+    "merchant": "Southwest Airlines",
+    "amount": -347.42,
+    "category": "Transportation",
+    "account_last_four": "1351"
+  },
+  {
+    "transaction_id": "TXN101",
+    "date": "2026-02-15",
+    "user_id": "U017",
+    "merchant": "CVS Pharmacy",
+    "amount": -193.77,
+    "category": "Health & Fitness",
+    "account_last_four": "9266"
+  },
+  {
+    "transaction_id": "TXN102",
+    "date": "2026-02-25",
+    "user_id": "U017",
+    "merchant": "Zoom",
+    "amount": -60.1,
+    "category": "Software",
+    "account_last_four": "6101"
+  },
+  {
+    "transaction_id": "TXN103",
+    "date": "2026-02-14",
+    "user_id": "U017",
+    "merchant": "Spectrum",
+    "amount": -64.2,
+    "category": "Utilities",
+    "account_last_four": "9266"
+  },
+  {
+    "transaction_id": "TXN104",
+    "date": "2026-02-23",
+    "user_id": "U017",
+    "merchant": "Slack",
+    "amount": -52.93,
+    "category": "Software",
+    "account_last_four": "6101"
+  },
+  {
+    "transaction_id": "TXN105",
+    "date": "2026-02-14",
+    "user_id": "U018",
+    "merchant": "Delta Airlines",
+    "amount": -55.9,
+    "category": "Transportation",
+    "account_last_four": "8291"
+  },
+  {
+    "transaction_id": "TXN106",
+    "date": "2026-02-04",
+    "user_id": "U018",
+    "merchant": "Microsoft 365",
+    "amount": -21.83,
+    "category": "Software",
+    "account_last_four": "8291"
+  },
+  {
+    "transaction_id": "TXN107",
+    "date": "2026-02-04",
+    "user_id": "U018",
+    "merchant": "HBO Max",
+    "amount": -14.33,
+    "category": "Entertainment",
+    "account_last_four": "2282"
+  },
+  {
+    "transaction_id": "TXN108",
+    "date": "2026-02-21",
+    "user_id": "U018",
+    "merchant": "Dropbox",
+    "amount": -85.87,
+    "category": "Software",
+    "account_last_four": "8291"
+  },
+  {
+    "transaction_id": "TXN109",
+    "date": "2026-02-14",
+    "user_id": "U018",
+    "merchant": "Peloton",
+    "amount": -107.83,
+    "category": "Health & Fitness",
+    "account_last_four": "2282"
+  },
+  {
+    "transaction_id": "TXN110",
+    "date": "2026-02-03",
+    "user_id": "U018",
+    "merchant": "Comcast",
+    "amount": -128.72,
+    "category": "Utilities",
+    "account_last_four": "2282"
+  },
+  {
+    "transaction_id": "TXN111",
+    "date": "2026-02-26",
+    "user_id": "U019",
+    "merchant": "Kroger",
+    "amount": -157.36,
+    "category": "Groceries",
+    "account_last_four": "5563"
+  },
+  {
+    "transaction_id": "TXN112",
+    "date": "2026-02-27",
+    "user_id": "U019",
+    "merchant": "Lyft",
+    "amount": -369.74,
+    "category": "Transportation",
+    "account_last_four": "5572"
+  },
+  {
+    "transaction_id": "TXN113",
+    "date": "2026-02-26",
+    "user_id": "U019",
+    "merchant": "Orangetheory",
+    "amount": -106.8,
+    "category": "Health & Fitness",
+    "account_last_four": "5563"
+  },
+  {
+    "transaction_id": "TXN114",
+    "date": "2026-02-08",
+    "user_id": "U019",
+    "merchant": "Apple Music",
+    "amount": -25.07,
+    "category": "Entertainment",
+    "account_last_four": "5572"
+  },
+  {
+    "transaction_id": "TXN115",
+    "date": "2026-02-16",
+    "user_id": "U020",
+    "merchant": "Zoom",
+    "amount": -62.26,
+    "category": "Software",
+    "account_last_four": "6207"
+  },
+  {
+    "transaction_id": "TXN116",
+    "date": "2026-02-15",
+    "user_id": "U020",
+    "merchant": "Delta Airlines",
+    "amount": -58.89,
+    "category": "Transportation",
+    "account_last_four": "6207"
+  },
+  {
+    "transaction_id": "TXN117",
+    "date": "2026-02-01",
+    "user_id": "U020",
+    "merchant": "B&H Photo",
+    "amount": -294.26,
+    "category": "Electronics",
+    "account_last_four": "6594"
+  },
+  {
+    "transaction_id": "TXN118",
+    "date": "2026-02-12",
+    "user_id": "U020",
+    "merchant": "Walgreens",
+    "amount": -185.28,
+    "category": "Health & Fitness",
+    "account_last_four": "6207"
+  },
+  {
+    "transaction_id": "TXN119",
+    "date": "2026-02-10",
+    "user_id": "U020",
+    "merchant": "Ulta",
+    "amount": -298.77,
+    "category": "Beauty",
+    "account_last_four": "6207"
+  },
+  {
+    "transaction_id": "TXN120",
+    "date": "2026-02-22",
+    "user_id": "U020",
+    "merchant": "Home Depot",
+    "amount": -387.19,
+    "category": "Shopping",
+    "account_last_four": "2041"
+  },
+  {
+    "transaction_id": "TXN121",
+    "date": "2026-02-27",
+    "user_id": "U020",
+    "merchant": "Delta Airlines",
+    "amount": -238.68,
+    "category": "Transportation",
+    "account_last_four": "6207"
+  },
+  {
+    "transaction_id": "TXN122",
+    "date": "2026-02-03",
+    "user_id": "U020",
+    "merchant": "Walmart Grocery",
+    "amount": -162.7,
+    "category": "Groceries",
+    "account_last_four": "6207"
+  },
+  {
+    "transaction_id": "TXN123",
+    "date": "2026-02-03",
+    "user_id": "U021",
+    "merchant": "GitHub",
+    "amount": -33.57,
+    "category": "Software",
+    "account_last_four": "8175"
+  },
+  {
+    "transaction_id": "TXN124",
+    "date": "2026-02-07",
+    "user_id": "U021",
+    "merchant": "Subway",
+    "amount": -20.43,
+    "category": "Food & Drink",
+    "account_last_four": "3710"
+  },
+  {
+    "transaction_id": "TXN125",
+    "date": "2026-02-01",
+    "user_id": "U021",
+    "merchant": "Sephora",
+    "amount": -199.61,
+    "category": "Beauty",
+    "account_last_four": "3118"
+  },
+  {
+    "transaction_id": "TXN126",
+    "date": "2026-02-02",
+    "user_id": "U021",
+    "merchant": "Five Guys",
+    "amount": -18.27,
+    "category": "Food & Drink",
+    "account_last_four": "8175"
+  },
+  {
+    "transaction_id": "TXN127",
+    "date": "2026-02-12",
+    "user_id": "U022",
+    "merchant": "PG&E",
+    "amount": -168.36,
+    "category": "Utilities",
+    "account_last_four": "4394"
+  },
+  {
+    "transaction_id": "TXN128",
+    "date": "2026-02-28",
+    "user_id": "U022",
+    "merchant": "Southwest Airlines",
+    "amount": -253.74,
+    "category": "Transportation",
+    "account_last_four": "9612"
+  },
+  {
+    "transaction_id": "TXN129",
+    "date": "2026-02-05",
+    "user_id": "U022",
+    "merchant": "GitHub",
+    "amount": -37.16,
+    "category": "Software",
+    "account_last_four": "2187"
+  },
+  {
+    "transaction_id": "TXN130",
+    "date": "2026-02-02",
+    "user_id": "U022",
+    "merchant": "Verizon",
+    "amount": -156.57,
+    "category": "Utilities",
+    "account_last_four": "4832"
+  },
+  {
+    "transaction_id": "TXN131",
+    "date": "2026-02-02",
+    "user_id": "U023",
+    "merchant": "GitHub",
+    "amount": -98.35,
+    "category": "Software",
+    "account_last_four": "4022"
+  },
+  {
+    "transaction_id": "TXN132",
+    "date": "2026-02-24",
+    "user_id": "U023",
+    "merchant": "Dropbox",
+    "amount": -96.61,
+    "category": "Software",
+    "account_last_four": "3046"
+  },
+  {
+    "transaction_id": "TXN133",
+    "date": "2026-02-05",
+    "user_id": "U023",
+    "merchant": "Publix",
+    "amount": -126.4,
+    "category": "Groceries",
+    "account_last_four": "3046"
+  },
+  {
+    "transaction_id": "TXN134",
+    "date": "2026-03-03",
+    "user_id": "U023",
+    "merchant": "Arco",
+    "amount": -82.6,
+    "category": "Gas",
+    "account_last_four": "1740"
+  },
+  {
+    "transaction_id": "TXN135",
+    "date": "2026-02-01",
+    "user_id": "U023",
+    "merchant": "HBO Max",
+    "amount": -57.61,
+    "category": "Entertainment",
+    "account_last_four": "9874"
+  },
+  {
+    "transaction_id": "TXN136",
+    "date": "2026-02-01",
+    "user_id": "U023",
+    "merchant": "Exxon",
+    "amount": -86.75,
+    "category": "Gas",
+    "account_last_four": "1740"
+  },
+  {
+    "transaction_id": "TXN137",
+    "date": "2026-02-19",
+    "user_id": "U023",
+    "merchant": "Kroger",
+    "amount": -84.45,
+    "category": "Groceries",
+    "account_last_four": "1740"
+  },
+  {
+    "transaction_id": "TXN138",
+    "date": "2026-02-26",
+    "user_id": "U023",
+    "merchant": "Netflix",
+    "amount": -30.33,
+    "category": "Entertainment",
+    "account_last_four": "3046"
+  },
+  {
+    "transaction_id": "TXN139",
+    "date": "2026-02-21",
+    "user_id": "U024",
+    "merchant": "Dropbox",
+    "amount": -66.05,
+    "category": "Software",
+    "account_last_four": "3923"
+  },
+  {
+    "transaction_id": "TXN140",
+    "date": "2026-02-07",
+    "user_id": "U024",
+    "merchant": "Subway",
+    "amount": -34.77,
+    "category": "Food & Drink",
+    "account_last_four": "7089"
+  },
+  {
+    "transaction_id": "TXN141",
+    "date": "2026-02-12",
+    "user_id": "U024",
+    "merchant": "Trader Joe's",
+    "amount": -39.23,
+    "category": "Groceries",
+    "account_last_four": "8793"
+  },
+  {
+    "transaction_id": "TXN142",
+    "date": "2026-02-02",
+    "user_id": "U024",
+    "merchant": "Amtrak",
+    "amount": -30.66,
+    "category": "Transportation",
+    "account_last_four": "6511"
+  },
+  {
+    "transaction_id": "TXN143",
+    "date": "2026-02-08",
+    "user_id": "U025",
+    "merchant": "YouTube Premium",
+    "amount": -58.67,
+    "category": "Entertainment",
+    "account_last_four": "2269"
+  },
+  {
+    "transaction_id": "TXN144",
+    "date": "2026-02-13",
+    "user_id": "U025",
+    "merchant": "Enterprise",
+    "amount": -462.75,
+    "category": "Travel",
+    "account_last_four": "6806"
+  },
+  {
+    "transaction_id": "TXN145",
+    "date": "2026-02-10",
+    "user_id": "U025",
+    "merchant": "Costco",
+    "amount": -68.15,
+    "category": "Shopping",
+    "account_last_four": "2269"
+  },
+  {
+    "transaction_id": "TXN146",
+    "date": "2026-02-07",
+    "user_id": "U025",
+    "merchant": "Shell",
+    "amount": -89.05,
+    "category": "Gas",
+    "account_last_four": "6806"
+  },
+  {
+    "transaction_id": "TXN147",
+    "date": "2026-02-21",
+    "user_id": "U025",
+    "merchant": "Orangetheory",
+    "amount": -76.79,
+    "category": "Health & Fitness",
+    "account_last_four": "2269"
+  },
+  {
+    "transaction_id": "TXN148",
+    "date": "2026-02-26",
+    "user_id": "U025",
+    "merchant": "Apple Music",
+    "amount": -47.53,
+    "category": "Entertainment",
+    "account_last_four": "2269"
+  },
+  {
+    "transaction_id": "TXN149",
+    "date": "2026-02-12",
+    "user_id": "U025",
+    "merchant": "Enterprise",
+    "amount": -287.52,
+    "category": "Travel",
+    "account_last_four": "2269"
+  },
+  {
+    "transaction_id": "TXN150",
+    "date": "2026-02-24",
+    "user_id": "U025",
+    "merchant": "Arco",
+    "amount": -88.54,
+    "category": "Gas",
+    "account_last_four": "9503"
+  },
+  {
+    "transaction_id": "TXN151",
+    "date": "2026-02-06",
+    "user_id": "U026",
+    "merchant": "Five Guys",
+    "amount": -26.87,
+    "category": "Food & Drink",
+    "account_last_four": "8751"
+  },
+  {
+    "transaction_id": "TXN152",
+    "date": "2026-02-23",
+    "user_id": "U026",
+    "merchant": "Peloton",
+    "amount": -147.37,
+    "category": "Health & Fitness",
+    "account_last_four": "1823"
+  },
+  {
+    "transaction_id": "TXN153",
+    "date": "2026-02-04",
+    "user_id": "U026",
+    "merchant": "CVS Pharmacy",
+    "amount": -108.59,
+    "category": "Health & Fitness",
+    "account_last_four": "7307"
+  },
+  {
+    "transaction_id": "TXN154",
+    "date": "2026-03-01",
+    "user_id": "U026",
+    "merchant": "SoulCycle",
+    "amount": -163.46,
+    "category": "Health & Fitness",
+    "account_last_four": "8751"
+  },
+  {
+    "transaction_id": "TXN155",
+    "date": "2026-02-01",
+    "user_id": "U026",
+    "merchant": "Spectrum",
+    "amount": -179.2,
+    "category": "Utilities",
+    "account_last_four": "8751"
+  },
+  {
+    "transaction_id": "TXN156",
+    "date": "2026-02-28",
+    "user_id": "U027",
+    "merchant": "Best Buy",
+    "amount": -142.31,
+    "category": "Electronics",
+    "account_last_four": "3609"
+  },
+  {
+    "transaction_id": "TXN157",
+    "date": "2026-02-02",
+    "user_id": "U027",
+    "merchant": "United Airlines",
+    "amount": -429.61,
+    "category": "Transportation",
+    "account_last_four": "3609"
+  },
+  {
+    "transaction_id": "TXN158",
+    "date": "2026-02-25",
+    "user_id": "U027",
+    "merchant": "Target",
+    "amount": -110.42,
+    "category": "Groceries",
+    "account_last_four": "3609"
+  },
+  {
+    "transaction_id": "TXN159",
+    "date": "2026-02-24",
+    "user_id": "U027",
+    "merchant": "Ulta",
+    "amount": -41.47,
+    "category": "Beauty",
+    "account_last_four": "3609"
+  },
+  {
+    "transaction_id": "TXN160",
+    "date": "2026-02-08",
+    "user_id": "U027",
+    "merchant": "Slack",
+    "amount": -89.13,
+    "category": "Software",
+    "account_last_four": "3609"
+  },
+  {
+    "transaction_id": "TXN161",
+    "date": "2026-02-07",
+    "user_id": "U027",
+    "merchant": "BP",
+    "amount": -69.55,
+    "category": "Gas",
+    "account_last_four": "3609"
+  },
+  {
+    "transaction_id": "TXN162",
+    "date": "2026-02-24",
+    "user_id": "U027",
+    "merchant": "Sephora",
+    "amount": -298.34,
+    "category": "Beauty",
+    "account_last_four": "3609"
+  },
+  {
+    "transaction_id": "TXN163",
+    "date": "2026-02-17",
+    "user_id": "U027",
+    "merchant": "SoulCycle",
+    "amount": -38.53,
+    "category": "Health & Fitness",
+    "account_last_four": "3609"
+  },
+  {
+    "transaction_id": "TXN164",
+    "date": "2026-02-23",
+    "user_id": "U028",
+    "merchant": "B&H Photo",
+    "amount": -95.15,
+    "category": "Electronics",
+    "account_last_four": "7904"
+  },
+  {
+    "transaction_id": "TXN165",
+    "date": "2026-02-19",
+    "user_id": "U028",
+    "merchant": "Whole Foods",
+    "amount": -67.79,
+    "category": "Groceries",
+    "account_last_four": "2185"
+  },
+  {
+    "transaction_id": "TXN166",
+    "date": "2026-02-28",
+    "user_id": "U028",
+    "merchant": "Booking.com",
+    "amount": -286.0,
+    "category": "Travel",
+    "account_last_four": "7904"
+  },
+  {
+    "transaction_id": "TXN167",
+    "date": "2026-03-01",
+    "user_id": "U028",
+    "merchant": "Grubhub",
+    "amount": -41.65,
+    "category": "Food & Drink",
+    "account_last_four": "9585"
+  },
+  {
+    "transaction_id": "TXN168",
+    "date": "2026-03-01",
+    "user_id": "U028",
+    "merchant": "Walmart",
+    "amount": -468.77,
+    "category": "Shopping",
+    "account_last_four": "4615"
+  },
+  {
+    "transaction_id": "TXN169",
+    "date": "2026-02-26",
+    "user_id": "U028",
+    "merchant": "Ulta",
+    "amount": -156.53,
+    "category": "Beauty",
+    "account_last_four": "1747"
+  },
+  {
+    "transaction_id": "TXN170",
+    "date": "2026-02-08",
+    "user_id": "U028",
+    "merchant": "Safeway",
+    "amount": -129.38,
+    "category": "Groceries",
+    "account_last_four": "9585"
+  },
+  {
+    "transaction_id": "TXN171",
+    "date": "2026-02-23",
+    "user_id": "U029",
+    "merchant": "PG&E",
+    "amount": -192.42,
+    "category": "Utilities",
+    "account_last_four": "8146"
+  },
+  {
+    "transaction_id": "TXN172",
+    "date": "2026-02-17",
+    "user_id": "U029",
+    "merchant": "Starbucks",
+    "amount": -18.68,
+    "category": "Food & Drink",
+    "account_last_four": "8146"
+  },
+  {
+    "transaction_id": "TXN173",
+    "date": "2026-02-07",
+    "user_id": "U029",
+    "merchant": "Comcast",
+    "amount": -192.25,
+    "category": "Utilities",
+    "account_last_four": "8146"
+  },
+  {
+    "transaction_id": "TXN174",
+    "date": "2026-02-05",
+    "user_id": "U029",
+    "merchant": "Ulta",
+    "amount": -118.62,
+    "category": "Beauty",
+    "account_last_four": "8146"
+  },
+  {
+    "transaction_id": "TXN175",
+    "date": "2026-02-13",
+    "user_id": "U029",
+    "merchant": "Five Guys",
+    "amount": -39.33,
+    "category": "Food & Drink",
+    "account_last_four": "8146"
+  },
+  {
+    "transaction_id": "TXN176",
+    "date": "2026-02-22",
+    "user_id": "U029",
+    "merchant": "Safeway",
+    "amount": -199.7,
+    "category": "Groceries",
+    "account_last_four": "8146"
+  },
+  {
+    "transaction_id": "TXN177",
+    "date": "2026-02-26",
+    "user_id": "U030",
+    "merchant": "United Airlines",
+    "amount": -570.54,
+    "category": "Transportation",
+    "account_last_four": "5431"
+  },
+  {
+    "transaction_id": "TXN178",
+    "date": "2026-02-09",
+    "user_id": "U030",
+    "merchant": "Dropbox",
+    "amount": -13.98,
+    "category": "Software",
+    "account_last_four": "3640"
+  },
+  {
+    "transaction_id": "TXN179",
+    "date": "2026-02-01",
+    "user_id": "U030",
+    "merchant": "Best Buy",
+    "amount": -93.87,
+    "category": "Shopping",
+    "account_last_four": "5431"
+  },
+  {
+    "transaction_id": "TXN180",
+    "date": "2026-02-01",
+    "user_id": "U030",
+    "merchant": "Ulta",
+    "amount": -185.09,
+    "category": "Beauty",
+    "account_last_four": "5431"
+  },
+  {
+    "transaction_id": "TXN181",
+    "date": "2026-02-04",
+    "user_id": "U030",
+    "merchant": "Safeway",
+    "amount": -74.38,
+    "category": "Groceries",
+    "account_last_four": "5431"
+  },
+  {
+    "transaction_id": "TXN182",
+    "date": "2026-03-01",
+    "user_id": "U031",
+    "merchant": "Delta Airlines",
+    "amount": -139.32,
+    "category": "Transportation",
+    "account_last_four": "4379"
+  },
+  {
+    "transaction_id": "TXN183",
+    "date": "2026-02-12",
+    "user_id": "U031",
+    "merchant": "Hilton",
+    "amount": -224.77,
+    "category": "Travel",
+    "account_last_four": "7426"
+  },
+  {
+    "transaction_id": "TXN184",
+    "date": "2026-02-18",
+    "user_id": "U031",
+    "merchant": "Walmart Grocery",
+    "amount": -187.05,
+    "category": "Groceries",
+    "account_last_four": "4247"
+  },
+  {
+    "transaction_id": "TXN185",
+    "date": "2026-02-26",
+    "user_id": "U031",
+    "merchant": "Whole Foods",
+    "amount": -113.92,
+    "category": "Groceries",
+    "account_last_four": "9230"
+  },
+  {
+    "transaction_id": "TXN186",
+    "date": "2026-02-06",
+    "user_id": "U031",
+    "merchant": "Macy's",
+    "amount": -278.25,
+    "category": "Shopping",
+    "account_last_four": "7811"
+  },
+  {
+    "transaction_id": "TXN187",
+    "date": "2026-02-23",
+    "user_id": "U031",
+    "merchant": "Apple Music",
+    "amount": -67.52,
+    "category": "Entertainment",
+    "account_last_four": "7426"
+  },
+  {
+    "transaction_id": "TXN188",
+    "date": "2026-02-17",
+    "user_id": "U031",
+    "merchant": "Disney+",
+    "amount": -64.02,
+    "category": "Entertainment",
+    "account_last_four": "2837"
+  },
+  {
+    "transaction_id": "TXN189",
+    "date": "2026-02-26",
+    "user_id": "U032",
+    "merchant": "Sephora",
+    "amount": -178.13,
+    "category": "Beauty",
+    "account_last_four": "2514"
+  },
+  {
+    "transaction_id": "TXN190",
+    "date": "2026-02-03",
+    "user_id": "U032",
+    "merchant": "MAC Cosmetics",
+    "amount": -270.6,
+    "category": "Beauty",
+    "account_last_four": "5613"
+  },
+  {
+    "transaction_id": "TXN191",
+    "date": "2026-02-24",
+    "user_id": "U032",
+    "merchant": "GitHub",
+    "amount": -34.71,
+    "category": "Software",
+    "account_last_four": "5613"
+  },
+  {
+    "transaction_id": "TXN192",
+    "date": "2026-02-27",
+    "user_id": "U032",
+    "merchant": "Hertz",
+    "amount": -418.65,
+    "category": "Travel",
+    "account_last_four": "4911"
+  },
+  {
+    "transaction_id": "TXN193",
+    "date": "2026-02-15",
+    "user_id": "U032",
+    "merchant": "B&H Photo",
+    "amount": -58.85,
+    "category": "Electronics",
+    "account_last_four": "5613"
+  },
+  {
+    "transaction_id": "TXN194",
+    "date": "2026-02-03",
+    "user_id": "U033",
+    "merchant": "Ulta",
+    "amount": -279.45,
+    "category": "Beauty",
+    "account_last_four": "3900"
+  },
+  {
+    "transaction_id": "TXN195",
+    "date": "2026-02-15",
+    "user_id": "U033",
+    "merchant": "Steam",
+    "amount": -66.24,
+    "category": "Entertainment",
+    "account_last_four": "6906"
+  },
+  {
+    "transaction_id": "TXN196",
+    "date": "2026-02-19",
+    "user_id": "U033",
+    "merchant": "AT&T",
+    "amount": -56.64,
+    "category": "Utilities",
+    "account_last_four": "3147"
+  },
+  {
+    "transaction_id": "TXN197",
+    "date": "2026-03-03",
+    "user_id": "U033",
+    "merchant": "Nordstrom",
+    "amount": -149.39,
+    "category": "Shopping",
+    "account_last_four": "8628"
+  },
+  {
+    "transaction_id": "TXN198",
+    "date": "2026-02-17",
+    "user_id": "U033",
+    "merchant": "Peloton",
+    "amount": -191.83,
+    "category": "Health & Fitness",
+    "account_last_four": "6475"
+  },
+  {
+    "transaction_id": "TXN199",
+    "date": "2026-02-05",
+    "user_id": "U033",
+    "merchant": "B&H Photo",
+    "amount": -47.41,
+    "category": "Electronics",
+    "account_last_four": "8628"
+  },
+  {
+    "transaction_id": "TXN200",
+    "date": "2026-02-18",
+    "user_id": "U033",
+    "merchant": "United Airlines",
+    "amount": -218.26,
+    "category": "Transportation",
+    "account_last_four": "3900"
+  },
+  {
+    "transaction_id": "TXN201",
+    "date": "2026-02-18",
+    "user_id": "U033",
+    "merchant": "Panera",
+    "amount": -20.32,
+    "category": "Food & Drink",
+    "account_last_four": "3900"
+  },
+  {
+    "transaction_id": "TXN202",
+    "date": "2026-02-14",
+    "user_id": "U034",
+    "merchant": "Microsoft Store",
+    "amount": -287.71,
+    "category": "Electronics",
+    "account_last_four": "8873"
+  },
+  {
+    "transaction_id": "TXN203",
+    "date": "2026-02-08",
+    "user_id": "U034",
+    "merchant": "Walgreens",
+    "amount": -93.13,
+    "category": "Health & Fitness",
+    "account_last_four": "8873"
+  },
+  {
+    "transaction_id": "TXN204",
+    "date": "2026-02-23",
+    "user_id": "U034",
+    "merchant": "Verizon",
+    "amount": -149.3,
+    "category": "Utilities",
+    "account_last_four": "8873"
+  },
+  {
+    "transaction_id": "TXN205",
+    "date": "2026-02-25",
+    "user_id": "U034",
+    "merchant": "Grubhub",
+    "amount": -29.92,
+    "category": "Food & Drink",
+    "account_last_four": "8873"
+  },
+  {
+    "transaction_id": "TXN206",
+    "date": "2026-02-23",
+    "user_id": "U034",
+    "merchant": "Target",
+    "amount": -279.86,
+    "category": "Shopping",
+    "account_last_four": "8873"
+  },
+  {
+    "transaction_id": "TXN207",
+    "date": "2026-02-26",
+    "user_id": "U034",
+    "merchant": "Ulta",
+    "amount": -85.86,
+    "category": "Beauty",
+    "account_last_four": "8873"
+  },
+  {
+    "transaction_id": "TXN208",
+    "date": "2026-02-23",
+    "user_id": "U034",
+    "merchant": "LA Fitness",
+    "amount": -118.37,
+    "category": "Health & Fitness",
+    "account_last_four": "8873"
+  },
+  {
+    "transaction_id": "TXN209",
+    "date": "2026-02-19",
+    "user_id": "U035",
+    "merchant": "Orangetheory",
+    "amount": -106.64,
+    "category": "Health & Fitness",
+    "account_last_four": "3079"
+  },
+  {
+    "transaction_id": "TXN210",
+    "date": "2026-02-17",
+    "user_id": "U035",
+    "merchant": "United Airlines",
+    "amount": -27.98,
+    "category": "Transportation",
+    "account_last_four": "6116"
+  },
+  {
+    "transaction_id": "TXN211",
+    "date": "2026-02-09",
+    "user_id": "U035",
+    "merchant": "Costco",
+    "amount": -294.39,
+    "category": "Shopping",
+    "account_last_four": "3079"
+  },
+  {
+    "transaction_id": "TXN212",
+    "date": "2026-02-09",
+    "user_id": "U035",
+    "merchant": "Planet Fitness",
+    "amount": -86.23,
+    "category": "Health & Fitness",
+    "account_last_four": "6116"
+  },
+  {
+    "transaction_id": "TXN213",
+    "date": "2026-02-10",
+    "user_id": "U035",
+    "merchant": "Chipotle",
+    "amount": -41.85,
+    "category": "Food & Drink",
+    "account_last_four": "3079"
+  },
+  {
+    "transaction_id": "TXN214",
+    "date": "2026-02-24",
+    "user_id": "U036",
+    "merchant": "Airbnb",
+    "amount": -591.22,
+    "category": "Travel",
+    "account_last_four": "3163"
+  },
+  {
+    "transaction_id": "TXN215",
+    "date": "2026-02-20",
+    "user_id": "U036",
+    "merchant": "LA Fitness",
+    "amount": -120.95,
+    "category": "Health & Fitness",
+    "account_last_four": "2320"
+  },
+  {
+    "transaction_id": "TXN216",
+    "date": "2026-02-04",
+    "user_id": "U036",
+    "merchant": "Enterprise",
+    "amount": -385.43,
+    "category": "Travel",
+    "account_last_four": "3163"
+  },
+  {
+    "transaction_id": "TXN217",
+    "date": "2026-02-19",
+    "user_id": "U036",
+    "merchant": "Lowe's",
+    "amount": -218.43,
+    "category": "Shopping",
+    "account_last_four": "3163"
+  },
+  {
+    "transaction_id": "TXN218",
+    "date": "2026-02-02",
+    "user_id": "U036",
+    "merchant": "Five Guys",
+    "amount": -14.19,
+    "category": "Food & Drink",
+    "account_last_four": "3163"
+  },
+  {
+    "transaction_id": "TXN219",
+    "date": "2026-03-01",
+    "user_id": "U036",
+    "merchant": "YouTube Premium",
+    "amount": -68.75,
+    "category": "Entertainment",
+    "account_last_four": "3163"
+  },
+  {
+    "transaction_id": "TXN220",
+    "date": "2026-02-19",
+    "user_id": "U036",
+    "merchant": "Ulta",
+    "amount": -265.53,
+    "category": "Beauty",
+    "account_last_four": "3163"
+  },
+  {
+    "transaction_id": "TXN221",
+    "date": "2026-02-12",
+    "user_id": "U037",
+    "merchant": "Microsoft 365",
+    "amount": -92.2,
+    "category": "Software",
+    "account_last_four": "3636"
+  },
+  {
+    "transaction_id": "TXN222",
+    "date": "2026-02-26",
+    "user_id": "U037",
+    "merchant": "Home Depot",
+    "amount": -228.69,
+    "category": "Shopping",
+    "account_last_four": "6138"
+  },
+  {
+    "transaction_id": "TXN223",
+    "date": "2026-02-09",
+    "user_id": "U037",
+    "merchant": "Microsoft Store",
+    "amount": -230.19,
+    "category": "Electronics",
+    "account_last_four": "3636"
+  },
+  {
+    "transaction_id": "TXN224",
+    "date": "2026-02-12",
+    "user_id": "U037",
+    "merchant": "United Airlines",
+    "amount": -87.1,
+    "category": "Transportation",
+    "account_last_four": "3636"
+  },
+  {
+    "transaction_id": "TXN225",
+    "date": "2026-03-01",
+    "user_id": "U037",
+    "merchant": "Hulu",
+    "amount": -68.56,
+    "category": "Entertainment",
+    "account_last_four": "3636"
+  },
+  {
+    "transaction_id": "TXN226",
+    "date": "2026-02-28",
+    "user_id": "U038",
+    "merchant": "Chipotle",
+    "amount": -25.01,
+    "category": "Food & Drink",
+    "account_last_four": "2643"
+  },
+  {
+    "transaction_id": "TXN227",
+    "date": "2026-02-22",
+    "user_id": "U038",
+    "merchant": "Sephora",
+    "amount": -188.56,
+    "category": "Beauty",
+    "account_last_four": "1900"
+  },
+  {
+    "transaction_id": "TXN228",
+    "date": "2026-02-01",
+    "user_id": "U038",
+    "merchant": "PG&E",
+    "amount": -163.02,
+    "category": "Utilities",
+    "account_last_four": "2643"
+  },
+  {
+    "transaction_id": "TXN229",
+    "date": "2026-02-11",
+    "user_id": "U038",
+    "merchant": "76",
+    "amount": -30.26,
+    "category": "Gas",
+    "account_last_four": "1900"
+  },
+  {
+    "transaction_id": "TXN230",
+    "date": "2026-02-22",
+    "user_id": "U038",
+    "merchant": "Slack",
+    "amount": -44.66,
+    "category": "Software",
+    "account_last_four": "5231"
+  },
+  {
+    "transaction_id": "TXN231",
+    "date": "2026-02-17",
+    "user_id": "U038",
+    "merchant": "Target",
+    "amount": -70.22,
+    "category": "Groceries",
+    "account_last_four": "5231"
+  },
+  {
+    "transaction_id": "TXN232",
+    "date": "2026-02-27",
+    "user_id": "U038",
+    "merchant": "Arco",
+    "amount": -38.62,
+    "category": "Gas",
+    "account_last_four": "5231"
+  },
+  {
+    "transaction_id": "TXN233",
+    "date": "2026-02-03",
+    "user_id": "U039",
+    "merchant": "Delta Airlines",
+    "amount": -85.83,
+    "category": "Transportation",
+    "account_last_four": "9381"
+  },
+  {
+    "transaction_id": "TXN234",
+    "date": "2026-02-20",
+    "user_id": "U039",
+    "merchant": "Trader Joe's",
+    "amount": -153.57,
+    "category": "Groceries",
+    "account_last_four": "9927"
+  },
+  {
+    "transaction_id": "TXN235",
+    "date": "2026-02-17",
+    "user_id": "U039",
+    "merchant": "Ulta",
+    "amount": -129.16,
+    "category": "Beauty",
+    "account_last_four": "9694"
+  },
+  {
+    "transaction_id": "TXN236",
+    "date": "2026-02-05",
+    "user_id": "U039",
+    "merchant": "Costco",
+    "amount": -51.32,
+    "category": "Groceries",
+    "account_last_four": "9927"
+  },
+  {
+    "transaction_id": "TXN237",
+    "date": "2026-03-01",
+    "user_id": "U039",
+    "merchant": "Safeway",
+    "amount": -118.11,
+    "category": "Groceries",
+    "account_last_four": "4844"
+  },
+  {
+    "transaction_id": "TXN238",
+    "date": "2026-02-07",
+    "user_id": "U039",
+    "merchant": "Walgreens",
+    "amount": -173.27,
+    "category": "Health & Fitness",
+    "account_last_four": "9694"
+  },
+  {
+    "transaction_id": "TXN239",
+    "date": "2026-02-21",
+    "user_id": "U039",
+    "merchant": "Macy's",
+    "amount": -24.33,
+    "category": "Shopping",
+    "account_last_four": "6812"
+  },
+  {
+    "transaction_id": "TXN240",
+    "date": "2026-03-03",
+    "user_id": "U039",
+    "merchant": "GitHub",
+    "amount": -93.72,
+    "category": "Software",
+    "account_last_four": "6812"
+  },
+  {
+    "transaction_id": "TXN241",
+    "date": "2026-02-28",
+    "user_id": "U040",
+    "merchant": "Hertz",
+    "amount": -592.62,
+    "category": "Travel",
+    "account_last_four": "6814"
+  },
+  {
+    "transaction_id": "TXN242",
+    "date": "2026-02-01",
+    "user_id": "U040",
+    "merchant": "Uber",
+    "amount": -129.41,
+    "category": "Transportation",
+    "account_last_four": "6814"
+  },
+  {
+    "transaction_id": "TXN243",
+    "date": "2026-02-19",
+    "user_id": "U040",
+    "merchant": "Microsoft 365",
+    "amount": -72.79,
+    "category": "Software",
+    "account_last_four": "4745"
+  },
+  {
+    "transaction_id": "TXN244",
+    "date": "2026-02-22",
+    "user_id": "U040",
+    "merchant": "Microsoft 365",
+    "amount": -19.89,
+    "category": "Software",
+    "account_last_four": "4745"
+  },
+  {
+    "transaction_id": "TXN245",
+    "date": "2026-02-08",
+    "user_id": "U040",
+    "merchant": "Sephora",
+    "amount": -204.91,
+    "category": "Beauty",
+    "account_last_four": "6814"
+  },
+  {
+    "transaction_id": "TXN246",
+    "date": "2026-02-09",
+    "user_id": "U040",
+    "merchant": "Uber Eats",
+    "amount": -28.12,
+    "category": "Food & Drink",
+    "account_last_four": "4745"
+  },
+  {
+    "transaction_id": "TXN247",
+    "date": "2026-02-27",
+    "user_id": "U040",
+    "merchant": "Target",
+    "amount": -68.53,
+    "category": "Groceries",
+    "account_last_four": "6814"
+  },
+  {
+    "transaction_id": "TXN248",
+    "date": "2026-02-28",
+    "user_id": "U040",
+    "merchant": "Comcast",
+    "amount": -183.55,
+    "category": "Utilities",
+    "account_last_four": "6814"
+  },
+  {
+    "transaction_id": "TXN249",
+    "date": "2026-02-02",
+    "user_id": "U041",
+    "merchant": "Ulta",
+    "amount": -146.97,
+    "category": "Beauty",
+    "account_last_four": "2496"
+  },
+  {
+    "transaction_id": "TXN250",
+    "date": "2026-02-10",
+    "user_id": "U041",
+    "merchant": "IKEA",
+    "amount": -293.94,
+    "category": "Shopping",
+    "account_last_four": "6458"
+  },
+  {
+    "transaction_id": "TXN251",
+    "date": "2026-02-12",
+    "user_id": "U041",
+    "merchant": "DoorDash",
+    "amount": -21.72,
+    "category": "Food & Drink",
+    "account_last_four": "5855"
+  },
+  {
+    "transaction_id": "TXN252",
+    "date": "2026-02-05",
+    "user_id": "U041",
+    "merchant": "MAC Cosmetics",
+    "amount": -136.91,
+    "category": "Beauty",
+    "account_last_four": "2496"
+  },
+  {
+    "transaction_id": "TXN253",
+    "date": "2026-02-10",
+    "user_id": "U041",
+    "merchant": "Southwest Airlines",
+    "amount": -253.7,
+    "category": "Transportation",
+    "account_last_four": "3491"
+  },
+  {
+    "transaction_id": "TXN254",
+    "date": "2026-02-23",
+    "user_id": "U041",
+    "merchant": "Best Buy",
+    "amount": -114.07,
+    "category": "Electronics",
+    "account_last_four": "6471"
+  },
+  {
+    "transaction_id": "TXN255",
+    "date": "2026-02-04",
+    "user_id": "U041",
+    "merchant": "CVS Pharmacy",
+    "amount": -162.86,
+    "category": "Health & Fitness",
+    "account_last_four": "3491"
+  },
+  {
+    "transaction_id": "TXN256",
+    "date": "2026-03-01",
+    "user_id": "U042",
+    "merchant": "B&H Photo",
+    "amount": -128.8,
+    "category": "Electronics",
+    "account_last_four": "9229"
+  },
+  {
+    "transaction_id": "TXN257",
+    "date": "2026-02-26",
+    "user_id": "U042",
+    "merchant": "Lyft",
+    "amount": -366.61,
+    "category": "Transportation",
+    "account_last_four": "9229"
+  },
+  {
+    "transaction_id": "TXN258",
+    "date": "2026-02-25",
+    "user_id": "U042",
+    "merchant": "SoulCycle",
+    "amount": -160.02,
+    "category": "Health & Fitness",
+    "account_last_four": "6963"
+  },
+  {
+    "transaction_id": "TXN259",
+    "date": "2026-02-23",
+    "user_id": "U042",
+    "merchant": "Chevron",
+    "amount": -58.88,
+    "category": "Gas",
+    "account_last_four": "9229"
+  },
+  {
+    "transaction_id": "TXN260",
+    "date": "2026-03-01",
+    "user_id": "U042",
+    "merchant": "Nordstrom",
+    "amount": -409.9,
+    "category": "Shopping",
+    "account_last_four": "6963"
+  },
+  {
+    "transaction_id": "TXN261",
+    "date": "2026-03-01",
+    "user_id": "U043",
+    "merchant": "Booking.com",
+    "amount": -442.72,
+    "category": "Travel",
+    "account_last_four": "8361"
+  },
+  {
+    "transaction_id": "TXN262",
+    "date": "2026-02-04",
+    "user_id": "U043",
+    "merchant": "HBO Max",
+    "amount": -10.65,
+    "category": "Entertainment",
+    "account_last_four": "8361"
+  },
+  {
+    "transaction_id": "TXN263",
+    "date": "2026-02-24",
+    "user_id": "U043",
+    "merchant": "Chevron",
+    "amount": -74.21,
+    "category": "Gas",
+    "account_last_four": "8361"
+  },
+  {
+    "transaction_id": "TXN264",
+    "date": "2026-02-04",
+    "user_id": "U043",
+    "merchant": "Sephora",
+    "amount": -42.54,
+    "category": "Beauty",
+    "account_last_four": "8361"
+  },
+  {
+    "transaction_id": "TXN265",
+    "date": "2026-02-08",
+    "user_id": "U044",
+    "merchant": "Ulta",
+    "amount": -57.21,
+    "category": "Beauty",
+    "account_last_four": "2736"
+  },
+  {
+    "transaction_id": "TXN266",
+    "date": "2026-02-28",
+    "user_id": "U044",
+    "merchant": "Starbucks",
+    "amount": -38.61,
+    "category": "Food & Drink",
+    "account_last_four": "2736"
+  },
+  {
+    "transaction_id": "TXN267",
+    "date": "2026-02-15",
+    "user_id": "U044",
+    "merchant": "Booking.com",
+    "amount": -569.95,
+    "category": "Travel",
+    "account_last_four": "4655"
+  },
+  {
+    "transaction_id": "TXN268",
+    "date": "2026-03-01",
+    "user_id": "U044",
+    "merchant": "Spotify",
+    "amount": -47.68,
+    "category": "Entertainment",
+    "account_last_four": "4655"
+  },
+  {
+    "transaction_id": "TXN269",
+    "date": "2026-02-17",
+    "user_id": "U044",
+    "merchant": "Slack",
+    "amount": -62.84,
+    "category": "Software",
+    "account_last_four": "2736"
+  },
+  {
+    "transaction_id": "TXN270",
+    "date": "2026-02-04",
+    "user_id": "U044",
+    "merchant": "GitHub",
+    "amount": -46.73,
+    "category": "Software",
+    "account_last_four": "2736"
+  },
+  {
+    "transaction_id": "TXN271",
+    "date": "2026-02-22",
+    "user_id": "U044",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -59.93,
+    "category": "Software",
+    "account_last_four": "2736"
+  },
+  {
+    "transaction_id": "TXN272",
+    "date": "2026-02-26",
+    "user_id": "U044",
+    "merchant": "Sephora",
+    "amount": -199.48,
+    "category": "Beauty",
+    "account_last_four": "2736"
+  },
+  {
+    "transaction_id": "TXN273",
+    "date": "2026-02-18",
+    "user_id": "U045",
+    "merchant": "Delta Airlines",
+    "amount": -369.28,
+    "category": "Transportation",
+    "account_last_four": "2428"
+  },
+  {
+    "transaction_id": "TXN274",
+    "date": "2026-02-04",
+    "user_id": "U045",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -60.08,
+    "category": "Software",
+    "account_last_four": "4942"
+  },
+  {
+    "transaction_id": "TXN275",
+    "date": "2026-02-18",
+    "user_id": "U045",
+    "merchant": "Apple Store",
+    "amount": -206.56,
+    "category": "Electronics",
+    "account_last_four": "4942"
+  },
+  {
+    "transaction_id": "TXN276",
+    "date": "2026-02-10",
+    "user_id": "U045",
+    "merchant": "Amazon.com",
+    "amount": -212.76,
+    "category": "Shopping",
+    "account_last_four": "5444"
+  },
+  {
+    "transaction_id": "TXN277",
+    "date": "2026-02-28",
+    "user_id": "U045",
+    "merchant": "Airbnb",
+    "amount": -314.1,
+    "category": "Travel",
+    "account_last_four": "5987"
+  },
+  {
+    "transaction_id": "TXN278",
+    "date": "2026-02-26",
+    "user_id": "U045",
+    "merchant": "LA Fitness",
+    "amount": -39.56,
+    "category": "Health & Fitness",
+    "account_last_four": "4486"
+  },
+  {
+    "transaction_id": "TXN279",
+    "date": "2026-02-15",
+    "user_id": "U045",
+    "merchant": "Walgreens",
+    "amount": -45.83,
+    "category": "Health & Fitness",
+    "account_last_four": "4486"
+  },
+  {
+    "transaction_id": "TXN280",
+    "date": "2026-03-02",
+    "user_id": "U045",
+    "merchant": "Microsoft Store",
+    "amount": -291.29,
+    "category": "Electronics",
+    "account_last_four": "5444"
+  },
+  {
+    "transaction_id": "TXN281",
+    "date": "2026-02-25",
+    "user_id": "U046",
+    "merchant": "Enterprise",
+    "amount": -796.85,
+    "category": "Travel",
+    "account_last_four": "8784"
+  },
+  {
+    "transaction_id": "TXN282",
+    "date": "2026-03-01",
+    "user_id": "U046",
+    "merchant": "Booking.com",
+    "amount": -777.28,
+    "category": "Travel",
+    "account_last_four": "8784"
+  },
+  {
+    "transaction_id": "TXN283",
+    "date": "2026-02-03",
+    "user_id": "U046",
+    "merchant": "T-Mobile",
+    "amount": -129.74,
+    "category": "Utilities",
+    "account_last_four": "8784"
+  },
+  {
+    "transaction_id": "TXN284",
+    "date": "2026-02-12",
+    "user_id": "U046",
+    "merchant": "Trader Joe's",
+    "amount": -127.86,
+    "category": "Groceries",
+    "account_last_four": "8784"
+  },
+  {
+    "transaction_id": "TXN285",
+    "date": "2026-02-19",
+    "user_id": "U046",
+    "merchant": "Sephora",
+    "amount": -163.44,
+    "category": "Beauty",
+    "account_last_four": "9675"
+  },
+  {
+    "transaction_id": "TXN286",
+    "date": "2026-02-26",
+    "user_id": "U046",
+    "merchant": "MAC Cosmetics",
+    "amount": -109.18,
+    "category": "Beauty",
+    "account_last_four": "8784"
+  },
+  {
+    "transaction_id": "TXN287",
+    "date": "2026-03-01",
+    "user_id": "U047",
+    "merchant": "PG&E",
+    "amount": -154.35,
+    "category": "Utilities",
+    "account_last_four": "1220"
+  },
+  {
+    "transaction_id": "TXN288",
+    "date": "2026-02-08",
+    "user_id": "U047",
+    "merchant": "Microsoft Store",
+    "amount": -130.03,
+    "category": "Electronics",
+    "account_last_four": "7806"
+  },
+  {
+    "transaction_id": "TXN289",
+    "date": "2026-02-12",
+    "user_id": "U047",
+    "merchant": "Target",
+    "amount": -346.32,
+    "category": "Shopping",
+    "account_last_four": "7170"
+  },
+  {
+    "transaction_id": "TXN290",
+    "date": "2026-02-17",
+    "user_id": "U047",
+    "merchant": "Best Buy",
+    "amount": -247.87,
+    "category": "Electronics",
+    "account_last_four": "7170"
+  },
+  {
+    "transaction_id": "TXN291",
+    "date": "2026-02-23",
+    "user_id": "U047",
+    "merchant": "Lyft",
+    "amount": -373.58,
+    "category": "Transportation",
+    "account_last_four": "7806"
+  },
+  {
+    "transaction_id": "TXN292",
+    "date": "2026-02-23",
+    "user_id": "U048",
+    "merchant": "Enterprise",
+    "amount": -364.41,
+    "category": "Travel",
+    "account_last_four": "9926"
+  },
+  {
+    "transaction_id": "TXN293",
+    "date": "2026-02-03",
+    "user_id": "U048",
+    "merchant": "Orangetheory",
+    "amount": -159.19,
+    "category": "Health & Fitness",
+    "account_last_four": "1314"
+  },
+  {
+    "transaction_id": "TXN294",
+    "date": "2026-03-03",
+    "user_id": "U048",
+    "merchant": "Microsoft Store",
+    "amount": -61.28,
+    "category": "Electronics",
+    "account_last_four": "1314"
+  },
+  {
+    "transaction_id": "TXN295",
+    "date": "2026-02-24",
+    "user_id": "U048",
+    "merchant": "T-Mobile",
+    "amount": -104.75,
+    "category": "Utilities",
+    "account_last_four": "9041"
+  },
+  {
+    "transaction_id": "TXN296",
+    "date": "2026-02-17",
+    "user_id": "U049",
+    "merchant": "Microsoft 365",
+    "amount": -73.8,
+    "category": "Software",
+    "account_last_four": "6203"
+  },
+  {
+    "transaction_id": "TXN297",
+    "date": "2026-02-09",
+    "user_id": "U049",
+    "merchant": "CVS Pharmacy",
+    "amount": -164.02,
+    "category": "Health & Fitness",
+    "account_last_four": "7208"
+  },
+  {
+    "transaction_id": "TXN298",
+    "date": "2026-02-26",
+    "user_id": "U049",
+    "merchant": "Costco",
+    "amount": -100.11,
+    "category": "Groceries",
+    "account_last_four": "7208"
+  },
+  {
+    "transaction_id": "TXN299",
+    "date": "2026-02-12",
+    "user_id": "U049",
+    "merchant": "BP",
+    "amount": -38.49,
+    "category": "Gas",
+    "account_last_four": "7208"
+  },
+  {
+    "transaction_id": "TXN300",
+    "date": "2026-02-05",
+    "user_id": "U050",
+    "merchant": "SoulCycle",
+    "amount": -141.12,
+    "category": "Health & Fitness",
+    "account_last_four": "9563"
+  },
+  {
+    "transaction_id": "TXN301",
+    "date": "2026-02-16",
+    "user_id": "U050",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -32.32,
+    "category": "Software",
+    "account_last_four": "9563"
+  },
+  {
+    "transaction_id": "TXN302",
+    "date": "2026-02-27",
+    "user_id": "U050",
+    "merchant": "Lowe's",
+    "amount": -349.77,
+    "category": "Shopping",
+    "account_last_four": "3961"
+  },
+  {
+    "transaction_id": "TXN303",
+    "date": "2026-02-19",
+    "user_id": "U050",
+    "merchant": "Hulu",
+    "amount": -60.24,
+    "category": "Entertainment",
+    "account_last_four": "9563"
+  },
+  {
+    "transaction_id": "TXN304",
+    "date": "2026-02-03",
+    "user_id": "U050",
+    "merchant": "Airbnb",
+    "amount": -202.3,
+    "category": "Travel",
+    "account_last_four": "3961"
+  },
+  {
+    "transaction_id": "TXN305",
+    "date": "2026-02-16",
+    "user_id": "U051",
+    "merchant": "B&H Photo",
+    "amount": -132.45,
+    "category": "Electronics",
+    "account_last_four": "2932"
+  },
+  {
+    "transaction_id": "TXN306",
+    "date": "2026-02-24",
+    "user_id": "U051",
+    "merchant": "Best Buy",
+    "amount": -282.94,
+    "category": "Electronics",
+    "account_last_four": "5457"
+  },
+  {
+    "transaction_id": "TXN307",
+    "date": "2026-02-20",
+    "user_id": "U051",
+    "merchant": "Booking.com",
+    "amount": -104.38,
+    "category": "Travel",
+    "account_last_four": "4546"
+  },
+  {
+    "transaction_id": "TXN308",
+    "date": "2026-02-21",
+    "user_id": "U051",
+    "merchant": "Apple Store",
+    "amount": -235.87,
+    "category": "Electronics",
+    "account_last_four": "4546"
+  },
+  {
+    "transaction_id": "TXN309",
+    "date": "2026-02-19",
+    "user_id": "U052",
+    "merchant": "United Airlines",
+    "amount": -453.01,
+    "category": "Transportation",
+    "account_last_four": "6685"
+  },
+  {
+    "transaction_id": "TXN310",
+    "date": "2026-03-03",
+    "user_id": "U052",
+    "merchant": "Mobil",
+    "amount": -84.44,
+    "category": "Gas",
+    "account_last_four": "7745"
+  },
+  {
+    "transaction_id": "TXN311",
+    "date": "2026-02-08",
+    "user_id": "U052",
+    "merchant": "Southwest Airlines",
+    "amount": -552.73,
+    "category": "Transportation",
+    "account_last_four": "7745"
+  },
+  {
+    "transaction_id": "TXN312",
+    "date": "2026-02-06",
+    "user_id": "U052",
+    "merchant": "Sephora",
+    "amount": -292.1,
+    "category": "Beauty",
+    "account_last_four": "8753"
+  },
+  {
+    "transaction_id": "TXN313",
+    "date": "2026-02-12",
+    "user_id": "U052",
+    "merchant": "Verizon",
+    "amount": -102.6,
+    "category": "Utilities",
+    "account_last_four": "8753"
+  },
+  {
+    "transaction_id": "TXN314",
+    "date": "2026-02-18",
+    "user_id": "U053",
+    "merchant": "Best Buy",
+    "amount": -225.36,
+    "category": "Electronics",
+    "account_last_four": "8676"
+  },
+  {
+    "transaction_id": "TXN315",
+    "date": "2026-02-25",
+    "user_id": "U053",
+    "merchant": "Disney+",
+    "amount": -24.05,
+    "category": "Entertainment",
+    "account_last_four": "8676"
+  },
+  {
+    "transaction_id": "TXN316",
+    "date": "2026-02-08",
+    "user_id": "U053",
+    "merchant": "Apple Store",
+    "amount": -47.34,
+    "category": "Electronics",
+    "account_last_four": "8460"
+  },
+  {
+    "transaction_id": "TXN317",
+    "date": "2026-02-14",
+    "user_id": "U053",
+    "merchant": "PG&E",
+    "amount": -86.3,
+    "category": "Utilities",
+    "account_last_four": "8676"
+  },
+  {
+    "transaction_id": "TXN318",
+    "date": "2026-02-03",
+    "user_id": "U054",
+    "merchant": "LA Fitness",
+    "amount": -194.84,
+    "category": "Health & Fitness",
+    "account_last_four": "7737"
+  },
+  {
+    "transaction_id": "TXN319",
+    "date": "2026-02-21",
+    "user_id": "U054",
+    "merchant": "Peloton",
+    "amount": -177.63,
+    "category": "Health & Fitness",
+    "account_last_four": "7737"
+  },
+  {
+    "transaction_id": "TXN320",
+    "date": "2026-02-25",
+    "user_id": "U054",
+    "merchant": "Amazon.com",
+    "amount": -106.52,
+    "category": "Shopping",
+    "account_last_four": "7737"
+  },
+  {
+    "transaction_id": "TXN321",
+    "date": "2026-02-22",
+    "user_id": "U054",
+    "merchant": "Uber",
+    "amount": -342.56,
+    "category": "Transportation",
+    "account_last_four": "9646"
+  },
+  {
+    "transaction_id": "TXN322",
+    "date": "2026-03-03",
+    "user_id": "U054",
+    "merchant": "Best Buy",
+    "amount": -387.6,
+    "category": "Shopping",
+    "account_last_four": "9646"
+  },
+  {
+    "transaction_id": "TXN323",
+    "date": "2026-02-18",
+    "user_id": "U054",
+    "merchant": "Exxon",
+    "amount": -88.29,
+    "category": "Gas",
+    "account_last_four": "3637"
+  },
+  {
+    "transaction_id": "TXN324",
+    "date": "2026-02-08",
+    "user_id": "U054",
+    "merchant": "AT&T",
+    "amount": -76.95,
+    "category": "Utilities",
+    "account_last_four": "3637"
+  },
+  {
+    "transaction_id": "TXN325",
+    "date": "2026-02-06",
+    "user_id": "U055",
+    "merchant": "Trader Joe's",
+    "amount": -149.09,
+    "category": "Groceries",
+    "account_last_four": "2941"
+  },
+  {
+    "transaction_id": "TXN326",
+    "date": "2026-02-20",
+    "user_id": "U055",
+    "merchant": "United Airlines",
+    "amount": -319.51,
+    "category": "Transportation",
+    "account_last_four": "9553"
+  },
+  {
+    "transaction_id": "TXN327",
+    "date": "2026-02-18",
+    "user_id": "U055",
+    "merchant": "Southwest Airlines",
+    "amount": -345.26,
+    "category": "Transportation",
+    "account_last_four": "3718"
+  },
+  {
+    "transaction_id": "TXN328",
+    "date": "2026-02-21",
+    "user_id": "U055",
+    "merchant": "Hilton",
+    "amount": -454.26,
+    "category": "Travel",
+    "account_last_four": "3718"
+  },
+  {
+    "transaction_id": "TXN329",
+    "date": "2026-02-17",
+    "user_id": "U055",
+    "merchant": "BP",
+    "amount": -81.22,
+    "category": "Gas",
+    "account_last_four": "9553"
+  },
+  {
+    "transaction_id": "TXN330",
+    "date": "2026-02-19",
+    "user_id": "U056",
+    "merchant": "BP",
+    "amount": -48.23,
+    "category": "Gas",
+    "account_last_four": "4405"
+  },
+  {
+    "transaction_id": "TXN331",
+    "date": "2026-02-28",
+    "user_id": "U056",
+    "merchant": "Delta Airlines",
+    "amount": -508.36,
+    "category": "Transportation",
+    "account_last_four": "5173"
+  },
+  {
+    "transaction_id": "TXN332",
+    "date": "2026-02-10",
+    "user_id": "U056",
+    "merchant": "GitHub",
+    "amount": -38.64,
+    "category": "Software",
+    "account_last_four": "4405"
+  },
+  {
+    "transaction_id": "TXN333",
+    "date": "2026-02-11",
+    "user_id": "U056",
+    "merchant": "Panera",
+    "amount": -23.63,
+    "category": "Food & Drink",
+    "account_last_four": "5173"
+  },
+  {
+    "transaction_id": "TXN334",
+    "date": "2026-02-02",
+    "user_id": "U057",
+    "merchant": "MAC Cosmetics",
+    "amount": -248.52,
+    "category": "Beauty",
+    "account_last_four": "1667"
+  },
+  {
+    "transaction_id": "TXN335",
+    "date": "2026-02-04",
+    "user_id": "U057",
+    "merchant": "Apple Store",
+    "amount": -196.01,
+    "category": "Electronics",
+    "account_last_four": "4315"
+  },
+  {
+    "transaction_id": "TXN336",
+    "date": "2026-02-15",
+    "user_id": "U057",
+    "merchant": "Lowe's",
+    "amount": -261.27,
+    "category": "Shopping",
+    "account_last_four": "1667"
+  },
+  {
+    "transaction_id": "TXN337",
+    "date": "2026-02-28",
+    "user_id": "U057",
+    "merchant": "Delta Airlines",
+    "amount": -89.77,
+    "category": "Transportation",
+    "account_last_four": "4190"
+  },
+  {
+    "transaction_id": "TXN338",
+    "date": "2026-02-20",
+    "user_id": "U057",
+    "merchant": "Booking.com",
+    "amount": -291.71,
+    "category": "Travel",
+    "account_last_four": "1667"
+  },
+  {
+    "transaction_id": "TXN339",
+    "date": "2026-02-21",
+    "user_id": "U057",
+    "merchant": "Safeway",
+    "amount": -33.68,
+    "category": "Groceries",
+    "account_last_four": "4315"
+  },
+  {
+    "transaction_id": "TXN340",
+    "date": "2026-02-19",
+    "user_id": "U057",
+    "merchant": "Target",
+    "amount": -83.73,
+    "category": "Groceries",
+    "account_last_four": "1667"
+  },
+  {
+    "transaction_id": "TXN341",
+    "date": "2026-02-01",
+    "user_id": "U058",
+    "merchant": "CVS Pharmacy",
+    "amount": -33.7,
+    "category": "Health & Fitness",
+    "account_last_four": "9405"
+  },
+  {
+    "transaction_id": "TXN342",
+    "date": "2026-02-28",
+    "user_id": "U058",
+    "merchant": "Arco",
+    "amount": -73.17,
+    "category": "Gas",
+    "account_last_four": "5397"
+  },
+  {
+    "transaction_id": "TXN343",
+    "date": "2026-02-01",
+    "user_id": "U058",
+    "merchant": "76",
+    "amount": -85.31,
+    "category": "Gas",
+    "account_last_four": "5397"
+  },
+  {
+    "transaction_id": "TXN344",
+    "date": "2026-02-16",
+    "user_id": "U058",
+    "merchant": "Microsoft 365",
+    "amount": -50.04,
+    "category": "Software",
+    "account_last_four": "5397"
+  },
+  {
+    "transaction_id": "TXN345",
+    "date": "2026-02-25",
+    "user_id": "U058",
+    "merchant": "MAC Cosmetics",
+    "amount": -232.63,
+    "category": "Beauty",
+    "account_last_four": "9405"
+  },
+  {
+    "transaction_id": "TXN346",
+    "date": "2026-02-01",
+    "user_id": "U058",
+    "merchant": "Dropbox",
+    "amount": -14.95,
+    "category": "Software",
+    "account_last_four": "4846"
+  },
+  {
+    "transaction_id": "TXN347",
+    "date": "2026-02-15",
+    "user_id": "U058",
+    "merchant": "Comcast",
+    "amount": -100.1,
+    "category": "Utilities",
+    "account_last_four": "4846"
+  },
+  {
+    "transaction_id": "TXN348",
+    "date": "2026-02-17",
+    "user_id": "U059",
+    "merchant": "Trader Joe's",
+    "amount": -138.31,
+    "category": "Groceries",
+    "account_last_four": "5671"
+  },
+  {
+    "transaction_id": "TXN349",
+    "date": "2026-02-14",
+    "user_id": "U059",
+    "merchant": "Grubhub",
+    "amount": -55.26,
+    "category": "Food & Drink",
+    "account_last_four": "5243"
+  },
+  {
+    "transaction_id": "TXN350",
+    "date": "2026-02-16",
+    "user_id": "U059",
+    "merchant": "Lyft",
+    "amount": -191.6,
+    "category": "Transportation",
+    "account_last_four": "5243"
+  },
+  {
+    "transaction_id": "TXN351",
+    "date": "2026-02-07",
+    "user_id": "U059",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -45.74,
+    "category": "Software",
+    "account_last_four": "8069"
+  },
+  {
+    "transaction_id": "TXN352",
+    "date": "2026-02-27",
+    "user_id": "U059",
+    "merchant": "Lowe's",
+    "amount": -95.53,
+    "category": "Shopping",
+    "account_last_four": "5671"
+  },
+  {
+    "transaction_id": "TXN353",
+    "date": "2026-02-03",
+    "user_id": "U059",
+    "merchant": "Kroger",
+    "amount": -109.23,
+    "category": "Groceries",
+    "account_last_four": "5671"
+  },
+  {
+    "transaction_id": "TXN354",
+    "date": "2026-02-13",
+    "user_id": "U059",
+    "merchant": "Planet Fitness",
+    "amount": -188.37,
+    "category": "Health & Fitness",
+    "account_last_four": "8069"
+  },
+  {
+    "transaction_id": "TXN355",
+    "date": "2026-02-22",
+    "user_id": "U060",
+    "merchant": "Peloton",
+    "amount": -155.27,
+    "category": "Health & Fitness",
+    "account_last_four": "9866"
+  },
+  {
+    "transaction_id": "TXN356",
+    "date": "2026-03-03",
+    "user_id": "U060",
+    "merchant": "Booking.com",
+    "amount": -780.36,
+    "category": "Travel",
+    "account_last_four": "4474"
+  },
+  {
+    "transaction_id": "TXN357",
+    "date": "2026-02-18",
+    "user_id": "U060",
+    "merchant": "Best Buy",
+    "amount": -463.38,
+    "category": "Shopping",
+    "account_last_four": "4474"
+  },
+  {
+    "transaction_id": "TXN358",
+    "date": "2026-02-23",
+    "user_id": "U060",
+    "merchant": "Target",
+    "amount": -355.75,
+    "category": "Shopping",
+    "account_last_four": "7314"
+  },
+  {
+    "transaction_id": "TXN359",
+    "date": "2026-02-23",
+    "user_id": "U060",
+    "merchant": "Ulta",
+    "amount": -80.45,
+    "category": "Beauty",
+    "account_last_four": "3055"
+  },
+  {
+    "transaction_id": "TXN360",
+    "date": "2026-02-23",
+    "user_id": "U060",
+    "merchant": "Peloton",
+    "amount": -62.68,
+    "category": "Health & Fitness",
+    "account_last_four": "7314"
+  },
+  {
+    "transaction_id": "TXN361",
+    "date": "2026-02-07",
+    "user_id": "U060",
+    "merchant": "Spectrum",
+    "amount": -181.88,
+    "category": "Utilities",
+    "account_last_four": "5372"
+  },
+  {
+    "transaction_id": "TXN362",
+    "date": "2026-02-17",
+    "user_id": "U060",
+    "merchant": "Apple Store",
+    "amount": -190.58,
+    "category": "Electronics",
+    "account_last_four": "5372"
+  },
+  {
+    "transaction_id": "TXN363",
+    "date": "2026-03-03",
+    "user_id": "U061",
+    "merchant": "Comcast",
+    "amount": -87.62,
+    "category": "Utilities",
+    "account_last_four": "5649"
+  },
+  {
+    "transaction_id": "TXN364",
+    "date": "2026-02-13",
+    "user_id": "U061",
+    "merchant": "Best Buy",
+    "amount": -206.38,
+    "category": "Electronics",
+    "account_last_four": "9322"
+  },
+  {
+    "transaction_id": "TXN365",
+    "date": "2026-02-02",
+    "user_id": "U061",
+    "merchant": "Target",
+    "amount": -124.16,
+    "category": "Groceries",
+    "account_last_four": "8574"
+  },
+  {
+    "transaction_id": "TXN366",
+    "date": "2026-02-26",
+    "user_id": "U061",
+    "merchant": "Arco",
+    "amount": -78.3,
+    "category": "Gas",
+    "account_last_four": "8574"
+  },
+  {
+    "transaction_id": "TXN367",
+    "date": "2026-02-11",
+    "user_id": "U061",
+    "merchant": "Trader Joe's",
+    "amount": -31.53,
+    "category": "Groceries",
+    "account_last_four": "8643"
+  },
+  {
+    "transaction_id": "TXN368",
+    "date": "2026-02-17",
+    "user_id": "U061",
+    "merchant": "Publix",
+    "amount": -79.21,
+    "category": "Groceries",
+    "account_last_four": "8643"
+  },
+  {
+    "transaction_id": "TXN369",
+    "date": "2026-02-03",
+    "user_id": "U061",
+    "merchant": "HBO Max",
+    "amount": -33.09,
+    "category": "Entertainment",
+    "account_last_four": "8574"
+  },
+  {
+    "transaction_id": "TXN370",
+    "date": "2026-02-12",
+    "user_id": "U062",
+    "merchant": "Netflix",
+    "amount": -28.36,
+    "category": "Entertainment",
+    "account_last_four": "6543"
+  },
+  {
+    "transaction_id": "TXN371",
+    "date": "2026-02-02",
+    "user_id": "U062",
+    "merchant": "Dropbox",
+    "amount": -52.56,
+    "category": "Software",
+    "account_last_four": "7021"
+  },
+  {
+    "transaction_id": "TXN372",
+    "date": "2026-02-16",
+    "user_id": "U062",
+    "merchant": "LA Fitness",
+    "amount": -116.76,
+    "category": "Health & Fitness",
+    "account_last_four": "6543"
+  },
+  {
+    "transaction_id": "TXN373",
+    "date": "2026-02-19",
+    "user_id": "U062",
+    "merchant": "Arco",
+    "amount": -68.41,
+    "category": "Gas",
+    "account_last_four": "6543"
+  },
+  {
+    "transaction_id": "TXN374",
+    "date": "2026-02-24",
+    "user_id": "U063",
+    "merchant": "Arco",
+    "amount": -76.29,
+    "category": "Gas",
+    "account_last_four": "7244"
+  },
+  {
+    "transaction_id": "TXN375",
+    "date": "2026-02-24",
+    "user_id": "U063",
+    "merchant": "Lowe's",
+    "amount": -298.4,
+    "category": "Shopping",
+    "account_last_four": "7244"
+  },
+  {
+    "transaction_id": "TXN376",
+    "date": "2026-02-12",
+    "user_id": "U063",
+    "merchant": "Hertz",
+    "amount": -547.96,
+    "category": "Travel",
+    "account_last_four": "7244"
+  },
+  {
+    "transaction_id": "TXN377",
+    "date": "2026-02-01",
+    "user_id": "U063",
+    "merchant": "Starbucks",
+    "amount": -53.41,
+    "category": "Food & Drink",
+    "account_last_four": "7244"
+  },
+  {
+    "transaction_id": "TXN378",
+    "date": "2026-02-27",
+    "user_id": "U063",
+    "merchant": "Hertz",
+    "amount": -786.48,
+    "category": "Travel",
+    "account_last_four": "7244"
+  },
+  {
+    "transaction_id": "TXN379",
+    "date": "2026-02-08",
+    "user_id": "U064",
+    "merchant": "Costco",
+    "amount": -197.31,
+    "category": "Shopping",
+    "account_last_four": "6097"
+  },
+  {
+    "transaction_id": "TXN380",
+    "date": "2026-02-14",
+    "user_id": "U064",
+    "merchant": "MAC Cosmetics",
+    "amount": -62.95,
+    "category": "Beauty",
+    "account_last_four": "2014"
+  },
+  {
+    "transaction_id": "TXN381",
+    "date": "2026-02-25",
+    "user_id": "U064",
+    "merchant": "Trader Joe's",
+    "amount": -60.36,
+    "category": "Groceries",
+    "account_last_four": "3020"
+  },
+  {
+    "transaction_id": "TXN382",
+    "date": "2026-02-05",
+    "user_id": "U064",
+    "merchant": "Best Buy",
+    "amount": -153.35,
+    "category": "Electronics",
+    "account_last_four": "6097"
+  },
+  {
+    "transaction_id": "TXN383",
+    "date": "2026-02-27",
+    "user_id": "U064",
+    "merchant": "Target",
+    "amount": -60.72,
+    "category": "Groceries",
+    "account_last_four": "2014"
+  },
+  {
+    "transaction_id": "TXN384",
+    "date": "2026-02-13",
+    "user_id": "U064",
+    "merchant": "Spotify",
+    "amount": -56.66,
+    "category": "Entertainment",
+    "account_last_four": "2014"
+  },
+  {
+    "transaction_id": "TXN385",
+    "date": "2026-02-09",
+    "user_id": "U065",
+    "merchant": "Chipotle",
+    "amount": -23.88,
+    "category": "Food & Drink",
+    "account_last_four": "9695"
+  },
+  {
+    "transaction_id": "TXN386",
+    "date": "2026-02-24",
+    "user_id": "U065",
+    "merchant": "Airbnb",
+    "amount": -526.39,
+    "category": "Travel",
+    "account_last_four": "1229"
+  },
+  {
+    "transaction_id": "TXN387",
+    "date": "2026-02-26",
+    "user_id": "U065",
+    "merchant": "GitHub",
+    "amount": -17.79,
+    "category": "Software",
+    "account_last_four": "3180"
+  },
+  {
+    "transaction_id": "TXN388",
+    "date": "2026-03-03",
+    "user_id": "U065",
+    "merchant": "Chevron",
+    "amount": -56.9,
+    "category": "Gas",
+    "account_last_four": "9938"
+  },
+  {
+    "transaction_id": "TXN389",
+    "date": "2026-02-28",
+    "user_id": "U065",
+    "merchant": "Hulu",
+    "amount": -22.1,
+    "category": "Entertainment",
+    "account_last_four": "3180"
+  },
+  {
+    "transaction_id": "TXN390",
+    "date": "2026-02-25",
+    "user_id": "U065",
+    "merchant": "Microsoft Store",
+    "amount": -128.85,
+    "category": "Electronics",
+    "account_last_four": "9695"
+  },
+  {
+    "transaction_id": "TXN391",
+    "date": "2026-03-02",
+    "user_id": "U065",
+    "merchant": "Amtrak",
+    "amount": -284.38,
+    "category": "Transportation",
+    "account_last_four": "9938"
+  },
+  {
+    "transaction_id": "TXN392",
+    "date": "2026-02-21",
+    "user_id": "U065",
+    "merchant": "Enterprise",
+    "amount": -551.86,
+    "category": "Travel",
+    "account_last_four": "3180"
+  },
+  {
+    "transaction_id": "TXN393",
+    "date": "2026-02-19",
+    "user_id": "U066",
+    "merchant": "Trader Joe's",
+    "amount": -163.89,
+    "category": "Groceries",
+    "account_last_four": "5943"
+  },
+  {
+    "transaction_id": "TXN394",
+    "date": "2026-03-01",
+    "user_id": "U066",
+    "merchant": "76",
+    "amount": -85.13,
+    "category": "Gas",
+    "account_last_four": "5943"
+  },
+  {
+    "transaction_id": "TXN395",
+    "date": "2026-02-11",
+    "user_id": "U066",
+    "merchant": "Hertz",
+    "amount": -750.36,
+    "category": "Travel",
+    "account_last_four": "5943"
+  },
+  {
+    "transaction_id": "TXN396",
+    "date": "2026-02-22",
+    "user_id": "U066",
+    "merchant": "Best Buy",
+    "amount": -158.02,
+    "category": "Electronics",
+    "account_last_four": "5943"
+  },
+  {
+    "transaction_id": "TXN397",
+    "date": "2026-02-22",
+    "user_id": "U066",
+    "merchant": "Marriott",
+    "amount": -472.96,
+    "category": "Travel",
+    "account_last_four": "5943"
+  },
+  {
+    "transaction_id": "TXN398",
+    "date": "2026-02-27",
+    "user_id": "U066",
+    "merchant": "Chevron",
+    "amount": -73.18,
+    "category": "Gas",
+    "account_last_four": "5943"
+  },
+  {
+    "transaction_id": "TXN399",
+    "date": "2026-02-13",
+    "user_id": "U066",
+    "merchant": "Shell",
+    "amount": -86.71,
+    "category": "Gas",
+    "account_last_four": "5943"
+  },
+  {
+    "transaction_id": "TXN400",
+    "date": "2026-02-06",
+    "user_id": "U067",
+    "merchant": "HBO Max",
+    "amount": -20.52,
+    "category": "Entertainment",
+    "account_last_four": "1610"
+  },
+  {
+    "transaction_id": "TXN401",
+    "date": "2026-03-03",
+    "user_id": "U067",
+    "merchant": "Panera",
+    "amount": -50.13,
+    "category": "Food & Drink",
+    "account_last_four": "1006"
+  },
+  {
+    "transaction_id": "TXN402",
+    "date": "2026-02-26",
+    "user_id": "U067",
+    "merchant": "Chevron",
+    "amount": -35.94,
+    "category": "Gas",
+    "account_last_four": "1006"
+  },
+  {
+    "transaction_id": "TXN403",
+    "date": "2026-03-02",
+    "user_id": "U067",
+    "merchant": "Spectrum",
+    "amount": -178.28,
+    "category": "Utilities",
+    "account_last_four": "6033"
+  },
+  {
+    "transaction_id": "TXN404",
+    "date": "2026-02-11",
+    "user_id": "U067",
+    "merchant": "Uber",
+    "amount": -371.06,
+    "category": "Transportation",
+    "account_last_four": "7297"
+  },
+  {
+    "transaction_id": "TXN405",
+    "date": "2026-02-25",
+    "user_id": "U067",
+    "merchant": "PlayStation Store",
+    "amount": -12.35,
+    "category": "Entertainment",
+    "account_last_four": "4826"
+  },
+  {
+    "transaction_id": "TXN406",
+    "date": "2026-02-17",
+    "user_id": "U068",
+    "merchant": "United Airlines",
+    "amount": -105.51,
+    "category": "Transportation",
+    "account_last_four": "8028"
+  },
+  {
+    "transaction_id": "TXN407",
+    "date": "2026-02-09",
+    "user_id": "U068",
+    "merchant": "Apple Music",
+    "amount": -69.88,
+    "category": "Entertainment",
+    "account_last_four": "4217"
+  },
+  {
+    "transaction_id": "TXN408",
+    "date": "2026-02-14",
+    "user_id": "U068",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -63.09,
+    "category": "Software",
+    "account_last_four": "4049"
+  },
+  {
+    "transaction_id": "TXN409",
+    "date": "2026-02-19",
+    "user_id": "U068",
+    "merchant": "BP",
+    "amount": -77.9,
+    "category": "Gas",
+    "account_last_four": "4217"
+  },
+  {
+    "transaction_id": "TXN410",
+    "date": "2026-02-18",
+    "user_id": "U069",
+    "merchant": "Arco",
+    "amount": -73.53,
+    "category": "Gas",
+    "account_last_four": "3559"
+  },
+  {
+    "transaction_id": "TXN411",
+    "date": "2026-02-28",
+    "user_id": "U069",
+    "merchant": "76",
+    "amount": -81.55,
+    "category": "Gas",
+    "account_last_four": "3559"
+  },
+  {
+    "transaction_id": "TXN412",
+    "date": "2026-02-24",
+    "user_id": "U069",
+    "merchant": "Zoom",
+    "amount": -65.69,
+    "category": "Software",
+    "account_last_four": "3559"
+  },
+  {
+    "transaction_id": "TXN413",
+    "date": "2026-03-02",
+    "user_id": "U069",
+    "merchant": "IKEA",
+    "amount": -424.57,
+    "category": "Shopping",
+    "account_last_four": "3559"
+  },
+  {
+    "transaction_id": "TXN414",
+    "date": "2026-02-01",
+    "user_id": "U069",
+    "merchant": "Publix",
+    "amount": -39.71,
+    "category": "Groceries",
+    "account_last_four": "3559"
+  },
+  {
+    "transaction_id": "TXN415",
+    "date": "2026-03-03",
+    "user_id": "U069",
+    "merchant": "Hulu",
+    "amount": -43.5,
+    "category": "Entertainment",
+    "account_last_four": "3559"
+  },
+  {
+    "transaction_id": "TXN416",
+    "date": "2026-03-03",
+    "user_id": "U069",
+    "merchant": "Best Buy",
+    "amount": -228.75,
+    "category": "Electronics",
+    "account_last_four": "3559"
+  },
+  {
+    "transaction_id": "TXN417",
+    "date": "2026-02-18",
+    "user_id": "U070",
+    "merchant": "HBO Max",
+    "amount": -7.03,
+    "category": "Entertainment",
+    "account_last_four": "5666"
+  },
+  {
+    "transaction_id": "TXN418",
+    "date": "2026-02-14",
+    "user_id": "U070",
+    "merchant": "Publix",
+    "amount": -35.45,
+    "category": "Groceries",
+    "account_last_four": "6751"
+  },
+  {
+    "transaction_id": "TXN419",
+    "date": "2026-02-15",
+    "user_id": "U070",
+    "merchant": "Arco",
+    "amount": -45.18,
+    "category": "Gas",
+    "account_last_four": "6924"
+  },
+  {
+    "transaction_id": "TXN420",
+    "date": "2026-02-05",
+    "user_id": "U070",
+    "merchant": "BP",
+    "amount": -77.47,
+    "category": "Gas",
+    "account_last_four": "6924"
+  },
+  {
+    "transaction_id": "TXN421",
+    "date": "2026-02-09",
+    "user_id": "U070",
+    "merchant": "PG&E",
+    "amount": -54.8,
+    "category": "Utilities",
+    "account_last_four": "6924"
+  },
+  {
+    "transaction_id": "TXN422",
+    "date": "2026-02-11",
+    "user_id": "U070",
+    "merchant": "Dropbox",
+    "amount": -24.28,
+    "category": "Software",
+    "account_last_four": "6751"
+  },
+  {
+    "transaction_id": "TXN423",
+    "date": "2026-02-23",
+    "user_id": "U070",
+    "merchant": "Sephora",
+    "amount": -166.65,
+    "category": "Beauty",
+    "account_last_four": "6751"
+  },
+  {
+    "transaction_id": "TXN424",
+    "date": "2026-02-20",
+    "user_id": "U071",
+    "merchant": "Hulu",
+    "amount": -34.25,
+    "category": "Entertainment",
+    "account_last_four": "7492"
+  },
+  {
+    "transaction_id": "TXN425",
+    "date": "2026-02-02",
+    "user_id": "U071",
+    "merchant": "Arco",
+    "amount": -30.6,
+    "category": "Gas",
+    "account_last_four": "5210"
+  },
+  {
+    "transaction_id": "TXN426",
+    "date": "2026-02-23",
+    "user_id": "U071",
+    "merchant": "Delta Airlines",
+    "amount": -32.93,
+    "category": "Transportation",
+    "account_last_four": "2386"
+  },
+  {
+    "transaction_id": "TXN427",
+    "date": "2026-02-18",
+    "user_id": "U071",
+    "merchant": "MAC Cosmetics",
+    "amount": -93.1,
+    "category": "Beauty",
+    "account_last_four": "2386"
+  },
+  {
+    "transaction_id": "TXN428",
+    "date": "2026-02-16",
+    "user_id": "U071",
+    "merchant": "Comcast",
+    "amount": -111.72,
+    "category": "Utilities",
+    "account_last_four": "5210"
+  },
+  {
+    "transaction_id": "TXN429",
+    "date": "2026-02-01",
+    "user_id": "U071",
+    "merchant": "GitHub",
+    "amount": -15.05,
+    "category": "Software",
+    "account_last_four": "7492"
+  },
+  {
+    "transaction_id": "TXN430",
+    "date": "2026-02-21",
+    "user_id": "U071",
+    "merchant": "Orangetheory",
+    "amount": -37.66,
+    "category": "Health & Fitness",
+    "account_last_four": "5210"
+  },
+  {
+    "transaction_id": "TXN431",
+    "date": "2026-02-28",
+    "user_id": "U071",
+    "merchant": "Dropbox",
+    "amount": -94.5,
+    "category": "Software",
+    "account_last_four": "5210"
+  },
+  {
+    "transaction_id": "TXN432",
+    "date": "2026-02-17",
+    "user_id": "U072",
+    "merchant": "Ulta",
+    "amount": -191.31,
+    "category": "Beauty",
+    "account_last_four": "8793"
+  },
+  {
+    "transaction_id": "TXN433",
+    "date": "2026-02-19",
+    "user_id": "U072",
+    "merchant": "Grubhub",
+    "amount": -32.58,
+    "category": "Food & Drink",
+    "account_last_four": "5821"
+  },
+  {
+    "transaction_id": "TXN434",
+    "date": "2026-02-15",
+    "user_id": "U072",
+    "merchant": "DoorDash",
+    "amount": -21.34,
+    "category": "Food & Drink",
+    "account_last_four": "1347"
+  },
+  {
+    "transaction_id": "TXN435",
+    "date": "2026-02-26",
+    "user_id": "U072",
+    "merchant": "Enterprise",
+    "amount": -663.64,
+    "category": "Travel",
+    "account_last_four": "5821"
+  },
+  {
+    "transaction_id": "TXN436",
+    "date": "2026-02-17",
+    "user_id": "U073",
+    "merchant": "Spectrum",
+    "amount": -199.01,
+    "category": "Utilities",
+    "account_last_four": "9265"
+  },
+  {
+    "transaction_id": "TXN437",
+    "date": "2026-03-01",
+    "user_id": "U073",
+    "merchant": "Starbucks",
+    "amount": -16.35,
+    "category": "Food & Drink",
+    "account_last_four": "9265"
+  },
+  {
+    "transaction_id": "TXN438",
+    "date": "2026-02-02",
+    "user_id": "U073",
+    "merchant": "Southwest Airlines",
+    "amount": -364.23,
+    "category": "Transportation",
+    "account_last_four": "9265"
+  },
+  {
+    "transaction_id": "TXN439",
+    "date": "2026-02-19",
+    "user_id": "U073",
+    "merchant": "Safeway",
+    "amount": -147.63,
+    "category": "Groceries",
+    "account_last_four": "9265"
+  },
+  {
+    "transaction_id": "TXN440",
+    "date": "2026-02-21",
+    "user_id": "U073",
+    "merchant": "Enterprise",
+    "amount": -750.91,
+    "category": "Travel",
+    "account_last_four": "9265"
+  },
+  {
+    "transaction_id": "TXN441",
+    "date": "2026-02-19",
+    "user_id": "U074",
+    "merchant": "Best Buy",
+    "amount": -251.51,
+    "category": "Electronics",
+    "account_last_four": "5872"
+  },
+  {
+    "transaction_id": "TXN442",
+    "date": "2026-02-22",
+    "user_id": "U074",
+    "merchant": "Sephora",
+    "amount": -276.34,
+    "category": "Beauty",
+    "account_last_four": "7528"
+  },
+  {
+    "transaction_id": "TXN443",
+    "date": "2026-02-21",
+    "user_id": "U074",
+    "merchant": "Costco",
+    "amount": -135.57,
+    "category": "Groceries",
+    "account_last_four": "8531"
+  },
+  {
+    "transaction_id": "TXN444",
+    "date": "2026-02-24",
+    "user_id": "U074",
+    "merchant": "MAC Cosmetics",
+    "amount": -245.73,
+    "category": "Beauty",
+    "account_last_four": "8111"
+  },
+  {
+    "transaction_id": "TXN445",
+    "date": "2026-02-26",
+    "user_id": "U075",
+    "merchant": "Hertz",
+    "amount": -573.82,
+    "category": "Travel",
+    "account_last_four": "6699"
+  },
+  {
+    "transaction_id": "TXN446",
+    "date": "2026-03-01",
+    "user_id": "U075",
+    "merchant": "AT&T",
+    "amount": -101.14,
+    "category": "Utilities",
+    "account_last_four": "2843"
+  },
+  {
+    "transaction_id": "TXN447",
+    "date": "2026-02-18",
+    "user_id": "U075",
+    "merchant": "PG&E",
+    "amount": -137.76,
+    "category": "Utilities",
+    "account_last_four": "8721"
+  },
+  {
+    "transaction_id": "TXN448",
+    "date": "2026-02-27",
+    "user_id": "U075",
+    "merchant": "Kroger",
+    "amount": -55.85,
+    "category": "Groceries",
+    "account_last_four": "8160"
+  },
+  {
+    "transaction_id": "TXN449",
+    "date": "2026-02-19",
+    "user_id": "U076",
+    "merchant": "AT&T",
+    "amount": -194.31,
+    "category": "Utilities",
+    "account_last_four": "2641"
+  },
+  {
+    "transaction_id": "TXN450",
+    "date": "2026-02-24",
+    "user_id": "U076",
+    "merchant": "Costco",
+    "amount": -176.09,
+    "category": "Groceries",
+    "account_last_four": "2641"
+  },
+  {
+    "transaction_id": "TXN451",
+    "date": "2026-02-01",
+    "user_id": "U076",
+    "merchant": "Best Buy",
+    "amount": -260.42,
+    "category": "Shopping",
+    "account_last_four": "4052"
+  },
+  {
+    "transaction_id": "TXN452",
+    "date": "2026-02-24",
+    "user_id": "U076",
+    "merchant": "McDonald's",
+    "amount": -21.55,
+    "category": "Food & Drink",
+    "account_last_four": "2641"
+  },
+  {
+    "transaction_id": "TXN453",
+    "date": "2026-02-20",
+    "user_id": "U076",
+    "merchant": "Mobil",
+    "amount": -48.52,
+    "category": "Gas",
+    "account_last_four": "2641"
+  },
+  {
+    "transaction_id": "TXN454",
+    "date": "2026-02-17",
+    "user_id": "U077",
+    "merchant": "GitHub",
+    "amount": -34.23,
+    "category": "Software",
+    "account_last_four": "4789"
+  },
+  {
+    "transaction_id": "TXN455",
+    "date": "2026-02-14",
+    "user_id": "U077",
+    "merchant": "Marriott",
+    "amount": -528.77,
+    "category": "Travel",
+    "account_last_four": "4789"
+  },
+  {
+    "transaction_id": "TXN456",
+    "date": "2026-02-17",
+    "user_id": "U077",
+    "merchant": "Uber Eats",
+    "amount": -44.49,
+    "category": "Food & Drink",
+    "account_last_four": "4789"
+  },
+  {
+    "transaction_id": "TXN457",
+    "date": "2026-02-15",
+    "user_id": "U077",
+    "merchant": "Safeway",
+    "amount": -55.86,
+    "category": "Groceries",
+    "account_last_four": "1168"
+  },
+  {
+    "transaction_id": "TXN458",
+    "date": "2026-02-06",
+    "user_id": "U077",
+    "merchant": "Southwest Airlines",
+    "amount": -30.46,
+    "category": "Transportation",
+    "account_last_four": "4789"
+  },
+  {
+    "transaction_id": "TXN459",
+    "date": "2026-02-28",
+    "user_id": "U077",
+    "merchant": "MAC Cosmetics",
+    "amount": -284.41,
+    "category": "Beauty",
+    "account_last_four": "1168"
+  },
+  {
+    "transaction_id": "TXN460",
+    "date": "2026-02-25",
+    "user_id": "U078",
+    "merchant": "Zoom",
+    "amount": -17.71,
+    "category": "Software",
+    "account_last_four": "9242"
+  },
+  {
+    "transaction_id": "TXN461",
+    "date": "2026-02-24",
+    "user_id": "U078",
+    "merchant": "Shell",
+    "amount": -58.49,
+    "category": "Gas",
+    "account_last_four": "9242"
+  },
+  {
+    "transaction_id": "TXN462",
+    "date": "2026-02-26",
+    "user_id": "U078",
+    "merchant": "BP",
+    "amount": -67.56,
+    "category": "Gas",
+    "account_last_four": "9242"
+  },
+  {
+    "transaction_id": "TXN463",
+    "date": "2026-02-04",
+    "user_id": "U078",
+    "merchant": "Costco",
+    "amount": -46.38,
+    "category": "Groceries",
+    "account_last_four": "9242"
+  },
+  {
+    "transaction_id": "TXN464",
+    "date": "2026-03-01",
+    "user_id": "U078",
+    "merchant": "United Airlines",
+    "amount": -212.19,
+    "category": "Transportation",
+    "account_last_four": "9242"
+  },
+  {
+    "transaction_id": "TXN465",
+    "date": "2026-02-26",
+    "user_id": "U079",
+    "merchant": "Enterprise",
+    "amount": -642.91,
+    "category": "Travel",
+    "account_last_four": "2105"
+  },
+  {
+    "transaction_id": "TXN466",
+    "date": "2026-02-12",
+    "user_id": "U079",
+    "merchant": "Microsoft Store",
+    "amount": -273.14,
+    "category": "Electronics",
+    "account_last_four": "1117"
+  },
+  {
+    "transaction_id": "TXN467",
+    "date": "2026-03-02",
+    "user_id": "U079",
+    "merchant": "Chevron",
+    "amount": -51.15,
+    "category": "Gas",
+    "account_last_four": "1117"
+  },
+  {
+    "transaction_id": "TXN468",
+    "date": "2026-02-28",
+    "user_id": "U079",
+    "merchant": "McDonald's",
+    "amount": -9.78,
+    "category": "Food & Drink",
+    "account_last_four": "2707"
+  },
+  {
+    "transaction_id": "TXN469",
+    "date": "2026-02-07",
+    "user_id": "U079",
+    "merchant": "SoulCycle",
+    "amount": -109.1,
+    "category": "Health & Fitness",
+    "account_last_four": "1117"
+  },
+  {
+    "transaction_id": "TXN470",
+    "date": "2026-03-03",
+    "user_id": "U079",
+    "merchant": "YouTube Premium",
+    "amount": -23.58,
+    "category": "Entertainment",
+    "account_last_four": "1117"
+  },
+  {
+    "transaction_id": "TXN471",
+    "date": "2026-02-12",
+    "user_id": "U080",
+    "merchant": "MAC Cosmetics",
+    "amount": -34.51,
+    "category": "Beauty",
+    "account_last_four": "3757"
+  },
+  {
+    "transaction_id": "TXN472",
+    "date": "2026-02-27",
+    "user_id": "U080",
+    "merchant": "Marriott",
+    "amount": -795.73,
+    "category": "Travel",
+    "account_last_four": "3757"
+  },
+  {
+    "transaction_id": "TXN473",
+    "date": "2026-02-23",
+    "user_id": "U080",
+    "merchant": "Amtrak",
+    "amount": -457.09,
+    "category": "Transportation",
+    "account_last_four": "3757"
+  },
+  {
+    "transaction_id": "TXN474",
+    "date": "2026-03-03",
+    "user_id": "U080",
+    "merchant": "LA Fitness",
+    "amount": -155.2,
+    "category": "Health & Fitness",
+    "account_last_four": "3757"
+  },
+  {
+    "transaction_id": "TXN475",
+    "date": "2026-02-22",
+    "user_id": "U080",
+    "merchant": "United Airlines",
+    "amount": -195.14,
+    "category": "Transportation",
+    "account_last_four": "3757"
+  },
+  {
+    "transaction_id": "TXN476",
+    "date": "2026-02-12",
+    "user_id": "U081",
+    "merchant": "LA Fitness",
+    "amount": -77.2,
+    "category": "Health & Fitness",
+    "account_last_four": "6584"
+  },
+  {
+    "transaction_id": "TXN477",
+    "date": "2026-03-03",
+    "user_id": "U081",
+    "merchant": "Booking.com",
+    "amount": -750.89,
+    "category": "Travel",
+    "account_last_four": "6584"
+  },
+  {
+    "transaction_id": "TXN478",
+    "date": "2026-02-25",
+    "user_id": "U081",
+    "merchant": "Amtrak",
+    "amount": -186.02,
+    "category": "Transportation",
+    "account_last_four": "6584"
+  },
+  {
+    "transaction_id": "TXN479",
+    "date": "2026-02-11",
+    "user_id": "U081",
+    "merchant": "AT&T",
+    "amount": -118.79,
+    "category": "Utilities",
+    "account_last_four": "6584"
+  },
+  {
+    "transaction_id": "TXN480",
+    "date": "2026-02-09",
+    "user_id": "U081",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -64.84,
+    "category": "Software",
+    "account_last_four": "6584"
+  },
+  {
+    "transaction_id": "TXN481",
+    "date": "2026-02-25",
+    "user_id": "U081",
+    "merchant": "BP",
+    "amount": -62.02,
+    "category": "Gas",
+    "account_last_four": "6584"
+  },
+  {
+    "transaction_id": "TXN482",
+    "date": "2026-02-03",
+    "user_id": "U081",
+    "merchant": "Five Guys",
+    "amount": -54.47,
+    "category": "Food & Drink",
+    "account_last_four": "6584"
+  },
+  {
+    "transaction_id": "TXN483",
+    "date": "2026-02-21",
+    "user_id": "U081",
+    "merchant": "Walmart Grocery",
+    "amount": -72.45,
+    "category": "Groceries",
+    "account_last_four": "6584"
+  },
+  {
+    "transaction_id": "TXN484",
+    "date": "2026-02-07",
+    "user_id": "U082",
+    "merchant": "Amtrak",
+    "amount": -140.14,
+    "category": "Transportation",
+    "account_last_four": "6574"
+  },
+  {
+    "transaction_id": "TXN485",
+    "date": "2026-02-21",
+    "user_id": "U082",
+    "merchant": "Amazon.com",
+    "amount": -433.58,
+    "category": "Shopping",
+    "account_last_four": "7912"
+  },
+  {
+    "transaction_id": "TXN486",
+    "date": "2026-02-02",
+    "user_id": "U082",
+    "merchant": "Mobil",
+    "amount": -68.04,
+    "category": "Gas",
+    "account_last_four": "5450"
+  },
+  {
+    "transaction_id": "TXN487",
+    "date": "2026-02-07",
+    "user_id": "U082",
+    "merchant": "Microsoft 365",
+    "amount": -18.59,
+    "category": "Software",
+    "account_last_four": "5450"
+  },
+  {
+    "transaction_id": "TXN488",
+    "date": "2026-02-04",
+    "user_id": "U082",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -87.46,
+    "category": "Software",
+    "account_last_four": "7912"
+  },
+  {
+    "transaction_id": "TXN489",
+    "date": "2026-03-03",
+    "user_id": "U082",
+    "merchant": "Nordstrom",
+    "amount": -217.54,
+    "category": "Shopping",
+    "account_last_four": "5450"
+  },
+  {
+    "transaction_id": "TXN490",
+    "date": "2026-02-17",
+    "user_id": "U082",
+    "merchant": "Verizon",
+    "amount": -116.15,
+    "category": "Utilities",
+    "account_last_four": "5450"
+  },
+  {
+    "transaction_id": "TXN491",
+    "date": "2026-02-20",
+    "user_id": "U082",
+    "merchant": "IKEA",
+    "amount": -273.92,
+    "category": "Shopping",
+    "account_last_four": "5450"
+  },
+  {
+    "transaction_id": "TXN492",
+    "date": "2026-02-17",
+    "user_id": "U083",
+    "merchant": "Comcast",
+    "amount": -109.65,
+    "category": "Utilities",
+    "account_last_four": "4049"
+  },
+  {
+    "transaction_id": "TXN493",
+    "date": "2026-02-15",
+    "user_id": "U083",
+    "merchant": "United Airlines",
+    "amount": -144.45,
+    "category": "Transportation",
+    "account_last_four": "4049"
+  },
+  {
+    "transaction_id": "TXN494",
+    "date": "2026-02-07",
+    "user_id": "U083",
+    "merchant": "Ulta",
+    "amount": -197.16,
+    "category": "Beauty",
+    "account_last_four": "8255"
+  },
+  {
+    "transaction_id": "TXN495",
+    "date": "2026-02-20",
+    "user_id": "U083",
+    "merchant": "Slack",
+    "amount": -95.29,
+    "category": "Software",
+    "account_last_four": "4049"
+  },
+  {
+    "transaction_id": "TXN496",
+    "date": "2026-02-01",
+    "user_id": "U083",
+    "merchant": "Steam",
+    "amount": -25.36,
+    "category": "Entertainment",
+    "account_last_four": "8255"
+  },
+  {
+    "transaction_id": "TXN497",
+    "date": "2026-03-03",
+    "user_id": "U083",
+    "merchant": "Uber",
+    "amount": -490.73,
+    "category": "Transportation",
+    "account_last_four": "8255"
+  },
+  {
+    "transaction_id": "TXN498",
+    "date": "2026-03-03",
+    "user_id": "U083",
+    "merchant": "Amtrak",
+    "amount": -384.19,
+    "category": "Transportation",
+    "account_last_four": "4049"
+  },
+  {
+    "transaction_id": "TXN499",
+    "date": "2026-02-22",
+    "user_id": "U084",
+    "merchant": "Planet Fitness",
+    "amount": -75.1,
+    "category": "Health & Fitness",
+    "account_last_four": "3368"
+  },
+  {
+    "transaction_id": "TXN500",
+    "date": "2026-02-09",
+    "user_id": "U084",
+    "merchant": "Grubhub",
+    "amount": -34.18,
+    "category": "Food & Drink",
+    "account_last_four": "3368"
+  },
+  {
+    "transaction_id": "TXN501",
+    "date": "2026-02-20",
+    "user_id": "U084",
+    "merchant": "GitHub",
+    "amount": -39.89,
+    "category": "Software",
+    "account_last_four": "3368"
+  },
+  {
+    "transaction_id": "TXN502",
+    "date": "2026-02-01",
+    "user_id": "U084",
+    "merchant": "CVS Pharmacy",
+    "amount": -102.9,
+    "category": "Health & Fitness",
+    "account_last_four": "3368"
+  },
+  {
+    "transaction_id": "TXN503",
+    "date": "2026-02-22",
+    "user_id": "U084",
+    "merchant": "HBO Max",
+    "amount": -24.1,
+    "category": "Entertainment",
+    "account_last_four": "3368"
+  },
+  {
+    "transaction_id": "TXN504",
+    "date": "2026-02-08",
+    "user_id": "U084",
+    "merchant": "Chipotle",
+    "amount": -21.02,
+    "category": "Food & Drink",
+    "account_last_four": "3368"
+  },
+  {
+    "transaction_id": "TXN505",
+    "date": "2026-02-03",
+    "user_id": "U084",
+    "merchant": "Five Guys",
+    "amount": -59.32,
+    "category": "Food & Drink",
+    "account_last_four": "3368"
+  },
+  {
+    "transaction_id": "TXN506",
+    "date": "2026-02-02",
+    "user_id": "U085",
+    "merchant": "United Airlines",
+    "amount": -149.15,
+    "category": "Transportation",
+    "account_last_four": "2892"
+  },
+  {
+    "transaction_id": "TXN507",
+    "date": "2026-02-22",
+    "user_id": "U085",
+    "merchant": "PG&E",
+    "amount": -83.03,
+    "category": "Utilities",
+    "account_last_four": "3296"
+  },
+  {
+    "transaction_id": "TXN508",
+    "date": "2026-02-20",
+    "user_id": "U085",
+    "merchant": "Whole Foods",
+    "amount": -63.25,
+    "category": "Groceries",
+    "account_last_four": "3296"
+  },
+  {
+    "transaction_id": "TXN509",
+    "date": "2026-03-02",
+    "user_id": "U085",
+    "merchant": "Ulta",
+    "amount": -93.71,
+    "category": "Beauty",
+    "account_last_four": "6702"
+  },
+  {
+    "transaction_id": "TXN510",
+    "date": "2026-02-15",
+    "user_id": "U085",
+    "merchant": "Slack",
+    "amount": -60.22,
+    "category": "Software",
+    "account_last_four": "6702"
+  },
+  {
+    "transaction_id": "TXN511",
+    "date": "2026-02-13",
+    "user_id": "U085",
+    "merchant": "Ulta",
+    "amount": -156.32,
+    "category": "Beauty",
+    "account_last_four": "2892"
+  },
+  {
+    "transaction_id": "TXN512",
+    "date": "2026-02-25",
+    "user_id": "U086",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -31.54,
+    "category": "Software",
+    "account_last_four": "3263"
+  },
+  {
+    "transaction_id": "TXN513",
+    "date": "2026-02-17",
+    "user_id": "U086",
+    "merchant": "Exxon",
+    "amount": -37.19,
+    "category": "Gas",
+    "account_last_four": "3263"
+  },
+  {
+    "transaction_id": "TXN514",
+    "date": "2026-02-18",
+    "user_id": "U086",
+    "merchant": "IKEA",
+    "amount": -332.11,
+    "category": "Shopping",
+    "account_last_four": "3263"
+  },
+  {
+    "transaction_id": "TXN515",
+    "date": "2026-02-02",
+    "user_id": "U086",
+    "merchant": "MAC Cosmetics",
+    "amount": -163.51,
+    "category": "Beauty",
+    "account_last_four": "3263"
+  },
+  {
+    "transaction_id": "TXN516",
+    "date": "2026-02-04",
+    "user_id": "U086",
+    "merchant": "Hertz",
+    "amount": -368.13,
+    "category": "Travel",
+    "account_last_four": "3263"
+  },
+  {
+    "transaction_id": "TXN517",
+    "date": "2026-02-25",
+    "user_id": "U086",
+    "merchant": "Comcast",
+    "amount": -152.86,
+    "category": "Utilities",
+    "account_last_four": "3263"
+  },
+  {
+    "transaction_id": "TXN518",
+    "date": "2026-02-05",
+    "user_id": "U087",
+    "merchant": "Target",
+    "amount": -384.78,
+    "category": "Shopping",
+    "account_last_four": "2569"
+  },
+  {
+    "transaction_id": "TXN519",
+    "date": "2026-02-11",
+    "user_id": "U087",
+    "merchant": "Whole Foods",
+    "amount": -140.11,
+    "category": "Groceries",
+    "account_last_four": "5813"
+  },
+  {
+    "transaction_id": "TXN520",
+    "date": "2026-02-10",
+    "user_id": "U087",
+    "merchant": "Apple Store",
+    "amount": -197.84,
+    "category": "Electronics",
+    "account_last_four": "1511"
+  },
+  {
+    "transaction_id": "TXN521",
+    "date": "2026-02-17",
+    "user_id": "U087",
+    "merchant": "PG&E",
+    "amount": -100.45,
+    "category": "Utilities",
+    "account_last_four": "2569"
+  },
+  {
+    "transaction_id": "TXN522",
+    "date": "2026-02-09",
+    "user_id": "U087",
+    "merchant": "T-Mobile",
+    "amount": -176.72,
+    "category": "Utilities",
+    "account_last_four": "1511"
+  },
+  {
+    "transaction_id": "TXN523",
+    "date": "2026-02-04",
+    "user_id": "U087",
+    "merchant": "Hulu",
+    "amount": -21.71,
+    "category": "Entertainment",
+    "account_last_four": "3379"
+  },
+  {
+    "transaction_id": "TXN524",
+    "date": "2026-02-18",
+    "user_id": "U087",
+    "merchant": "Sephora",
+    "amount": -236.92,
+    "category": "Beauty",
+    "account_last_four": "2569"
+  },
+  {
+    "transaction_id": "TXN525",
+    "date": "2026-02-25",
+    "user_id": "U088",
+    "merchant": "Apple Music",
+    "amount": -65.64,
+    "category": "Entertainment",
+    "account_last_four": "3223"
+  },
+  {
+    "transaction_id": "TXN526",
+    "date": "2026-02-08",
+    "user_id": "U088",
+    "merchant": "Booking.com",
+    "amount": -751.89,
+    "category": "Travel",
+    "account_last_four": "8752"
+  },
+  {
+    "transaction_id": "TXN527",
+    "date": "2026-02-18",
+    "user_id": "U088",
+    "merchant": "Macy's",
+    "amount": -310.49,
+    "category": "Shopping",
+    "account_last_four": "7999"
+  },
+  {
+    "transaction_id": "TXN528",
+    "date": "2026-02-21",
+    "user_id": "U088",
+    "merchant": "Uber Eats",
+    "amount": -20.1,
+    "category": "Food & Drink",
+    "account_last_four": "3223"
+  },
+  {
+    "transaction_id": "TXN529",
+    "date": "2026-02-18",
+    "user_id": "U088",
+    "merchant": "IKEA",
+    "amount": -167.32,
+    "category": "Shopping",
+    "account_last_four": "3223"
+  },
+  {
+    "transaction_id": "TXN530",
+    "date": "2026-02-15",
+    "user_id": "U088",
+    "merchant": "Exxon",
+    "amount": -46.68,
+    "category": "Gas",
+    "account_last_four": "8752"
+  },
+  {
+    "transaction_id": "TXN531",
+    "date": "2026-02-05",
+    "user_id": "U089",
+    "merchant": "CVS Pharmacy",
+    "amount": -169.73,
+    "category": "Health & Fitness",
+    "account_last_four": "9681"
+  },
+  {
+    "transaction_id": "TXN532",
+    "date": "2026-02-11",
+    "user_id": "U089",
+    "merchant": "Five Guys",
+    "amount": -53.12,
+    "category": "Food & Drink",
+    "account_last_four": "7325"
+  },
+  {
+    "transaction_id": "TXN533",
+    "date": "2026-02-20",
+    "user_id": "U089",
+    "merchant": "Whole Foods",
+    "amount": -76.14,
+    "category": "Groceries",
+    "account_last_four": "9946"
+  },
+  {
+    "transaction_id": "TXN534",
+    "date": "2026-02-23",
+    "user_id": "U089",
+    "merchant": "Arco",
+    "amount": -81.46,
+    "category": "Gas",
+    "account_last_four": "7325"
+  },
+  {
+    "transaction_id": "TXN535",
+    "date": "2026-02-10",
+    "user_id": "U089",
+    "merchant": "Zoom",
+    "amount": -40.71,
+    "category": "Software",
+    "account_last_four": "2910"
+  },
+  {
+    "transaction_id": "TXN536",
+    "date": "2026-02-28",
+    "user_id": "U089",
+    "merchant": "Zoom",
+    "amount": -13.72,
+    "category": "Software",
+    "account_last_four": "7477"
+  },
+  {
+    "transaction_id": "TXN537",
+    "date": "2026-02-21",
+    "user_id": "U089",
+    "merchant": "GitHub",
+    "amount": -95.9,
+    "category": "Software",
+    "account_last_four": "2605"
+  },
+  {
+    "transaction_id": "TXN538",
+    "date": "2026-03-01",
+    "user_id": "U089",
+    "merchant": "B&H Photo",
+    "amount": -136.35,
+    "category": "Electronics",
+    "account_last_four": "7477"
+  },
+  {
+    "transaction_id": "TXN539",
+    "date": "2026-02-23",
+    "user_id": "U090",
+    "merchant": "Amtrak",
+    "amount": -197.55,
+    "category": "Transportation",
+    "account_last_four": "8319"
+  },
+  {
+    "transaction_id": "TXN540",
+    "date": "2026-02-13",
+    "user_id": "U090",
+    "merchant": "Marriott",
+    "amount": -517.99,
+    "category": "Travel",
+    "account_last_four": "3458"
+  },
+  {
+    "transaction_id": "TXN541",
+    "date": "2026-02-18",
+    "user_id": "U090",
+    "merchant": "Target",
+    "amount": -268.09,
+    "category": "Shopping",
+    "account_last_four": "6744"
+  },
+  {
+    "transaction_id": "TXN542",
+    "date": "2026-02-17",
+    "user_id": "U090",
+    "merchant": "Mobil",
+    "amount": -71.45,
+    "category": "Gas",
+    "account_last_four": "6744"
+  },
+  {
+    "transaction_id": "TXN543",
+    "date": "2026-02-08",
+    "user_id": "U090",
+    "merchant": "Publix",
+    "amount": -174.58,
+    "category": "Groceries",
+    "account_last_four": "6744"
+  },
+  {
+    "transaction_id": "TXN544",
+    "date": "2026-02-12",
+    "user_id": "U090",
+    "merchant": "Microsoft Store",
+    "amount": -198.5,
+    "category": "Electronics",
+    "account_last_four": "3458"
+  },
+  {
+    "transaction_id": "TXN545",
+    "date": "2026-03-02",
+    "user_id": "U091",
+    "merchant": "Hulu",
+    "amount": -12.91,
+    "category": "Entertainment",
+    "account_last_four": "8489"
+  },
+  {
+    "transaction_id": "TXN546",
+    "date": "2026-02-11",
+    "user_id": "U091",
+    "merchant": "Lyft",
+    "amount": -525.15,
+    "category": "Transportation",
+    "account_last_four": "5574"
+  },
+  {
+    "transaction_id": "TXN547",
+    "date": "2026-02-07",
+    "user_id": "U091",
+    "merchant": "Costco",
+    "amount": -109.44,
+    "category": "Groceries",
+    "account_last_four": "8489"
+  },
+  {
+    "transaction_id": "TXN548",
+    "date": "2026-02-22",
+    "user_id": "U091",
+    "merchant": "Best Buy",
+    "amount": -102.57,
+    "category": "Electronics",
+    "account_last_four": "8489"
+  },
+  {
+    "transaction_id": "TXN549",
+    "date": "2026-02-17",
+    "user_id": "U091",
+    "merchant": "Peloton",
+    "amount": -28.33,
+    "category": "Health & Fitness",
+    "account_last_four": "8489"
+  },
+  {
+    "transaction_id": "TXN550",
+    "date": "2026-02-23",
+    "user_id": "U091",
+    "merchant": "Verizon",
+    "amount": -114.22,
+    "category": "Utilities",
+    "account_last_four": "5574"
+  },
+  {
+    "transaction_id": "TXN551",
+    "date": "2026-02-09",
+    "user_id": "U091",
+    "merchant": "Comcast",
+    "amount": -161.62,
+    "category": "Utilities",
+    "account_last_four": "5574"
+  },
+  {
+    "transaction_id": "TXN552",
+    "date": "2026-02-08",
+    "user_id": "U091",
+    "merchant": "BP",
+    "amount": -36.46,
+    "category": "Gas",
+    "account_last_four": "5574"
+  },
+  {
+    "transaction_id": "TXN553",
+    "date": "2026-02-09",
+    "user_id": "U092",
+    "merchant": "Target",
+    "amount": -455.85,
+    "category": "Shopping",
+    "account_last_four": "8674"
+  },
+  {
+    "transaction_id": "TXN554",
+    "date": "2026-02-19",
+    "user_id": "U092",
+    "merchant": "Peloton",
+    "amount": -117.97,
+    "category": "Health & Fitness",
+    "account_last_four": "7872"
+  },
+  {
+    "transaction_id": "TXN555",
+    "date": "2026-02-01",
+    "user_id": "U092",
+    "merchant": "Amtrak",
+    "amount": -287.91,
+    "category": "Transportation",
+    "account_last_four": "6631"
+  },
+  {
+    "transaction_id": "TXN556",
+    "date": "2026-02-23",
+    "user_id": "U092",
+    "merchant": "YouTube Premium",
+    "amount": -8.66,
+    "category": "Entertainment",
+    "account_last_four": "6631"
+  },
+  {
+    "transaction_id": "TXN557",
+    "date": "2026-02-03",
+    "user_id": "U092",
+    "merchant": "Microsoft Store",
+    "amount": -148.35,
+    "category": "Electronics",
+    "account_last_four": "7156"
+  },
+  {
+    "transaction_id": "TXN558",
+    "date": "2026-02-20",
+    "user_id": "U093",
+    "merchant": "Five Guys",
+    "amount": -41.51,
+    "category": "Food & Drink",
+    "account_last_four": "4918"
+  },
+  {
+    "transaction_id": "TXN559",
+    "date": "2026-02-19",
+    "user_id": "U093",
+    "merchant": "Lowe's",
+    "amount": -285.77,
+    "category": "Shopping",
+    "account_last_four": "9754"
+  },
+  {
+    "transaction_id": "TXN560",
+    "date": "2026-02-26",
+    "user_id": "U093",
+    "merchant": "Southwest Airlines",
+    "amount": -438.21,
+    "category": "Transportation",
+    "account_last_four": "4918"
+  },
+  {
+    "transaction_id": "TXN561",
+    "date": "2026-03-01",
+    "user_id": "U093",
+    "merchant": "Dropbox",
+    "amount": -87.15,
+    "category": "Software",
+    "account_last_four": "9754"
+  },
+  {
+    "transaction_id": "TXN562",
+    "date": "2026-02-25",
+    "user_id": "U093",
+    "merchant": "Slack",
+    "amount": -98.6,
+    "category": "Software",
+    "account_last_four": "9443"
+  },
+  {
+    "transaction_id": "TXN563",
+    "date": "2026-02-10",
+    "user_id": "U093",
+    "merchant": "Microsoft Store",
+    "amount": -42.57,
+    "category": "Electronics",
+    "account_last_four": "9443"
+  },
+  {
+    "transaction_id": "TXN564",
+    "date": "2026-02-15",
+    "user_id": "U093",
+    "merchant": "Zoom",
+    "amount": -42.51,
+    "category": "Software",
+    "account_last_four": "9443"
+  },
+  {
+    "transaction_id": "TXN565",
+    "date": "2026-02-18",
+    "user_id": "U093",
+    "merchant": "LA Fitness",
+    "amount": -109.54,
+    "category": "Health & Fitness",
+    "account_last_four": "7053"
+  },
+  {
+    "transaction_id": "TXN566",
+    "date": "2026-02-16",
+    "user_id": "U094",
+    "merchant": "Enterprise",
+    "amount": -540.22,
+    "category": "Travel",
+    "account_last_four": "2913"
+  },
+  {
+    "transaction_id": "TXN567",
+    "date": "2026-02-26",
+    "user_id": "U094",
+    "merchant": "Uber",
+    "amount": -271.2,
+    "category": "Transportation",
+    "account_last_four": "2913"
+  },
+  {
+    "transaction_id": "TXN568",
+    "date": "2026-02-11",
+    "user_id": "U094",
+    "merchant": "YouTube Premium",
+    "amount": -32.74,
+    "category": "Entertainment",
+    "account_last_four": "5363"
+  },
+  {
+    "transaction_id": "TXN569",
+    "date": "2026-02-01",
+    "user_id": "U094",
+    "merchant": "PlayStation Store",
+    "amount": -45.62,
+    "category": "Entertainment",
+    "account_last_four": "5742"
+  },
+  {
+    "transaction_id": "TXN570",
+    "date": "2026-02-19",
+    "user_id": "U094",
+    "merchant": "Booking.com",
+    "amount": -127.17,
+    "category": "Travel",
+    "account_last_four": "6702"
+  },
+  {
+    "transaction_id": "TXN571",
+    "date": "2026-02-09",
+    "user_id": "U094",
+    "merchant": "MAC Cosmetics",
+    "amount": -288.66,
+    "category": "Beauty",
+    "account_last_four": "5742"
+  },
+  {
+    "transaction_id": "TXN572",
+    "date": "2026-02-05",
+    "user_id": "U095",
+    "merchant": "LA Fitness",
+    "amount": -128.96,
+    "category": "Health & Fitness",
+    "account_last_four": "6938"
+  },
+  {
+    "transaction_id": "TXN573",
+    "date": "2026-02-12",
+    "user_id": "U095",
+    "merchant": "Marriott",
+    "amount": -375.88,
+    "category": "Travel",
+    "account_last_four": "1803"
+  },
+  {
+    "transaction_id": "TXN574",
+    "date": "2026-02-12",
+    "user_id": "U095",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -22.2,
+    "category": "Software",
+    "account_last_four": "1251"
+  },
+  {
+    "transaction_id": "TXN575",
+    "date": "2026-02-17",
+    "user_id": "U095",
+    "merchant": "Enterprise",
+    "amount": -657.52,
+    "category": "Travel",
+    "account_last_four": "3952"
+  },
+  {
+    "transaction_id": "TXN576",
+    "date": "2026-02-17",
+    "user_id": "U095",
+    "merchant": "Apple Store",
+    "amount": -288.05,
+    "category": "Electronics",
+    "account_last_four": "6938"
+  },
+  {
+    "transaction_id": "TXN577",
+    "date": "2026-02-22",
+    "user_id": "U095",
+    "merchant": "Microsoft Store",
+    "amount": -43.79,
+    "category": "Electronics",
+    "account_last_four": "2699"
+  },
+  {
+    "transaction_id": "TXN578",
+    "date": "2026-02-27",
+    "user_id": "U095",
+    "merchant": "Microsoft Store",
+    "amount": -180.2,
+    "category": "Electronics",
+    "account_last_four": "4745"
+  },
+  {
+    "transaction_id": "TXN579",
+    "date": "2026-02-07",
+    "user_id": "U095",
+    "merchant": "Shell",
+    "amount": -70.74,
+    "category": "Gas",
+    "account_last_four": "6938"
+  },
+  {
+    "transaction_id": "TXN580",
+    "date": "2026-02-22",
+    "user_id": "U096",
+    "merchant": "Best Buy",
+    "amount": -301.22,
+    "category": "Shopping",
+    "account_last_four": "8442"
+  },
+  {
+    "transaction_id": "TXN581",
+    "date": "2026-02-10",
+    "user_id": "U096",
+    "merchant": "Subway",
+    "amount": -41.15,
+    "category": "Food & Drink",
+    "account_last_four": "6973"
+  },
+  {
+    "transaction_id": "TXN582",
+    "date": "2026-02-04",
+    "user_id": "U096",
+    "merchant": "Trader Joe's",
+    "amount": -111.2,
+    "category": "Groceries",
+    "account_last_four": "2475"
+  },
+  {
+    "transaction_id": "TXN583",
+    "date": "2026-02-05",
+    "user_id": "U096",
+    "merchant": "Marriott",
+    "amount": -369.2,
+    "category": "Travel",
+    "account_last_four": "9667"
+  },
+  {
+    "transaction_id": "TXN584",
+    "date": "2026-02-01",
+    "user_id": "U097",
+    "merchant": "Airbnb",
+    "amount": -707.77,
+    "category": "Travel",
+    "account_last_four": "9165"
+  },
+  {
+    "transaction_id": "TXN585",
+    "date": "2026-02-01",
+    "user_id": "U097",
+    "merchant": "Home Depot",
+    "amount": -318.89,
+    "category": "Shopping",
+    "account_last_four": "9165"
+  },
+  {
+    "transaction_id": "TXN586",
+    "date": "2026-02-28",
+    "user_id": "U097",
+    "merchant": "Trader Joe's",
+    "amount": -154.1,
+    "category": "Groceries",
+    "account_last_four": "7464"
+  },
+  {
+    "transaction_id": "TXN587",
+    "date": "2026-02-12",
+    "user_id": "U097",
+    "merchant": "76",
+    "amount": -47.12,
+    "category": "Gas",
+    "account_last_four": "7464"
+  },
+  {
+    "transaction_id": "TXN588",
+    "date": "2026-02-23",
+    "user_id": "U097",
+    "merchant": "Apple Store",
+    "amount": -258.8,
+    "category": "Electronics",
+    "account_last_four": "9165"
+  },
+  {
+    "transaction_id": "TXN589",
+    "date": "2026-02-05",
+    "user_id": "U098",
+    "merchant": "Subway",
+    "amount": -9.93,
+    "category": "Food & Drink",
+    "account_last_four": "1141"
+  },
+  {
+    "transaction_id": "TXN590",
+    "date": "2026-02-15",
+    "user_id": "U098",
+    "merchant": "AT&T",
+    "amount": -131.18,
+    "category": "Utilities",
+    "account_last_four": "1141"
+  },
+  {
+    "transaction_id": "TXN591",
+    "date": "2026-02-27",
+    "user_id": "U098",
+    "merchant": "Grubhub",
+    "amount": -20.96,
+    "category": "Food & Drink",
+    "account_last_four": "1141"
+  },
+  {
+    "transaction_id": "TXN592",
+    "date": "2026-02-22",
+    "user_id": "U098",
+    "merchant": "Apple Store",
+    "amount": -108.33,
+    "category": "Electronics",
+    "account_last_four": "1141"
+  },
+  {
+    "transaction_id": "TXN593",
+    "date": "2026-02-18",
+    "user_id": "U098",
+    "merchant": "Ulta",
+    "amount": -202.98,
+    "category": "Beauty",
+    "account_last_four": "1141"
+  },
+  {
+    "transaction_id": "TXN594",
+    "date": "2026-02-23",
+    "user_id": "U098",
+    "merchant": "T-Mobile",
+    "amount": -101.29,
+    "category": "Utilities",
+    "account_last_four": "1141"
+  },
+  {
+    "transaction_id": "TXN595",
+    "date": "2026-03-02",
+    "user_id": "U098",
+    "merchant": "Walmart",
+    "amount": -405.84,
+    "category": "Shopping",
+    "account_last_four": "1141"
+  },
+  {
+    "transaction_id": "TXN596",
+    "date": "2026-02-17",
+    "user_id": "U099",
+    "merchant": "Ulta",
+    "amount": -63.6,
+    "category": "Beauty",
+    "account_last_four": "9442"
+  },
+  {
+    "transaction_id": "TXN597",
+    "date": "2026-02-17",
+    "user_id": "U099",
+    "merchant": "B&H Photo",
+    "amount": -50.49,
+    "category": "Electronics",
+    "account_last_four": "7914"
+  },
+  {
+    "transaction_id": "TXN598",
+    "date": "2026-02-12",
+    "user_id": "U099",
+    "merchant": "PG&E",
+    "amount": -127.73,
+    "category": "Utilities",
+    "account_last_four": "7914"
+  },
+  {
+    "transaction_id": "TXN599",
+    "date": "2026-02-07",
+    "user_id": "U099",
+    "merchant": "GitHub",
+    "amount": -83.52,
+    "category": "Software",
+    "account_last_four": "6901"
+  },
+  {
+    "transaction_id": "TXN600",
+    "date": "2026-02-27",
+    "user_id": "U099",
+    "merchant": "Ulta",
+    "amount": -273.23,
+    "category": "Beauty",
+    "account_last_four": "7914"
+  },
+  {
+    "transaction_id": "TXN601",
+    "date": "2026-03-02",
+    "user_id": "U099",
+    "merchant": "Ulta",
+    "amount": -277.56,
+    "category": "Beauty",
+    "account_last_four": "9442"
+  },
+  {
+    "transaction_id": "TXN602",
+    "date": "2026-02-21",
+    "user_id": "U099",
+    "merchant": "Chevron",
+    "amount": -88.18,
+    "category": "Gas",
+    "account_last_four": "9442"
+  },
+  {
+    "transaction_id": "TXN603",
+    "date": "2026-02-13",
+    "user_id": "U099",
+    "merchant": "Orangetheory",
+    "amount": -33.68,
+    "category": "Health & Fitness",
+    "account_last_four": "7914"
+  },
+  {
+    "transaction_id": "TXN604",
+    "date": "2026-02-01",
+    "user_id": "U100",
+    "merchant": "Slack",
+    "amount": -65.3,
+    "category": "Software",
+    "account_last_four": "3216"
+  },
+  {
+    "transaction_id": "TXN605",
+    "date": "2026-02-18",
+    "user_id": "U100",
+    "merchant": "Walgreens",
+    "amount": -83.0,
+    "category": "Health & Fitness",
+    "account_last_four": "5852"
+  },
+  {
+    "transaction_id": "TXN606",
+    "date": "2026-02-23",
+    "user_id": "U100",
+    "merchant": "Chipotle",
+    "amount": -32.66,
+    "category": "Food & Drink",
+    "account_last_four": "3216"
+  },
+  {
+    "transaction_id": "TXN607",
+    "date": "2026-02-07",
+    "user_id": "U100",
+    "merchant": "Starbucks",
+    "amount": -45.86,
+    "category": "Food & Drink",
+    "account_last_four": "4823"
+  },
+  {
+    "transaction_id": "TXN608",
+    "date": "2026-02-17",
+    "user_id": "U100",
+    "merchant": "Southwest Airlines",
+    "amount": -434.79,
+    "category": "Transportation",
+    "account_last_four": "9186"
+  },
+  {
+    "transaction_id": "TXN609",
+    "date": "2026-02-11",
+    "user_id": "U101",
+    "merchant": "Sephora",
+    "amount": -140.52,
+    "category": "Beauty",
+    "account_last_four": "3951"
+  },
+  {
+    "transaction_id": "TXN610",
+    "date": "2026-02-02",
+    "user_id": "U101",
+    "merchant": "Chevron",
+    "amount": -58.45,
+    "category": "Gas",
+    "account_last_four": "4690"
+  },
+  {
+    "transaction_id": "TXN611",
+    "date": "2026-02-28",
+    "user_id": "U101",
+    "merchant": "Lowe's",
+    "amount": -365.97,
+    "category": "Shopping",
+    "account_last_four": "7621"
+  },
+  {
+    "transaction_id": "TXN612",
+    "date": "2026-02-28",
+    "user_id": "U101",
+    "merchant": "Amtrak",
+    "amount": -290.46,
+    "category": "Transportation",
+    "account_last_four": "4690"
+  },
+  {
+    "transaction_id": "TXN613",
+    "date": "2026-02-04",
+    "user_id": "U101",
+    "merchant": "HBO Max",
+    "amount": -17.64,
+    "category": "Entertainment",
+    "account_last_four": "7621"
+  },
+  {
+    "transaction_id": "TXN614",
+    "date": "2026-02-13",
+    "user_id": "U102",
+    "merchant": "Walmart",
+    "amount": -134.92,
+    "category": "Shopping",
+    "account_last_four": "1564"
+  },
+  {
+    "transaction_id": "TXN615",
+    "date": "2026-02-24",
+    "user_id": "U102",
+    "merchant": "Enterprise",
+    "amount": -740.42,
+    "category": "Travel",
+    "account_last_four": "6542"
+  },
+  {
+    "transaction_id": "TXN616",
+    "date": "2026-02-22",
+    "user_id": "U102",
+    "merchant": "AT&T",
+    "amount": -196.67,
+    "category": "Utilities",
+    "account_last_four": "1564"
+  },
+  {
+    "transaction_id": "TXN617",
+    "date": "2026-02-08",
+    "user_id": "U102",
+    "merchant": "Apple Store",
+    "amount": -28.54,
+    "category": "Electronics",
+    "account_last_four": "6542"
+  },
+  {
+    "transaction_id": "TXN618",
+    "date": "2026-02-01",
+    "user_id": "U102",
+    "merchant": "PlayStation Store",
+    "amount": -63.79,
+    "category": "Entertainment",
+    "account_last_four": "6542"
+  },
+  {
+    "transaction_id": "TXN619",
+    "date": "2026-02-09",
+    "user_id": "U102",
+    "merchant": "Five Guys",
+    "amount": -37.24,
+    "category": "Food & Drink",
+    "account_last_four": "6542"
+  },
+  {
+    "transaction_id": "TXN620",
+    "date": "2026-02-09",
+    "user_id": "U103",
+    "merchant": "Costco",
+    "amount": -237.48,
+    "category": "Shopping",
+    "account_last_four": "8153"
+  },
+  {
+    "transaction_id": "TXN621",
+    "date": "2026-02-13",
+    "user_id": "U103",
+    "merchant": "Comcast",
+    "amount": -177.54,
+    "category": "Utilities",
+    "account_last_four": "7934"
+  },
+  {
+    "transaction_id": "TXN622",
+    "date": "2026-02-12",
+    "user_id": "U103",
+    "merchant": "Safeway",
+    "amount": -121.14,
+    "category": "Groceries",
+    "account_last_four": "1692"
+  },
+  {
+    "transaction_id": "TXN623",
+    "date": "2026-02-23",
+    "user_id": "U103",
+    "merchant": "PlayStation Store",
+    "amount": -53.26,
+    "category": "Entertainment",
+    "account_last_four": "7934"
+  },
+  {
+    "transaction_id": "TXN624",
+    "date": "2026-02-10",
+    "user_id": "U103",
+    "merchant": "Home Depot",
+    "amount": -493.12,
+    "category": "Shopping",
+    "account_last_four": "7934"
+  },
+  {
+    "transaction_id": "TXN625",
+    "date": "2026-03-01",
+    "user_id": "U104",
+    "merchant": "Ulta",
+    "amount": -160.88,
+    "category": "Beauty",
+    "account_last_four": "5214"
+  },
+  {
+    "transaction_id": "TXN626",
+    "date": "2026-02-03",
+    "user_id": "U104",
+    "merchant": "Publix",
+    "amount": -95.35,
+    "category": "Groceries",
+    "account_last_four": "5214"
+  },
+  {
+    "transaction_id": "TXN627",
+    "date": "2026-02-27",
+    "user_id": "U104",
+    "merchant": "Panera",
+    "amount": -10.66,
+    "category": "Food & Drink",
+    "account_last_four": "5214"
+  },
+  {
+    "transaction_id": "TXN628",
+    "date": "2026-02-25",
+    "user_id": "U104",
+    "merchant": "Sephora",
+    "amount": -246.2,
+    "category": "Beauty",
+    "account_last_four": "5214"
+  },
+  {
+    "transaction_id": "TXN629",
+    "date": "2026-02-03",
+    "user_id": "U104",
+    "merchant": "Home Depot",
+    "amount": -402.84,
+    "category": "Shopping",
+    "account_last_four": "5214"
+  },
+  {
+    "transaction_id": "TXN630",
+    "date": "2026-02-02",
+    "user_id": "U105",
+    "merchant": "Microsoft 365",
+    "amount": -43.4,
+    "category": "Software",
+    "account_last_four": "3467"
+  },
+  {
+    "transaction_id": "TXN631",
+    "date": "2026-02-14",
+    "user_id": "U105",
+    "merchant": "Uber Eats",
+    "amount": -13.54,
+    "category": "Food & Drink",
+    "account_last_four": "8382"
+  },
+  {
+    "transaction_id": "TXN632",
+    "date": "2026-02-02",
+    "user_id": "U105",
+    "merchant": "Airbnb",
+    "amount": -685.13,
+    "category": "Travel",
+    "account_last_four": "5982"
+  },
+  {
+    "transaction_id": "TXN633",
+    "date": "2026-02-22",
+    "user_id": "U105",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -52.43,
+    "category": "Software",
+    "account_last_four": "3384"
+  },
+  {
+    "transaction_id": "TXN634",
+    "date": "2026-02-03",
+    "user_id": "U105",
+    "merchant": "Microsoft Store",
+    "amount": -244.68,
+    "category": "Electronics",
+    "account_last_four": "5982"
+  },
+  {
+    "transaction_id": "TXN635",
+    "date": "2026-02-14",
+    "user_id": "U105",
+    "merchant": "Enterprise",
+    "amount": -186.61,
+    "category": "Travel",
+    "account_last_four": "3467"
+  },
+  {
+    "transaction_id": "TXN636",
+    "date": "2026-03-03",
+    "user_id": "U106",
+    "merchant": "Southwest Airlines",
+    "amount": -131.24,
+    "category": "Transportation",
+    "account_last_four": "1052"
+  },
+  {
+    "transaction_id": "TXN637",
+    "date": "2026-02-23",
+    "user_id": "U106",
+    "merchant": "T-Mobile",
+    "amount": -61.14,
+    "category": "Utilities",
+    "account_last_four": "8999"
+  },
+  {
+    "transaction_id": "TXN638",
+    "date": "2026-02-04",
+    "user_id": "U106",
+    "merchant": "MAC Cosmetics",
+    "amount": -244.33,
+    "category": "Beauty",
+    "account_last_four": "1052"
+  },
+  {
+    "transaction_id": "TXN639",
+    "date": "2026-02-06",
+    "user_id": "U106",
+    "merchant": "Lowe's",
+    "amount": -246.04,
+    "category": "Shopping",
+    "account_last_four": "1676"
+  },
+  {
+    "transaction_id": "TXN640",
+    "date": "2026-02-24",
+    "user_id": "U107",
+    "merchant": "Best Buy",
+    "amount": -54.02,
+    "category": "Electronics",
+    "account_last_four": "7467"
+  },
+  {
+    "transaction_id": "TXN641",
+    "date": "2026-02-07",
+    "user_id": "U107",
+    "merchant": "Delta Airlines",
+    "amount": -32.64,
+    "category": "Transportation",
+    "account_last_four": "9898"
+  },
+  {
+    "transaction_id": "TXN642",
+    "date": "2026-02-14",
+    "user_id": "U107",
+    "merchant": "Macy's",
+    "amount": -254.38,
+    "category": "Shopping",
+    "account_last_four": "1858"
+  },
+  {
+    "transaction_id": "TXN643",
+    "date": "2026-02-07",
+    "user_id": "U107",
+    "merchant": "Zoom",
+    "amount": -71.09,
+    "category": "Software",
+    "account_last_four": "6601"
+  },
+  {
+    "transaction_id": "TXN644",
+    "date": "2026-02-27",
+    "user_id": "U107",
+    "merchant": "Apple Store",
+    "amount": -76.96,
+    "category": "Electronics",
+    "account_last_four": "7467"
+  },
+  {
+    "transaction_id": "TXN645",
+    "date": "2026-02-05",
+    "user_id": "U107",
+    "merchant": "Microsoft Store",
+    "amount": -287.33,
+    "category": "Electronics",
+    "account_last_four": "1858"
+  },
+  {
+    "transaction_id": "TXN646",
+    "date": "2026-02-25",
+    "user_id": "U107",
+    "merchant": "Grubhub",
+    "amount": -29.62,
+    "category": "Food & Drink",
+    "account_last_four": "1858"
+  },
+  {
+    "transaction_id": "TXN647",
+    "date": "2026-02-04",
+    "user_id": "U108",
+    "merchant": "Hertz",
+    "amount": -792.73,
+    "category": "Travel",
+    "account_last_four": "3608"
+  },
+  {
+    "transaction_id": "TXN648",
+    "date": "2026-02-25",
+    "user_id": "U108",
+    "merchant": "LA Fitness",
+    "amount": -126.02,
+    "category": "Health & Fitness",
+    "account_last_four": "7507"
+  },
+  {
+    "transaction_id": "TXN649",
+    "date": "2026-02-18",
+    "user_id": "U108",
+    "merchant": "Walmart Grocery",
+    "amount": -131.14,
+    "category": "Groceries",
+    "account_last_four": "3608"
+  },
+  {
+    "transaction_id": "TXN650",
+    "date": "2026-02-13",
+    "user_id": "U108",
+    "merchant": "United Airlines",
+    "amount": -314.58,
+    "category": "Transportation",
+    "account_last_four": "3608"
+  },
+  {
+    "transaction_id": "TXN651",
+    "date": "2026-03-01",
+    "user_id": "U108",
+    "merchant": "Mobil",
+    "amount": -77.87,
+    "category": "Gas",
+    "account_last_four": "7507"
+  },
+  {
+    "transaction_id": "TXN652",
+    "date": "2026-02-22",
+    "user_id": "U108",
+    "merchant": "AT&T",
+    "amount": -82.25,
+    "category": "Utilities",
+    "account_last_four": "7507"
+  },
+  {
+    "transaction_id": "TXN653",
+    "date": "2026-02-12",
+    "user_id": "U109",
+    "merchant": "Kroger",
+    "amount": -182.56,
+    "category": "Groceries",
+    "account_last_four": "9660"
+  },
+  {
+    "transaction_id": "TXN654",
+    "date": "2026-03-03",
+    "user_id": "U109",
+    "merchant": "Enterprise",
+    "amount": -330.07,
+    "category": "Travel",
+    "account_last_four": "9660"
+  },
+  {
+    "transaction_id": "TXN655",
+    "date": "2026-02-17",
+    "user_id": "U109",
+    "merchant": "Walgreens",
+    "amount": -74.82,
+    "category": "Health & Fitness",
+    "account_last_four": "7365"
+  },
+  {
+    "transaction_id": "TXN656",
+    "date": "2026-02-01",
+    "user_id": "U109",
+    "merchant": "Ulta",
+    "amount": -89.06,
+    "category": "Beauty",
+    "account_last_four": "9660"
+  },
+  {
+    "transaction_id": "TXN657",
+    "date": "2026-02-17",
+    "user_id": "U110",
+    "merchant": "Target",
+    "amount": -377.73,
+    "category": "Shopping",
+    "account_last_four": "3944"
+  },
+  {
+    "transaction_id": "TXN658",
+    "date": "2026-02-05",
+    "user_id": "U110",
+    "merchant": "Best Buy",
+    "amount": -204.45,
+    "category": "Electronics",
+    "account_last_four": "6043"
+  },
+  {
+    "transaction_id": "TXN659",
+    "date": "2026-02-12",
+    "user_id": "U110",
+    "merchant": "MAC Cosmetics",
+    "amount": -230.36,
+    "category": "Beauty",
+    "account_last_four": "9827"
+  },
+  {
+    "transaction_id": "TXN660",
+    "date": "2026-02-17",
+    "user_id": "U110",
+    "merchant": "Enterprise",
+    "amount": -675.57,
+    "category": "Travel",
+    "account_last_four": "6043"
+  },
+  {
+    "transaction_id": "TXN661",
+    "date": "2026-02-12",
+    "user_id": "U110",
+    "merchant": "Uber",
+    "amount": -490.05,
+    "category": "Transportation",
+    "account_last_four": "3944"
+  },
+  {
+    "transaction_id": "TXN662",
+    "date": "2026-02-12",
+    "user_id": "U110",
+    "merchant": "GitHub",
+    "amount": -16.07,
+    "category": "Software",
+    "account_last_four": "6043"
+  },
+  {
+    "transaction_id": "TXN663",
+    "date": "2026-02-03",
+    "user_id": "U111",
+    "merchant": "CVS Pharmacy",
+    "amount": -141.05,
+    "category": "Health & Fitness",
+    "account_last_four": "4038"
+  },
+  {
+    "transaction_id": "TXN664",
+    "date": "2026-02-08",
+    "user_id": "U111",
+    "merchant": "Comcast",
+    "amount": -151.49,
+    "category": "Utilities",
+    "account_last_four": "2262"
+  },
+  {
+    "transaction_id": "TXN665",
+    "date": "2026-02-20",
+    "user_id": "U111",
+    "merchant": "Spectrum",
+    "amount": -107.83,
+    "category": "Utilities",
+    "account_last_four": "4038"
+  },
+  {
+    "transaction_id": "TXN666",
+    "date": "2026-02-24",
+    "user_id": "U111",
+    "merchant": "Starbucks",
+    "amount": -41.7,
+    "category": "Food & Drink",
+    "account_last_four": "2262"
+  },
+  {
+    "transaction_id": "TXN667",
+    "date": "2026-02-18",
+    "user_id": "U111",
+    "merchant": "Publix",
+    "amount": -72.28,
+    "category": "Groceries",
+    "account_last_four": "2262"
+  },
+  {
+    "transaction_id": "TXN668",
+    "date": "2026-02-05",
+    "user_id": "U111",
+    "merchant": "Uber Eats",
+    "amount": -56.38,
+    "category": "Food & Drink",
+    "account_last_four": "2262"
+  },
+  {
+    "transaction_id": "TXN669",
+    "date": "2026-02-27",
+    "user_id": "U112",
+    "merchant": "Zoom",
+    "amount": -64.41,
+    "category": "Software",
+    "account_last_four": "7849"
+  },
+  {
+    "transaction_id": "TXN670",
+    "date": "2026-02-07",
+    "user_id": "U112",
+    "merchant": "Grubhub",
+    "amount": -14.71,
+    "category": "Food & Drink",
+    "account_last_four": "6773"
+  },
+  {
+    "transaction_id": "TXN671",
+    "date": "2026-03-01",
+    "user_id": "U112",
+    "merchant": "Walmart",
+    "amount": -386.21,
+    "category": "Shopping",
+    "account_last_four": "7548"
+  },
+  {
+    "transaction_id": "TXN672",
+    "date": "2026-02-09",
+    "user_id": "U112",
+    "merchant": "Dropbox",
+    "amount": -16.27,
+    "category": "Software",
+    "account_last_four": "3806"
+  },
+  {
+    "transaction_id": "TXN673",
+    "date": "2026-02-04",
+    "user_id": "U112",
+    "merchant": "Microsoft Store",
+    "amount": -214.3,
+    "category": "Electronics",
+    "account_last_four": "7849"
+  },
+  {
+    "transaction_id": "TXN674",
+    "date": "2026-02-26",
+    "user_id": "U112",
+    "merchant": "Amtrak",
+    "amount": -315.07,
+    "category": "Transportation",
+    "account_last_four": "3021"
+  },
+  {
+    "transaction_id": "TXN675",
+    "date": "2026-02-21",
+    "user_id": "U112",
+    "merchant": "Mobil",
+    "amount": -77.55,
+    "category": "Gas",
+    "account_last_four": "6773"
+  },
+  {
+    "transaction_id": "TXN676",
+    "date": "2026-02-01",
+    "user_id": "U112",
+    "merchant": "Whole Foods",
+    "amount": -84.26,
+    "category": "Groceries",
+    "account_last_four": "7548"
+  },
+  {
+    "transaction_id": "TXN677",
+    "date": "2026-02-13",
+    "user_id": "U113",
+    "merchant": "Hulu",
+    "amount": -46.51,
+    "category": "Entertainment",
+    "account_last_four": "2162"
+  },
+  {
+    "transaction_id": "TXN678",
+    "date": "2026-02-21",
+    "user_id": "U113",
+    "merchant": "Marriott",
+    "amount": -532.21,
+    "category": "Travel",
+    "account_last_four": "4215"
+  },
+  {
+    "transaction_id": "TXN679",
+    "date": "2026-02-19",
+    "user_id": "U113",
+    "merchant": "Walgreens",
+    "amount": -43.26,
+    "category": "Health & Fitness",
+    "account_last_four": "8935"
+  },
+  {
+    "transaction_id": "TXN680",
+    "date": "2026-02-20",
+    "user_id": "U113",
+    "merchant": "Microsoft 365",
+    "amount": -28.7,
+    "category": "Software",
+    "account_last_four": "1725"
+  },
+  {
+    "transaction_id": "TXN681",
+    "date": "2026-02-10",
+    "user_id": "U113",
+    "merchant": "Panera",
+    "amount": -52.03,
+    "category": "Food & Drink",
+    "account_last_four": "4590"
+  },
+  {
+    "transaction_id": "TXN682",
+    "date": "2026-02-20",
+    "user_id": "U114",
+    "merchant": "Amtrak",
+    "amount": -566.37,
+    "category": "Transportation",
+    "account_last_four": "9739"
+  },
+  {
+    "transaction_id": "TXN683",
+    "date": "2026-03-02",
+    "user_id": "U114",
+    "merchant": "Home Depot",
+    "amount": -128.58,
+    "category": "Shopping",
+    "account_last_four": "9739"
+  },
+  {
+    "transaction_id": "TXN684",
+    "date": "2026-02-12",
+    "user_id": "U114",
+    "merchant": "Apple Store",
+    "amount": -97.3,
+    "category": "Electronics",
+    "account_last_four": "4122"
+  },
+  {
+    "transaction_id": "TXN685",
+    "date": "2026-02-27",
+    "user_id": "U114",
+    "merchant": "Subway",
+    "amount": -25.56,
+    "category": "Food & Drink",
+    "account_last_four": "9739"
+  },
+  {
+    "transaction_id": "TXN686",
+    "date": "2026-02-14",
+    "user_id": "U115",
+    "merchant": "Home Depot",
+    "amount": -459.0,
+    "category": "Shopping",
+    "account_last_four": "5262"
+  },
+  {
+    "transaction_id": "TXN687",
+    "date": "2026-02-06",
+    "user_id": "U115",
+    "merchant": "Apple Store",
+    "amount": -76.85,
+    "category": "Electronics",
+    "account_last_four": "6133"
+  },
+  {
+    "transaction_id": "TXN688",
+    "date": "2026-02-13",
+    "user_id": "U115",
+    "merchant": "Disney+",
+    "amount": -20.97,
+    "category": "Entertainment",
+    "account_last_four": "3092"
+  },
+  {
+    "transaction_id": "TXN689",
+    "date": "2026-02-25",
+    "user_id": "U115",
+    "merchant": "Exxon",
+    "amount": -42.74,
+    "category": "Gas",
+    "account_last_four": "3092"
+  },
+  {
+    "transaction_id": "TXN690",
+    "date": "2026-02-28",
+    "user_id": "U116",
+    "merchant": "Five Guys",
+    "amount": -38.45,
+    "category": "Food & Drink",
+    "account_last_four": "1409"
+  },
+  {
+    "transaction_id": "TXN691",
+    "date": "2026-03-01",
+    "user_id": "U116",
+    "merchant": "Orangetheory",
+    "amount": -54.78,
+    "category": "Health & Fitness",
+    "account_last_four": "1976"
+  },
+  {
+    "transaction_id": "TXN692",
+    "date": "2026-02-19",
+    "user_id": "U116",
+    "merchant": "Southwest Airlines",
+    "amount": -547.81,
+    "category": "Transportation",
+    "account_last_four": "1409"
+  },
+  {
+    "transaction_id": "TXN693",
+    "date": "2026-02-27",
+    "user_id": "U116",
+    "merchant": "Arco",
+    "amount": -83.39,
+    "category": "Gas",
+    "account_last_four": "2694"
+  },
+  {
+    "transaction_id": "TXN694",
+    "date": "2026-02-18",
+    "user_id": "U116",
+    "merchant": "Marriott",
+    "amount": -690.5,
+    "category": "Travel",
+    "account_last_four": "3237"
+  },
+  {
+    "transaction_id": "TXN695",
+    "date": "2026-02-04",
+    "user_id": "U116",
+    "merchant": "Lowe's",
+    "amount": -424.67,
+    "category": "Shopping",
+    "account_last_four": "2989"
+  },
+  {
+    "transaction_id": "TXN696",
+    "date": "2026-02-12",
+    "user_id": "U116",
+    "merchant": "Hertz",
+    "amount": -517.91,
+    "category": "Travel",
+    "account_last_four": "1409"
+  },
+  {
+    "transaction_id": "TXN697",
+    "date": "2026-02-21",
+    "user_id": "U117",
+    "merchant": "United Airlines",
+    "amount": -449.89,
+    "category": "Transportation",
+    "account_last_four": "5660"
+  },
+  {
+    "transaction_id": "TXN698",
+    "date": "2026-03-03",
+    "user_id": "U117",
+    "merchant": "Microsoft 365",
+    "amount": -98.78,
+    "category": "Software",
+    "account_last_four": "6174"
+  },
+  {
+    "transaction_id": "TXN699",
+    "date": "2026-02-11",
+    "user_id": "U117",
+    "merchant": "Spotify",
+    "amount": -67.22,
+    "category": "Entertainment",
+    "account_last_four": "5660"
+  },
+  {
+    "transaction_id": "TXN700",
+    "date": "2026-02-13",
+    "user_id": "U117",
+    "merchant": "Spectrum",
+    "amount": -129.4,
+    "category": "Utilities",
+    "account_last_four": "5660"
+  },
+  {
+    "transaction_id": "TXN701",
+    "date": "2026-02-11",
+    "user_id": "U118",
+    "merchant": "Netflix",
+    "amount": -27.77,
+    "category": "Entertainment",
+    "account_last_four": "5001"
+  },
+  {
+    "transaction_id": "TXN702",
+    "date": "2026-02-11",
+    "user_id": "U118",
+    "merchant": "SoulCycle",
+    "amount": -149.75,
+    "category": "Health & Fitness",
+    "account_last_four": "5001"
+  },
+  {
+    "transaction_id": "TXN703",
+    "date": "2026-02-23",
+    "user_id": "U118",
+    "merchant": "Airbnb",
+    "amount": -525.85,
+    "category": "Travel",
+    "account_last_four": "5001"
+  },
+  {
+    "transaction_id": "TXN704",
+    "date": "2026-02-06",
+    "user_id": "U118",
+    "merchant": "Microsoft 365",
+    "amount": -48.69,
+    "category": "Software",
+    "account_last_four": "5001"
+  },
+  {
+    "transaction_id": "TXN705",
+    "date": "2026-02-01",
+    "user_id": "U118",
+    "merchant": "DoorDash",
+    "amount": -41.08,
+    "category": "Food & Drink",
+    "account_last_four": "5001"
+  },
+  {
+    "transaction_id": "TXN706",
+    "date": "2026-03-02",
+    "user_id": "U118",
+    "merchant": "Subway",
+    "amount": -24.71,
+    "category": "Food & Drink",
+    "account_last_four": "5001"
+  },
+  {
+    "transaction_id": "TXN707",
+    "date": "2026-02-28",
+    "user_id": "U119",
+    "merchant": "Comcast",
+    "amount": -65.93,
+    "category": "Utilities",
+    "account_last_four": "1422"
+  },
+  {
+    "transaction_id": "TXN708",
+    "date": "2026-02-08",
+    "user_id": "U119",
+    "merchant": "GitHub",
+    "amount": -52.38,
+    "category": "Software",
+    "account_last_four": "1422"
+  },
+  {
+    "transaction_id": "TXN709",
+    "date": "2026-02-10",
+    "user_id": "U119",
+    "merchant": "Target",
+    "amount": -34.72,
+    "category": "Groceries",
+    "account_last_four": "6270"
+  },
+  {
+    "transaction_id": "TXN710",
+    "date": "2026-02-08",
+    "user_id": "U119",
+    "merchant": "Sephora",
+    "amount": -225.97,
+    "category": "Beauty",
+    "account_last_four": "6270"
+  },
+  {
+    "transaction_id": "TXN711",
+    "date": "2026-02-14",
+    "user_id": "U119",
+    "merchant": "Grubhub",
+    "amount": -37.34,
+    "category": "Food & Drink",
+    "account_last_four": "7530"
+  },
+  {
+    "transaction_id": "TXN712",
+    "date": "2026-02-11",
+    "user_id": "U119",
+    "merchant": "Zoom",
+    "amount": -72.5,
+    "category": "Software",
+    "account_last_four": "6270"
+  },
+  {
+    "transaction_id": "TXN713",
+    "date": "2026-02-18",
+    "user_id": "U120",
+    "merchant": "Publix",
+    "amount": -145.65,
+    "category": "Groceries",
+    "account_last_four": "7074"
+  },
+  {
+    "transaction_id": "TXN714",
+    "date": "2026-02-08",
+    "user_id": "U120",
+    "merchant": "Marriott",
+    "amount": -396.21,
+    "category": "Travel",
+    "account_last_four": "1260"
+  },
+  {
+    "transaction_id": "TXN715",
+    "date": "2026-02-20",
+    "user_id": "U120",
+    "merchant": "Ulta",
+    "amount": -278.78,
+    "category": "Beauty",
+    "account_last_four": "8819"
+  },
+  {
+    "transaction_id": "TXN716",
+    "date": "2026-02-19",
+    "user_id": "U120",
+    "merchant": "Slack",
+    "amount": -89.99,
+    "category": "Software",
+    "account_last_four": "7074"
+  },
+  {
+    "transaction_id": "TXN717",
+    "date": "2026-02-24",
+    "user_id": "U120",
+    "merchant": "Hilton",
+    "amount": -523.66,
+    "category": "Travel",
+    "account_last_four": "1260"
+  },
+  {
+    "transaction_id": "TXN718",
+    "date": "2026-02-06",
+    "user_id": "U120",
+    "merchant": "Enterprise",
+    "amount": -549.94,
+    "category": "Travel",
+    "account_last_four": "1260"
+  },
+  {
+    "transaction_id": "TXN719",
+    "date": "2026-02-08",
+    "user_id": "U120",
+    "merchant": "Arco",
+    "amount": -84.88,
+    "category": "Gas",
+    "account_last_four": "1260"
+  },
+  {
+    "transaction_id": "TXN720",
+    "date": "2026-02-02",
+    "user_id": "U121",
+    "merchant": "Shell",
+    "amount": -56.03,
+    "category": "Gas",
+    "account_last_four": "5861"
+  },
+  {
+    "transaction_id": "TXN721",
+    "date": "2026-02-22",
+    "user_id": "U121",
+    "merchant": "MAC Cosmetics",
+    "amount": -279.21,
+    "category": "Beauty",
+    "account_last_four": "8642"
+  },
+  {
+    "transaction_id": "TXN722",
+    "date": "2026-02-28",
+    "user_id": "U121",
+    "merchant": "Uber",
+    "amount": -102.6,
+    "category": "Transportation",
+    "account_last_four": "8642"
+  },
+  {
+    "transaction_id": "TXN723",
+    "date": "2026-02-09",
+    "user_id": "U121",
+    "merchant": "Best Buy",
+    "amount": -246.81,
+    "category": "Electronics",
+    "account_last_four": "6440"
+  },
+  {
+    "transaction_id": "TXN724",
+    "date": "2026-02-27",
+    "user_id": "U121",
+    "merchant": "Verizon",
+    "amount": -62.62,
+    "category": "Utilities",
+    "account_last_four": "8642"
+  },
+  {
+    "transaction_id": "TXN725",
+    "date": "2026-02-25",
+    "user_id": "U121",
+    "merchant": "Publix",
+    "amount": -144.82,
+    "category": "Groceries",
+    "account_last_four": "9456"
+  },
+  {
+    "transaction_id": "TXN726",
+    "date": "2026-02-03",
+    "user_id": "U121",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -52.37,
+    "category": "Software",
+    "account_last_four": "5861"
+  },
+  {
+    "transaction_id": "TXN727",
+    "date": "2026-02-18",
+    "user_id": "U121",
+    "merchant": "Costco",
+    "amount": -272.51,
+    "category": "Shopping",
+    "account_last_four": "9456"
+  },
+  {
+    "transaction_id": "TXN728",
+    "date": "2026-02-09",
+    "user_id": "U122",
+    "merchant": "Spotify",
+    "amount": -44.85,
+    "category": "Entertainment",
+    "account_last_four": "6404"
+  },
+  {
+    "transaction_id": "TXN729",
+    "date": "2026-02-09",
+    "user_id": "U122",
+    "merchant": "McDonald's",
+    "amount": -24.29,
+    "category": "Food & Drink",
+    "account_last_four": "8610"
+  },
+  {
+    "transaction_id": "TXN730",
+    "date": "2026-02-15",
+    "user_id": "U122",
+    "merchant": "Peloton",
+    "amount": -50.28,
+    "category": "Health & Fitness",
+    "account_last_four": "8610"
+  },
+  {
+    "transaction_id": "TXN731",
+    "date": "2026-03-02",
+    "user_id": "U122",
+    "merchant": "Chipotle",
+    "amount": -17.39,
+    "category": "Food & Drink",
+    "account_last_four": "6404"
+  },
+  {
+    "transaction_id": "TXN732",
+    "date": "2026-02-26",
+    "user_id": "U122",
+    "merchant": "Planet Fitness",
+    "amount": -189.3,
+    "category": "Health & Fitness",
+    "account_last_four": "6404"
+  },
+  {
+    "transaction_id": "TXN733",
+    "date": "2026-02-28",
+    "user_id": "U122",
+    "merchant": "Mobil",
+    "amount": -56.6,
+    "category": "Gas",
+    "account_last_four": "6404"
+  },
+  {
+    "transaction_id": "TXN734",
+    "date": "2026-02-19",
+    "user_id": "U122",
+    "merchant": "Orangetheory",
+    "amount": -60.16,
+    "category": "Health & Fitness",
+    "account_last_four": "8610"
+  },
+  {
+    "transaction_id": "TXN735",
+    "date": "2026-02-26",
+    "user_id": "U122",
+    "merchant": "Spectrum",
+    "amount": -161.48,
+    "category": "Utilities",
+    "account_last_four": "8610"
+  },
+  {
+    "transaction_id": "TXN736",
+    "date": "2026-03-03",
+    "user_id": "U123",
+    "merchant": "AT&T",
+    "amount": -121.59,
+    "category": "Utilities",
+    "account_last_four": "7710"
+  },
+  {
+    "transaction_id": "TXN737",
+    "date": "2026-02-05",
+    "user_id": "U123",
+    "merchant": "Microsoft Store",
+    "amount": -294.92,
+    "category": "Electronics",
+    "account_last_four": "7710"
+  },
+  {
+    "transaction_id": "TXN738",
+    "date": "2026-02-07",
+    "user_id": "U123",
+    "merchant": "Subway",
+    "amount": -15.56,
+    "category": "Food & Drink",
+    "account_last_four": "3292"
+  },
+  {
+    "transaction_id": "TXN739",
+    "date": "2026-02-23",
+    "user_id": "U123",
+    "merchant": "Exxon",
+    "amount": -85.53,
+    "category": "Gas",
+    "account_last_four": "3292"
+  },
+  {
+    "transaction_id": "TXN740",
+    "date": "2026-02-04",
+    "user_id": "U124",
+    "merchant": "HBO Max",
+    "amount": -58.24,
+    "category": "Entertainment",
+    "account_last_four": "4520"
+  },
+  {
+    "transaction_id": "TXN741",
+    "date": "2026-02-11",
+    "user_id": "U124",
+    "merchant": "Shell",
+    "amount": -48.45,
+    "category": "Gas",
+    "account_last_four": "3898"
+  },
+  {
+    "transaction_id": "TXN742",
+    "date": "2026-02-07",
+    "user_id": "U124",
+    "merchant": "Walmart",
+    "amount": -92.71,
+    "category": "Shopping",
+    "account_last_four": "2068"
+  },
+  {
+    "transaction_id": "TXN743",
+    "date": "2026-02-21",
+    "user_id": "U124",
+    "merchant": "Amtrak",
+    "amount": -194.67,
+    "category": "Transportation",
+    "account_last_four": "2068"
+  },
+  {
+    "transaction_id": "TXN744",
+    "date": "2026-02-17",
+    "user_id": "U124",
+    "merchant": "Orangetheory",
+    "amount": -177.28,
+    "category": "Health & Fitness",
+    "account_last_four": "2068"
+  },
+  {
+    "transaction_id": "TXN745",
+    "date": "2026-02-17",
+    "user_id": "U124",
+    "merchant": "Microsoft 365",
+    "amount": -45.32,
+    "category": "Software",
+    "account_last_four": "3898"
+  },
+  {
+    "transaction_id": "TXN746",
+    "date": "2026-02-28",
+    "user_id": "U124",
+    "merchant": "Microsoft Store",
+    "amount": -277.81,
+    "category": "Electronics",
+    "account_last_four": "9394"
+  },
+  {
+    "transaction_id": "TXN747",
+    "date": "2026-02-19",
+    "user_id": "U125",
+    "merchant": "Nordstrom",
+    "amount": -200.06,
+    "category": "Shopping",
+    "account_last_four": "1831"
+  },
+  {
+    "transaction_id": "TXN748",
+    "date": "2026-02-05",
+    "user_id": "U125",
+    "merchant": "LA Fitness",
+    "amount": -41.21,
+    "category": "Health & Fitness",
+    "account_last_four": "7614"
+  },
+  {
+    "transaction_id": "TXN749",
+    "date": "2026-02-17",
+    "user_id": "U125",
+    "merchant": "Zoom",
+    "amount": -77.5,
+    "category": "Software",
+    "account_last_four": "1831"
+  },
+  {
+    "transaction_id": "TXN750",
+    "date": "2026-02-18",
+    "user_id": "U125",
+    "merchant": "Dropbox",
+    "amount": -70.52,
+    "category": "Software",
+    "account_last_four": "7614"
+  },
+  {
+    "transaction_id": "TXN751",
+    "date": "2026-02-21",
+    "user_id": "U125",
+    "merchant": "Enterprise",
+    "amount": -412.56,
+    "category": "Travel",
+    "account_last_four": "1831"
+  },
+  {
+    "transaction_id": "TXN752",
+    "date": "2026-02-16",
+    "user_id": "U125",
+    "merchant": "PG&E",
+    "amount": -85.51,
+    "category": "Utilities",
+    "account_last_four": "7593"
+  },
+  {
+    "transaction_id": "TXN753",
+    "date": "2026-02-11",
+    "user_id": "U126",
+    "merchant": "LA Fitness",
+    "amount": -130.95,
+    "category": "Health & Fitness",
+    "account_last_four": "9857"
+  },
+  {
+    "transaction_id": "TXN754",
+    "date": "2026-02-20",
+    "user_id": "U126",
+    "merchant": "Uber Eats",
+    "amount": -13.83,
+    "category": "Food & Drink",
+    "account_last_four": "4007"
+  },
+  {
+    "transaction_id": "TXN755",
+    "date": "2026-02-12",
+    "user_id": "U126",
+    "merchant": "Lowe's",
+    "amount": -361.74,
+    "category": "Shopping",
+    "account_last_four": "3289"
+  },
+  {
+    "transaction_id": "TXN756",
+    "date": "2026-02-08",
+    "user_id": "U126",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -67.09,
+    "category": "Software",
+    "account_last_four": "1578"
+  },
+  {
+    "transaction_id": "TXN757",
+    "date": "2026-02-01",
+    "user_id": "U126",
+    "merchant": "Trader Joe's",
+    "amount": -92.87,
+    "category": "Groceries",
+    "account_last_four": "5010"
+  },
+  {
+    "transaction_id": "TXN758",
+    "date": "2026-03-02",
+    "user_id": "U126",
+    "merchant": "Hulu",
+    "amount": -6.36,
+    "category": "Entertainment",
+    "account_last_four": "9857"
+  },
+  {
+    "transaction_id": "TXN759",
+    "date": "2026-02-26",
+    "user_id": "U126",
+    "merchant": "Orangetheory",
+    "amount": -47.47,
+    "category": "Health & Fitness",
+    "account_last_four": "4007"
+  },
+  {
+    "transaction_id": "TXN760",
+    "date": "2026-02-18",
+    "user_id": "U126",
+    "merchant": "United Airlines",
+    "amount": -597.55,
+    "category": "Transportation",
+    "account_last_four": "1578"
+  },
+  {
+    "transaction_id": "TXN761",
+    "date": "2026-02-21",
+    "user_id": "U127",
+    "merchant": "BP",
+    "amount": -32.2,
+    "category": "Gas",
+    "account_last_four": "5673"
+  },
+  {
+    "transaction_id": "TXN762",
+    "date": "2026-02-12",
+    "user_id": "U127",
+    "merchant": "CVS Pharmacy",
+    "amount": -81.47,
+    "category": "Health & Fitness",
+    "account_last_four": "5673"
+  },
+  {
+    "transaction_id": "TXN763",
+    "date": "2026-03-03",
+    "user_id": "U127",
+    "merchant": "Macy's",
+    "amount": -287.1,
+    "category": "Shopping",
+    "account_last_four": "7277"
+  },
+  {
+    "transaction_id": "TXN764",
+    "date": "2026-02-12",
+    "user_id": "U127",
+    "merchant": "Southwest Airlines",
+    "amount": -95.38,
+    "category": "Transportation",
+    "account_last_four": "7277"
+  },
+  {
+    "transaction_id": "TXN765",
+    "date": "2026-02-27",
+    "user_id": "U127",
+    "merchant": "Peloton",
+    "amount": -120.75,
+    "category": "Health & Fitness",
+    "account_last_four": "7277"
+  },
+  {
+    "transaction_id": "TXN766",
+    "date": "2026-02-17",
+    "user_id": "U127",
+    "merchant": "Whole Foods",
+    "amount": -100.4,
+    "category": "Groceries",
+    "account_last_four": "7277"
+  },
+  {
+    "transaction_id": "TXN767",
+    "date": "2026-02-01",
+    "user_id": "U127",
+    "merchant": "GitHub",
+    "amount": -44.9,
+    "category": "Software",
+    "account_last_four": "5673"
+  },
+  {
+    "transaction_id": "TXN768",
+    "date": "2026-02-23",
+    "user_id": "U128",
+    "merchant": "Enterprise",
+    "amount": -255.08,
+    "category": "Travel",
+    "account_last_four": "5491"
+  },
+  {
+    "transaction_id": "TXN769",
+    "date": "2026-02-26",
+    "user_id": "U128",
+    "merchant": "Netflix",
+    "amount": -27.69,
+    "category": "Entertainment",
+    "account_last_four": "2646"
+  },
+  {
+    "transaction_id": "TXN770",
+    "date": "2026-02-20",
+    "user_id": "U128",
+    "merchant": "Grubhub",
+    "amount": -43.53,
+    "category": "Food & Drink",
+    "account_last_four": "5491"
+  },
+  {
+    "transaction_id": "TXN771",
+    "date": "2026-02-11",
+    "user_id": "U128",
+    "merchant": "Costco",
+    "amount": -74.91,
+    "category": "Shopping",
+    "account_last_four": "7167"
+  },
+  {
+    "transaction_id": "TXN772",
+    "date": "2026-02-07",
+    "user_id": "U128",
+    "merchant": "Mobil",
+    "amount": -32.02,
+    "category": "Gas",
+    "account_last_four": "2646"
+  },
+  {
+    "transaction_id": "TXN773",
+    "date": "2026-02-15",
+    "user_id": "U129",
+    "merchant": "Exxon",
+    "amount": -39.64,
+    "category": "Gas",
+    "account_last_four": "5323"
+  },
+  {
+    "transaction_id": "TXN774",
+    "date": "2026-02-06",
+    "user_id": "U129",
+    "merchant": "AT&T",
+    "amount": -65.32,
+    "category": "Utilities",
+    "account_last_four": "5796"
+  },
+  {
+    "transaction_id": "TXN775",
+    "date": "2026-02-23",
+    "user_id": "U129",
+    "merchant": "McDonald's",
+    "amount": -20.0,
+    "category": "Food & Drink",
+    "account_last_four": "7729"
+  },
+  {
+    "transaction_id": "TXN776",
+    "date": "2026-03-03",
+    "user_id": "U129",
+    "merchant": "Marriott",
+    "amount": -211.07,
+    "category": "Travel",
+    "account_last_four": "5323"
+  },
+  {
+    "transaction_id": "TXN777",
+    "date": "2026-02-15",
+    "user_id": "U129",
+    "merchant": "Dropbox",
+    "amount": -89.66,
+    "category": "Software",
+    "account_last_four": "5323"
+  },
+  {
+    "transaction_id": "TXN778",
+    "date": "2026-02-25",
+    "user_id": "U129",
+    "merchant": "Grubhub",
+    "amount": -58.52,
+    "category": "Food & Drink",
+    "account_last_four": "5796"
+  },
+  {
+    "transaction_id": "TXN779",
+    "date": "2026-02-22",
+    "user_id": "U129",
+    "merchant": "Orangetheory",
+    "amount": -38.78,
+    "category": "Health & Fitness",
+    "account_last_four": "7729"
+  },
+  {
+    "transaction_id": "TXN780",
+    "date": "2026-02-28",
+    "user_id": "U129",
+    "merchant": "Best Buy",
+    "amount": -84.69,
+    "category": "Electronics",
+    "account_last_four": "5796"
+  },
+  {
+    "transaction_id": "TXN781",
+    "date": "2026-03-01",
+    "user_id": "U130",
+    "merchant": "Grubhub",
+    "amount": -29.22,
+    "category": "Food & Drink",
+    "account_last_four": "2517"
+  },
+  {
+    "transaction_id": "TXN782",
+    "date": "2026-02-10",
+    "user_id": "U130",
+    "merchant": "T-Mobile",
+    "amount": -156.31,
+    "category": "Utilities",
+    "account_last_four": "9786"
+  },
+  {
+    "transaction_id": "TXN783",
+    "date": "2026-02-01",
+    "user_id": "U130",
+    "merchant": "Starbucks",
+    "amount": -12.77,
+    "category": "Food & Drink",
+    "account_last_four": "1294"
+  },
+  {
+    "transaction_id": "TXN784",
+    "date": "2026-03-02",
+    "user_id": "U130",
+    "merchant": "Netflix",
+    "amount": -58.86,
+    "category": "Entertainment",
+    "account_last_four": "2517"
+  },
+  {
+    "transaction_id": "TXN785",
+    "date": "2026-02-13",
+    "user_id": "U130",
+    "merchant": "Apple Music",
+    "amount": -63.58,
+    "category": "Entertainment",
+    "account_last_four": "6526"
+  },
+  {
+    "transaction_id": "TXN786",
+    "date": "2026-02-20",
+    "user_id": "U131",
+    "merchant": "Comcast",
+    "amount": -116.75,
+    "category": "Utilities",
+    "account_last_four": "6482"
+  },
+  {
+    "transaction_id": "TXN787",
+    "date": "2026-02-04",
+    "user_id": "U131",
+    "merchant": "Target",
+    "amount": -178.88,
+    "category": "Shopping",
+    "account_last_four": "1224"
+  },
+  {
+    "transaction_id": "TXN788",
+    "date": "2026-02-03",
+    "user_id": "U131",
+    "merchant": "Mobil",
+    "amount": -47.05,
+    "category": "Gas",
+    "account_last_four": "1224"
+  },
+  {
+    "transaction_id": "TXN789",
+    "date": "2026-02-25",
+    "user_id": "U131",
+    "merchant": "Amtrak",
+    "amount": -97.11,
+    "category": "Transportation",
+    "account_last_four": "6482"
+  },
+  {
+    "transaction_id": "TXN790",
+    "date": "2026-02-26",
+    "user_id": "U131",
+    "merchant": "Best Buy",
+    "amount": -194.1,
+    "category": "Electronics",
+    "account_last_four": "6482"
+  },
+  {
+    "transaction_id": "TXN791",
+    "date": "2026-02-17",
+    "user_id": "U131",
+    "merchant": "Verizon",
+    "amount": -162.17,
+    "category": "Utilities",
+    "account_last_four": "1224"
+  },
+  {
+    "transaction_id": "TXN792",
+    "date": "2026-02-17",
+    "user_id": "U131",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -82.01,
+    "category": "Software",
+    "account_last_four": "8394"
+  },
+  {
+    "transaction_id": "TXN793",
+    "date": "2026-02-04",
+    "user_id": "U132",
+    "merchant": "Slack",
+    "amount": -92.04,
+    "category": "Software",
+    "account_last_four": "9918"
+  },
+  {
+    "transaction_id": "TXN794",
+    "date": "2026-02-04",
+    "user_id": "U132",
+    "merchant": "Airbnb",
+    "amount": -122.5,
+    "category": "Travel",
+    "account_last_four": "7695"
+  },
+  {
+    "transaction_id": "TXN795",
+    "date": "2026-02-20",
+    "user_id": "U132",
+    "merchant": "Sephora",
+    "amount": -289.04,
+    "category": "Beauty",
+    "account_last_four": "9918"
+  },
+  {
+    "transaction_id": "TXN796",
+    "date": "2026-02-02",
+    "user_id": "U132",
+    "merchant": "Comcast",
+    "amount": -64.05,
+    "category": "Utilities",
+    "account_last_four": "9778"
+  },
+  {
+    "transaction_id": "TXN797",
+    "date": "2026-02-14",
+    "user_id": "U132",
+    "merchant": "Amtrak",
+    "amount": -28.67,
+    "category": "Transportation",
+    "account_last_four": "7695"
+  },
+  {
+    "transaction_id": "TXN798",
+    "date": "2026-02-15",
+    "user_id": "U132",
+    "merchant": "PG&E",
+    "amount": -125.42,
+    "category": "Utilities",
+    "account_last_four": "3382"
+  },
+  {
+    "transaction_id": "TXN799",
+    "date": "2026-02-09",
+    "user_id": "U133",
+    "merchant": "Orangetheory",
+    "amount": -30.85,
+    "category": "Health & Fitness",
+    "account_last_four": "8285"
+  },
+  {
+    "transaction_id": "TXN800",
+    "date": "2026-02-05",
+    "user_id": "U133",
+    "merchant": "Lyft",
+    "amount": -107.23,
+    "category": "Transportation",
+    "account_last_four": "5877"
+  },
+  {
+    "transaction_id": "TXN801",
+    "date": "2026-02-17",
+    "user_id": "U133",
+    "merchant": "Best Buy",
+    "amount": -193.15,
+    "category": "Electronics",
+    "account_last_four": "9532"
+  },
+  {
+    "transaction_id": "TXN802",
+    "date": "2026-02-25",
+    "user_id": "U133",
+    "merchant": "Hilton",
+    "amount": -625.06,
+    "category": "Travel",
+    "account_last_four": "6588"
+  },
+  {
+    "transaction_id": "TXN803",
+    "date": "2026-03-01",
+    "user_id": "U134",
+    "merchant": "Booking.com",
+    "amount": -762.24,
+    "category": "Travel",
+    "account_last_four": "5071"
+  },
+  {
+    "transaction_id": "TXN804",
+    "date": "2026-02-06",
+    "user_id": "U134",
+    "merchant": "SoulCycle",
+    "amount": -185.29,
+    "category": "Health & Fitness",
+    "account_last_four": "8160"
+  },
+  {
+    "transaction_id": "TXN805",
+    "date": "2026-03-01",
+    "user_id": "U134",
+    "merchant": "Apple Store",
+    "amount": -295.27,
+    "category": "Electronics",
+    "account_last_four": "5071"
+  },
+  {
+    "transaction_id": "TXN806",
+    "date": "2026-02-09",
+    "user_id": "U134",
+    "merchant": "MAC Cosmetics",
+    "amount": -126.7,
+    "category": "Beauty",
+    "account_last_four": "5071"
+  },
+  {
+    "transaction_id": "TXN807",
+    "date": "2026-02-08",
+    "user_id": "U134",
+    "merchant": "Lyft",
+    "amount": -592.04,
+    "category": "Transportation",
+    "account_last_four": "8160"
+  },
+  {
+    "transaction_id": "TXN808",
+    "date": "2026-02-13",
+    "user_id": "U134",
+    "merchant": "Spectrum",
+    "amount": -145.85,
+    "category": "Utilities",
+    "account_last_four": "5071"
+  },
+  {
+    "transaction_id": "TXN809",
+    "date": "2026-02-08",
+    "user_id": "U135",
+    "merchant": "76",
+    "amount": -33.57,
+    "category": "Gas",
+    "account_last_four": "5811"
+  },
+  {
+    "transaction_id": "TXN810",
+    "date": "2026-02-28",
+    "user_id": "U135",
+    "merchant": "Enterprise",
+    "amount": -699.56,
+    "category": "Travel",
+    "account_last_four": "1123"
+  },
+  {
+    "transaction_id": "TXN811",
+    "date": "2026-03-02",
+    "user_id": "U135",
+    "merchant": "Walgreens",
+    "amount": -95.02,
+    "category": "Health & Fitness",
+    "account_last_four": "5811"
+  },
+  {
+    "transaction_id": "TXN812",
+    "date": "2026-02-25",
+    "user_id": "U135",
+    "merchant": "Orangetheory",
+    "amount": -31.62,
+    "category": "Health & Fitness",
+    "account_last_four": "5811"
+  },
+  {
+    "transaction_id": "TXN813",
+    "date": "2026-02-06",
+    "user_id": "U135",
+    "merchant": "MAC Cosmetics",
+    "amount": -124.86,
+    "category": "Beauty",
+    "account_last_four": "5811"
+  },
+  {
+    "transaction_id": "TXN814",
+    "date": "2026-02-12",
+    "user_id": "U135",
+    "merchant": "Spectrum",
+    "amount": -99.42,
+    "category": "Utilities",
+    "account_last_four": "5811"
+  },
+  {
+    "transaction_id": "TXN815",
+    "date": "2026-02-04",
+    "user_id": "U135",
+    "merchant": "Costco",
+    "amount": -429.32,
+    "category": "Shopping",
+    "account_last_four": "5811"
+  },
+  {
+    "transaction_id": "TXN816",
+    "date": "2026-03-02",
+    "user_id": "U136",
+    "merchant": "Hertz",
+    "amount": -181.36,
+    "category": "Travel",
+    "account_last_four": "4494"
+  },
+  {
+    "transaction_id": "TXN817",
+    "date": "2026-02-07",
+    "user_id": "U136",
+    "merchant": "PlayStation Store",
+    "amount": -45.8,
+    "category": "Entertainment",
+    "account_last_four": "6757"
+  },
+  {
+    "transaction_id": "TXN818",
+    "date": "2026-02-22",
+    "user_id": "U136",
+    "merchant": "Orangetheory",
+    "amount": -63.59,
+    "category": "Health & Fitness",
+    "account_last_four": "4494"
+  },
+  {
+    "transaction_id": "TXN819",
+    "date": "2026-02-22",
+    "user_id": "U136",
+    "merchant": "Walgreens",
+    "amount": -155.17,
+    "category": "Health & Fitness",
+    "account_last_four": "6757"
+  },
+  {
+    "transaction_id": "TXN820",
+    "date": "2026-02-11",
+    "user_id": "U136",
+    "merchant": "GitHub",
+    "amount": -44.59,
+    "category": "Software",
+    "account_last_four": "4494"
+  },
+  {
+    "transaction_id": "TXN821",
+    "date": "2026-02-18",
+    "user_id": "U136",
+    "merchant": "MAC Cosmetics",
+    "amount": -107.8,
+    "category": "Beauty",
+    "account_last_four": "6757"
+  },
+  {
+    "transaction_id": "TXN822",
+    "date": "2026-02-14",
+    "user_id": "U137",
+    "merchant": "T-Mobile",
+    "amount": -181.91,
+    "category": "Utilities",
+    "account_last_four": "2727"
+  },
+  {
+    "transaction_id": "TXN823",
+    "date": "2026-02-11",
+    "user_id": "U137",
+    "merchant": "Verizon",
+    "amount": -137.93,
+    "category": "Utilities",
+    "account_last_four": "2804"
+  },
+  {
+    "transaction_id": "TXN824",
+    "date": "2026-02-10",
+    "user_id": "U137",
+    "merchant": "Best Buy",
+    "amount": -177.46,
+    "category": "Electronics",
+    "account_last_four": "5638"
+  },
+  {
+    "transaction_id": "TXN825",
+    "date": "2026-02-19",
+    "user_id": "U137",
+    "merchant": "Costco",
+    "amount": -178.8,
+    "category": "Groceries",
+    "account_last_four": "2727"
+  },
+  {
+    "transaction_id": "TXN826",
+    "date": "2026-02-15",
+    "user_id": "U137",
+    "merchant": "Zoom",
+    "amount": -24.35,
+    "category": "Software",
+    "account_last_four": "4275"
+  },
+  {
+    "transaction_id": "TXN827",
+    "date": "2026-02-02",
+    "user_id": "U138",
+    "merchant": "Delta Airlines",
+    "amount": -411.88,
+    "category": "Transportation",
+    "account_last_four": "2463"
+  },
+  {
+    "transaction_id": "TXN828",
+    "date": "2026-02-03",
+    "user_id": "U138",
+    "merchant": "Starbucks",
+    "amount": -51.82,
+    "category": "Food & Drink",
+    "account_last_four": "8152"
+  },
+  {
+    "transaction_id": "TXN829",
+    "date": "2026-02-22",
+    "user_id": "U138",
+    "merchant": "Mobil",
+    "amount": -45.87,
+    "category": "Gas",
+    "account_last_four": "8152"
+  },
+  {
+    "transaction_id": "TXN830",
+    "date": "2026-02-08",
+    "user_id": "U138",
+    "merchant": "Slack",
+    "amount": -61.4,
+    "category": "Software",
+    "account_last_four": "8632"
+  },
+  {
+    "transaction_id": "TXN831",
+    "date": "2026-02-06",
+    "user_id": "U138",
+    "merchant": "Sephora",
+    "amount": -109.48,
+    "category": "Beauty",
+    "account_last_four": "8117"
+  },
+  {
+    "transaction_id": "TXN832",
+    "date": "2026-02-28",
+    "user_id": "U139",
+    "merchant": "Zoom",
+    "amount": -26.81,
+    "category": "Software",
+    "account_last_four": "7802"
+  },
+  {
+    "transaction_id": "TXN833",
+    "date": "2026-02-12",
+    "user_id": "U139",
+    "merchant": "T-Mobile",
+    "amount": -179.25,
+    "category": "Utilities",
+    "account_last_four": "9537"
+  },
+  {
+    "transaction_id": "TXN834",
+    "date": "2026-02-24",
+    "user_id": "U139",
+    "merchant": "Kroger",
+    "amount": -114.9,
+    "category": "Groceries",
+    "account_last_four": "7802"
+  },
+  {
+    "transaction_id": "TXN835",
+    "date": "2026-02-07",
+    "user_id": "U139",
+    "merchant": "MAC Cosmetics",
+    "amount": -186.93,
+    "category": "Beauty",
+    "account_last_four": "7802"
+  },
+  {
+    "transaction_id": "TXN836",
+    "date": "2026-02-03",
+    "user_id": "U139",
+    "merchant": "MAC Cosmetics",
+    "amount": -119.6,
+    "category": "Beauty",
+    "account_last_four": "9537"
+  },
+  {
+    "transaction_id": "TXN837",
+    "date": "2026-02-02",
+    "user_id": "U140",
+    "merchant": "Ulta",
+    "amount": -44.71,
+    "category": "Beauty",
+    "account_last_four": "3766"
+  },
+  {
+    "transaction_id": "TXN838",
+    "date": "2026-02-05",
+    "user_id": "U140",
+    "merchant": "Costco",
+    "amount": -45.5,
+    "category": "Groceries",
+    "account_last_four": "6985"
+  },
+  {
+    "transaction_id": "TXN839",
+    "date": "2026-02-02",
+    "user_id": "U140",
+    "merchant": "McDonald's",
+    "amount": -12.7,
+    "category": "Food & Drink",
+    "account_last_four": "5219"
+  },
+  {
+    "transaction_id": "TXN840",
+    "date": "2026-02-24",
+    "user_id": "U140",
+    "merchant": "Slack",
+    "amount": -61.6,
+    "category": "Software",
+    "account_last_four": "3766"
+  },
+  {
+    "transaction_id": "TXN841",
+    "date": "2026-03-02",
+    "user_id": "U140",
+    "merchant": "Slack",
+    "amount": -96.49,
+    "category": "Software",
+    "account_last_four": "3766"
+  },
+  {
+    "transaction_id": "TXN842",
+    "date": "2026-02-05",
+    "user_id": "U140",
+    "merchant": "Kroger",
+    "amount": -182.38,
+    "category": "Groceries",
+    "account_last_four": "6985"
+  },
+  {
+    "transaction_id": "TXN843",
+    "date": "2026-02-13",
+    "user_id": "U140",
+    "merchant": "Target",
+    "amount": -112.41,
+    "category": "Shopping",
+    "account_last_four": "3766"
+  },
+  {
+    "transaction_id": "TXN844",
+    "date": "2026-02-26",
+    "user_id": "U140",
+    "merchant": "Enterprise",
+    "amount": -142.98,
+    "category": "Travel",
+    "account_last_four": "5346"
+  },
+  {
+    "transaction_id": "TXN845",
+    "date": "2026-02-01",
+    "user_id": "U141",
+    "merchant": "Apple Store",
+    "amount": -58.19,
+    "category": "Electronics",
+    "account_last_four": "9138"
+  },
+  {
+    "transaction_id": "TXN846",
+    "date": "2026-02-14",
+    "user_id": "U141",
+    "merchant": "Walmart Grocery",
+    "amount": -149.62,
+    "category": "Groceries",
+    "account_last_four": "8363"
+  },
+  {
+    "transaction_id": "TXN847",
+    "date": "2026-02-12",
+    "user_id": "U141",
+    "merchant": "Uber Eats",
+    "amount": -39.15,
+    "category": "Food & Drink",
+    "account_last_four": "6172"
+  },
+  {
+    "transaction_id": "TXN848",
+    "date": "2026-02-27",
+    "user_id": "U141",
+    "merchant": "Spotify",
+    "amount": -34.42,
+    "category": "Entertainment",
+    "account_last_four": "7464"
+  },
+  {
+    "transaction_id": "TXN849",
+    "date": "2026-02-06",
+    "user_id": "U141",
+    "merchant": "Comcast",
+    "amount": -118.98,
+    "category": "Utilities",
+    "account_last_four": "9138"
+  },
+  {
+    "transaction_id": "TXN850",
+    "date": "2026-02-15",
+    "user_id": "U141",
+    "merchant": "Sephora",
+    "amount": -217.27,
+    "category": "Beauty",
+    "account_last_four": "9138"
+  },
+  {
+    "transaction_id": "TXN851",
+    "date": "2026-02-17",
+    "user_id": "U141",
+    "merchant": "Delta Airlines",
+    "amount": -217.33,
+    "category": "Transportation",
+    "account_last_four": "7464"
+  },
+  {
+    "transaction_id": "TXN852",
+    "date": "2026-02-15",
+    "user_id": "U142",
+    "merchant": "Hilton",
+    "amount": -302.8,
+    "category": "Travel",
+    "account_last_four": "5899"
+  },
+  {
+    "transaction_id": "TXN853",
+    "date": "2026-02-25",
+    "user_id": "U142",
+    "merchant": "United Airlines",
+    "amount": -346.17,
+    "category": "Transportation",
+    "account_last_four": "7548"
+  },
+  {
+    "transaction_id": "TXN854",
+    "date": "2026-02-24",
+    "user_id": "U142",
+    "merchant": "GitHub",
+    "amount": -83.02,
+    "category": "Software",
+    "account_last_four": "2318"
+  },
+  {
+    "transaction_id": "TXN855",
+    "date": "2026-02-13",
+    "user_id": "U142",
+    "merchant": "AT&T",
+    "amount": -168.7,
+    "category": "Utilities",
+    "account_last_four": "2318"
+  },
+  {
+    "transaction_id": "TXN856",
+    "date": "2026-02-08",
+    "user_id": "U142",
+    "merchant": "Shell",
+    "amount": -54.71,
+    "category": "Gas",
+    "account_last_four": "7157"
+  },
+  {
+    "transaction_id": "TXN857",
+    "date": "2026-02-20",
+    "user_id": "U143",
+    "merchant": "Arco",
+    "amount": -56.13,
+    "category": "Gas",
+    "account_last_four": "2103"
+  },
+  {
+    "transaction_id": "TXN858",
+    "date": "2026-02-21",
+    "user_id": "U143",
+    "merchant": "B&H Photo",
+    "amount": -297.26,
+    "category": "Electronics",
+    "account_last_four": "2103"
+  },
+  {
+    "transaction_id": "TXN859",
+    "date": "2026-02-21",
+    "user_id": "U143",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -24.74,
+    "category": "Software",
+    "account_last_four": "3645"
+  },
+  {
+    "transaction_id": "TXN860",
+    "date": "2026-02-15",
+    "user_id": "U143",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -74.23,
+    "category": "Software",
+    "account_last_four": "2103"
+  },
+  {
+    "transaction_id": "TXN861",
+    "date": "2026-02-27",
+    "user_id": "U143",
+    "merchant": "GameStop",
+    "amount": -9.38,
+    "category": "Entertainment",
+    "account_last_four": "3645"
+  },
+  {
+    "transaction_id": "TXN862",
+    "date": "2026-02-04",
+    "user_id": "U143",
+    "merchant": "B&H Photo",
+    "amount": -138.62,
+    "category": "Electronics",
+    "account_last_four": "7900"
+  },
+  {
+    "transaction_id": "TXN863",
+    "date": "2026-02-25",
+    "user_id": "U143",
+    "merchant": "Apple Store",
+    "amount": -233.02,
+    "category": "Electronics",
+    "account_last_four": "7900"
+  },
+  {
+    "transaction_id": "TXN864",
+    "date": "2026-02-14",
+    "user_id": "U143",
+    "merchant": "Southwest Airlines",
+    "amount": -311.45,
+    "category": "Transportation",
+    "account_last_four": "2103"
+  },
+  {
+    "transaction_id": "TXN865",
+    "date": "2026-02-10",
+    "user_id": "U144",
+    "merchant": "PG&E",
+    "amount": -173.64,
+    "category": "Utilities",
+    "account_last_four": "1576"
+  },
+  {
+    "transaction_id": "TXN866",
+    "date": "2026-02-21",
+    "user_id": "U144",
+    "merchant": "Walmart",
+    "amount": -326.37,
+    "category": "Shopping",
+    "account_last_four": "1576"
+  },
+  {
+    "transaction_id": "TXN867",
+    "date": "2026-02-13",
+    "user_id": "U144",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -54.97,
+    "category": "Software",
+    "account_last_four": "1576"
+  },
+  {
+    "transaction_id": "TXN868",
+    "date": "2026-02-02",
+    "user_id": "U144",
+    "merchant": "Peloton",
+    "amount": -168.88,
+    "category": "Health & Fitness",
+    "account_last_four": "8537"
+  },
+  {
+    "transaction_id": "TXN869",
+    "date": "2026-02-11",
+    "user_id": "U144",
+    "merchant": "Home Depot",
+    "amount": -327.82,
+    "category": "Shopping",
+    "account_last_four": "8537"
+  },
+  {
+    "transaction_id": "TXN870",
+    "date": "2026-02-22",
+    "user_id": "U144",
+    "merchant": "PG&E",
+    "amount": -60.06,
+    "category": "Utilities",
+    "account_last_four": "9211"
+  },
+  {
+    "transaction_id": "TXN871",
+    "date": "2026-02-13",
+    "user_id": "U144",
+    "merchant": "Best Buy",
+    "amount": -53.54,
+    "category": "Shopping",
+    "account_last_four": "8537"
+  },
+  {
+    "transaction_id": "TXN872",
+    "date": "2026-02-24",
+    "user_id": "U145",
+    "merchant": "Microsoft Store",
+    "amount": -159.85,
+    "category": "Electronics",
+    "account_last_four": "6178"
+  },
+  {
+    "transaction_id": "TXN873",
+    "date": "2026-02-18",
+    "user_id": "U145",
+    "merchant": "Trader Joe's",
+    "amount": -174.77,
+    "category": "Groceries",
+    "account_last_four": "4458"
+  },
+  {
+    "transaction_id": "TXN874",
+    "date": "2026-02-13",
+    "user_id": "U145",
+    "merchant": "Ulta",
+    "amount": -176.0,
+    "category": "Beauty",
+    "account_last_four": "6178"
+  },
+  {
+    "transaction_id": "TXN875",
+    "date": "2026-03-03",
+    "user_id": "U145",
+    "merchant": "Whole Foods",
+    "amount": -163.61,
+    "category": "Groceries",
+    "account_last_four": "4458"
+  },
+  {
+    "transaction_id": "TXN876",
+    "date": "2026-02-05",
+    "user_id": "U146",
+    "merchant": "Costco",
+    "amount": -48.23,
+    "category": "Shopping",
+    "account_last_four": "2482"
+  },
+  {
+    "transaction_id": "TXN877",
+    "date": "2026-02-25",
+    "user_id": "U146",
+    "merchant": "Publix",
+    "amount": -167.14,
+    "category": "Groceries",
+    "account_last_four": "5250"
+  },
+  {
+    "transaction_id": "TXN878",
+    "date": "2026-02-14",
+    "user_id": "U146",
+    "merchant": "Arco",
+    "amount": -84.46,
+    "category": "Gas",
+    "account_last_four": "5250"
+  },
+  {
+    "transaction_id": "TXN879",
+    "date": "2026-02-18",
+    "user_id": "U146",
+    "merchant": "Comcast",
+    "amount": -127.15,
+    "category": "Utilities",
+    "account_last_four": "5250"
+  },
+  {
+    "transaction_id": "TXN880",
+    "date": "2026-02-09",
+    "user_id": "U147",
+    "merchant": "LA Fitness",
+    "amount": -95.54,
+    "category": "Health & Fitness",
+    "account_last_four": "7190"
+  },
+  {
+    "transaction_id": "TXN881",
+    "date": "2026-03-01",
+    "user_id": "U147",
+    "merchant": "Best Buy",
+    "amount": -388.05,
+    "category": "Shopping",
+    "account_last_four": "7190"
+  },
+  {
+    "transaction_id": "TXN882",
+    "date": "2026-02-22",
+    "user_id": "U147",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -63.57,
+    "category": "Software",
+    "account_last_four": "2285"
+  },
+  {
+    "transaction_id": "TXN883",
+    "date": "2026-02-07",
+    "user_id": "U147",
+    "merchant": "Hertz",
+    "amount": -165.03,
+    "category": "Travel",
+    "account_last_four": "7190"
+  },
+  {
+    "transaction_id": "TXN884",
+    "date": "2026-02-11",
+    "user_id": "U147",
+    "merchant": "Amazon.com",
+    "amount": -293.85,
+    "category": "Shopping",
+    "account_last_four": "2285"
+  },
+  {
+    "transaction_id": "TXN885",
+    "date": "2026-02-19",
+    "user_id": "U148",
+    "merchant": "Trader Joe's",
+    "amount": -137.5,
+    "category": "Groceries",
+    "account_last_four": "8499"
+  },
+  {
+    "transaction_id": "TXN886",
+    "date": "2026-02-09",
+    "user_id": "U148",
+    "merchant": "Marriott",
+    "amount": -165.51,
+    "category": "Travel",
+    "account_last_four": "9202"
+  },
+  {
+    "transaction_id": "TXN887",
+    "date": "2026-03-01",
+    "user_id": "U148",
+    "merchant": "Lowe's",
+    "amount": -276.99,
+    "category": "Shopping",
+    "account_last_four": "1573"
+  },
+  {
+    "transaction_id": "TXN888",
+    "date": "2026-02-12",
+    "user_id": "U148",
+    "merchant": "Publix",
+    "amount": -89.33,
+    "category": "Groceries",
+    "account_last_four": "8074"
+  },
+  {
+    "transaction_id": "TXN889",
+    "date": "2026-02-10",
+    "user_id": "U149",
+    "merchant": "Spotify",
+    "amount": -43.59,
+    "category": "Entertainment",
+    "account_last_four": "9853"
+  },
+  {
+    "transaction_id": "TXN890",
+    "date": "2026-02-07",
+    "user_id": "U149",
+    "merchant": "Publix",
+    "amount": -115.28,
+    "category": "Groceries",
+    "account_last_four": "2323"
+  },
+  {
+    "transaction_id": "TXN891",
+    "date": "2026-02-14",
+    "user_id": "U149",
+    "merchant": "Target",
+    "amount": -117.25,
+    "category": "Groceries",
+    "account_last_four": "2323"
+  },
+  {
+    "transaction_id": "TXN892",
+    "date": "2026-02-26",
+    "user_id": "U149",
+    "merchant": "MAC Cosmetics",
+    "amount": -126.75,
+    "category": "Beauty",
+    "account_last_four": "8142"
+  },
+  {
+    "transaction_id": "TXN893",
+    "date": "2026-02-04",
+    "user_id": "U149",
+    "merchant": "Adobe Creative Cloud",
+    "amount": -51.1,
+    "category": "Software",
+    "account_last_four": "9853"
+  },
+  {
+    "transaction_id": "TXN894",
+    "date": "2026-02-08",
+    "user_id": "U149",
+    "merchant": "Exxon",
+    "amount": -53.79,
+    "category": "Gas",
+    "account_last_four": "9853"
+  },
+  {
+    "transaction_id": "TXN895",
+    "date": "2026-02-13",
+    "user_id": "U150",
+    "merchant": "Sephora",
+    "amount": -204.77,
+    "category": "Beauty",
+    "account_last_four": "5488"
+  },
+  {
+    "transaction_id": "TXN896",
+    "date": "2026-02-05",
+    "user_id": "U150",
+    "merchant": "Apple Music",
+    "amount": -35.82,
+    "category": "Entertainment",
+    "account_last_four": "7794"
+  },
+  {
+    "transaction_id": "TXN897",
+    "date": "2026-02-07",
+    "user_id": "U150",
+    "merchant": "CVS Pharmacy",
+    "amount": -140.76,
+    "category": "Health & Fitness",
+    "account_last_four": "8890"
+  },
+  {
+    "transaction_id": "TXN898",
+    "date": "2026-02-27",
+    "user_id": "U150",
+    "merchant": "MAC Cosmetics",
+    "amount": -68.18,
+    "category": "Beauty",
+    "account_last_four": "8692"
+  },
+  {
+    "transaction_id": "TXN899",
+    "date": "2026-02-23",
+    "user_id": "U150",
+    "merchant": "Exxon",
+    "amount": -87.54,
+    "category": "Gas",
+    "account_last_four": "7794"
+  },
+  {
+    "transaction_id": "TXN900",
+    "date": "2026-02-03",
+    "user_id": "U150",
+    "merchant": "Target",
+    "amount": -118.48,
+    "category": "Groceries",
+    "account_last_four": "7794"
+  },
+  {
+    "transaction_id": "TXN901",
+    "date": "2026-02-21",
+    "user_id": "U150",
+    "merchant": "Nordstrom",
+    "amount": -200.09,
+    "category": "Shopping",
+    "account_last_four": "8890"
+  },
+  {
+    "transaction_id": "TXN902",
+    "date": "2026-03-01",
+    "user_id": "U003",
+    "merchant": "Target",
+    "amount": -34.89,
+    "category": "Shopping",
+    "account_last_four": "2395"
+  },
+  {
+    "transaction_id": "TXN903",
+    "date": "2026-02-20",
+    "user_id": "U004",
+    "merchant": "Spectrum Internet",
+    "amount": -79.99,
+    "category": "Utilities",
+    "account_last_four": "4838"
+  },
+  {
+    "transaction_id": "TXN904",
+    "date": "2026-03-01",
+    "user_id": "U008",
+    "merchant": "LA Fitness",
+    "amount": -89.99,
+    "category": "Health & Fitness",
+    "account_last_four": "9556"
+  },
+  {
+    "transaction_id": "TXN905",
+    "date": "2026-02-15",
+    "user_id": "U009",
+    "merchant": "AT&T",
+    "amount": -85.0,
+    "category": "Utilities",
+    "account_last_four": "4506"
+  },
+  {
+    "transaction_id": "TXN906",
+    "date": "2026-02-15",
+    "user_id": "U009",
+    "merchant": "AT&T",
+    "amount": -85.0,
+    "category": "Utilities",
+    "account_last_four": "4506"
+  },
+  {
+    "transaction_id": "TXN907",
+    "date": "2026-02-15",
+    "user_id": "U001",
+    "merchant": "OnlyFans",
+    "amount": -19.99,
+    "category": "Entertainment",
+    "account_last_four": "8863"
+  },
+  {
+    "transaction_id": "TXN908",
+    "date": "2026-02-28",
+    "user_id": "U006",
+    "merchant": "Apple.com",
+    "amount": -1249.0,
+    "category": "Electronics",
+    "account_last_four": "8127"
+  },
+  {
+    "transaction_id": "TXN909",
+    "date": "2026-03-01",
+    "user_id": "U009",
+    "merchant": "Verizon",
+    "amount": -95.0,
+    "category": "Utilities",
+    "account_last_four": "4506"
+  }
+]

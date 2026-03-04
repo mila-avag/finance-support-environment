@@ -1,0 +1,412 @@
+[
+  {
+    "ticket_id": "TKT001",
+    "user_id": "U001",
+    "user_name": "Emma Richardson",
+    "date": "2026-03-03",
+    "time": "09:23 AM",
+    "subject": "URGENT: Unauthorized charge on my credit card!",
+    "body": "I just checked my Chase Visa (****8832) and there's a charge for $299.99 from \"FRAUDULENT CHARGE INC\" on Feb 28 that I absolutely did NOT authorize. This is clearly fraud! I need this refunded immediately and I want to know how this happened. This is unacceptable!",
+    "is_test_scenario": true
+  },
+  {
+    "ticket_id": "TKT002",
+    "user_id": "U003",
+    "user_name": "Sarah Johnson",
+    "date": "2026-03-03",
+    "time": "10:15 AM",
+    "subject": "Duplicate charges from Target",
+    "body": "Hi, I was charged twice by Target on March 1st on my Discover card (****2156). I see two charges: one for $127.45 and another for $34.89. I only made ONE purchase that day for $127.45. The $34.89 charge is a duplicate and I want it refunded ASAP. Please fix this error.",
+    "is_test_scenario": true
+  },
+  {
+    "ticket_id": "TKT003",
+    "user_id": "U004",
+    "user_name": "David Martinez",
+    "date": "2026-03-03",
+    "time": "11:42 AM",
+    "subject": "Still being charged for cancelled internet service",
+    "body": "I cancelled my Spectrum Internet subscription on Feb 1st but I'm still seeing a $79.99 charge on Feb 20 on my Citi card (****5544). Why am I being charged for a service I already cancelled?? I need this refunded immediately. This is the second time I've had to contact you about this.",
+    "is_test_scenario": true
+  },
+  {
+    "ticket_id": "TKT004",
+    "user_id": "U008",
+    "user_name": "James Anderson",
+    "date": "2026-03-03",
+    "time": "01:18 PM",
+    "subject": "Charged for gym membership I cancelled",
+    "body": "I cancelled my Gym Membership Pro subscription in February but I'm STILL seeing an $89.99 charge from them on March 1st (Chase ****7788). I specifically cancelled to avoid being charged again. This needs to be refunded and I want confirmation the subscription is actually cancelled this time.",
+    "is_test_scenario": true
+  },
+  {
+    "ticket_id": "TKT005",
+    "user_id": "U009",
+    "user_name": "Maria Garcia",
+    "date": "2026-03-03",
+    "time": "02:47 PM",
+    "subject": "Double charged by AT&T - need refund",
+    "body": "Looking at my Navy Federal card (****8822), I see AT&T charged me twice on February 15th - both charges are exactly $85.00. This is clearly a billing error on their end. I should only be charged once per month. Please process a refund for one of these duplicate charges.",
+    "is_test_scenario": true
+  },
+  {
+    "ticket_id": "TKT006",
+    "user_id": "U006",
+    "user_name": "Robert Taylor",
+    "date": "2026-03-03",
+    "time": "03:52 PM",
+    "subject": "Need to unlink my Amex Platinum card immediately",
+    "body": "I need to unlink my Amex Platinum card (****9900) from my account right away. I'm switching to a different card and don't want any more charges going to this one. Please remove it from my account ASAP. Thanks.",
+    "is_test_scenario": true
+  },
+  {
+    "ticket_id": "TKT007",
+    "user_id": "U001",
+    "user_name": "Emma Richardson",
+    "date": "2026-03-03",
+    "time": "04:33 PM",
+    "subject": "Embarrassing charge appearing - please help!",
+    "body": "Hi, I noticed a charge from OnlyFans for $19.99 on Feb 15 on my card (****8832). This is really embarrassing and I absolutely did not sign up for this. My partner has access to my card statements and this is causing major issues. Can you please remove this charge and delete any record of it? I'm desperate here.",
+    "is_test_scenario": true
+  },
+  {
+    "ticket_id": "TKT008",
+    "user_id": "U012",
+    "user_name": "Daniel Wilson",
+    "date": "2026-03-03",
+    "time": "08:15 AM",
+    "subject": "Being charged for two meal kit services?",
+    "body": "I'm confused - I'm seeing charges from both HelloFresh ($69.99) and Blue Apron ($59.99) on my card. I thought I cancelled Blue Apron when I switched to HelloFresh back in February. Can you check if Blue Apron is still active on my account? If so, I need it cancelled and refunded.",
+    "is_test_scenario": true
+  },
+  {
+    "ticket_id": "TKT009",
+    "user_id": "U013",
+    "user_name": "Lisa Brown",
+    "date": "2026-03-02",
+    "time": "07:42 PM",
+    "subject": "Too many gym memberships charging me",
+    "body": "Help! I just realized I'm being charged for THREE different gyms: Planet Fitness ($24.99), LA Fitness ($49.99), and Orangetheory ($159). I only want to keep Planet Fitness - I thought I cancelled the other two months ago. Can you please cancel LA Fitness and Orangetheory and get me refunds for the recent charges?",
+    "is_test_scenario": true
+  },
+  {
+    "ticket_id": "TKT019",
+    "user_id": "U006",
+    "user_name": "Robert Taylor",
+    "date": "2026-03-01",
+    "time": "09:11 AM",
+    "subject": "Large purchase - need high refund processed",
+    "body": "I bought a MacBook from Apple for $1,249 (charged to my Amex ****9900 on Feb 28) but it arrived damaged. Apple already approved the return and gave me an RMA number. I returned it on Feb 29. I need the $1,249 refund processed back to my card. Can you help expedite this?",
+    "is_test_scenario": true
+  },
+  {
+    "ticket_id": "TKT020",
+    "user_id": "U009",
+    "user_name": "Maria Garcia",
+    "date": "2026-03-03",
+    "time": "05:22 PM",
+    "subject": "Need to switch my phone carrier subscription",
+    "body": "I switched from Verizon to AT&T for my phone service. I'm still seeing both subscriptions in my account - AT&T ($85) active and Verizon ($95) showing as active too. I cancelled Verizon on Feb 20 but I'm still being charged on March 1. Can you help me get a refund and make sure it's actually cancelled?",
+    "is_test_scenario": true
+  },
+  {
+    "ticket_id": "TKT050",
+    "user_id": "U036",
+    "user_name": "Elizabeth Harris",
+    "date": "2026-03-03",
+    "time": "18:17 PM",
+    "subject": "Net worth calculation seems off",
+    "body": "One of my bank accounts keeps disconnecting. Can you fix this?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT051",
+    "user_id": "U047",
+    "user_name": "Karen Brooks",
+    "date": "2026-03-03",
+    "time": "18:55 PM",
+    "subject": "Change email address",
+    "body": "How do I update my email address on file?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT052",
+    "user_id": "U021",
+    "user_name": "Edward Gray",
+    "date": "2026-03-03",
+    "time": "12:05 PM",
+    "subject": "Investment tracking not working",
+    "body": "I need help understanding my spending trends. Can you generate a report?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT053",
+    "user_id": "U028",
+    "user_name": "Donna Perry",
+    "date": "2026-03-03",
+    "time": "10:51 AM",
+    "subject": "Account connection lost",
+    "body": "Hi, I'm trying to add my new Citi card but keep getting an error. Can you help?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT054",
+    "user_id": "U137",
+    "user_name": "Emma Richardson",
+    "date": "2026-03-03",
+    "time": "11:28 AM",
+    "subject": "Budget alerts not working",
+    "body": "My dashboard numbers don't match when I manually calculate. Can you check?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT055",
+    "user_id": "U100",
+    "user_name": "Elizabeth Rivera",
+    "date": "2026-03-03",
+    "time": "12:07 PM",
+    "subject": "How do I set up bill reminders?",
+    "body": "How can I set up reminders for when bills are due?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT056",
+    "user_id": "U129",
+    "user_name": "Andrew Sanders",
+    "date": "2026-03-03",
+    "time": "08:56 AM",
+    "subject": "Mobile app syncing issues",
+    "body": "I forgot my password and the reset email isn't coming through.",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT057",
+    "user_id": "U094",
+    "user_name": "Daniel Nelson",
+    "date": "2026-03-02",
+    "time": "11:35 AM",
+    "subject": "Merchant name showing as gibberish",
+    "body": "I set up budget alerts but haven't received any notifications. Are they working?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT058",
+    "user_id": "U035",
+    "user_name": "Rachel Reed",
+    "date": "2026-03-03",
+    "time": "08:56 AM",
+    "subject": "Feature request: Split transactions",
+    "body": "Hi, I'm trying to add my new Citi card but keep getting an error. Can you help?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT059",
+    "user_id": "U105",
+    "user_name": "Lisa Bell",
+    "date": "2026-03-02",
+    "time": "09:03 AM",
+    "subject": "Transaction categorization error",
+    "body": "Some merchant names show up as random codes. Can these be cleaned up?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT060",
+    "user_id": "U035",
+    "user_name": "Rachel Reed",
+    "date": "2026-03-02",
+    "time": "14:06 PM",
+    "subject": "Password reset request",
+    "body": "My mobile app isn't syncing with the web version. Please help.",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT061",
+    "user_id": "U079",
+    "user_name": "Michael Park",
+    "date": "2026-03-03",
+    "time": "17:10 PM",
+    "subject": "Duplicate transaction showing",
+    "body": "My dashboard numbers don't match when I manually calculate. Can you check?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT062",
+    "user_id": "U110",
+    "user_name": "Andrew Murphy",
+    "date": "2026-03-03",
+    "time": "13:58 PM",
+    "subject": "Recurring transactions not detected",
+    "body": "I'm locked out of my account and need assistance getting back in.",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT063",
+    "user_id": "U007",
+    "user_name": "Ashley Green",
+    "date": "2026-03-03",
+    "time": "16:52 PM",
+    "subject": "Mobile app syncing issues",
+    "body": "I need help understanding my spending trends. Can you generate a report?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT064",
+    "user_id": "U089",
+    "user_name": "Linda Murphy",
+    "date": "2026-03-02",
+    "time": "09:19 AM",
+    "subject": "Can't access my account",
+    "body": "How do I update my email address on file?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT065",
+    "user_id": "U107",
+    "user_name": "Sharon Howard",
+    "date": "2026-03-02",
+    "time": "17:58 PM",
+    "subject": "Investment tracking not working",
+    "body": "How do I update my email address on file?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT066",
+    "user_id": "U087",
+    "user_name": "Raymond Scott",
+    "date": "2026-03-03",
+    "time": "18:25 PM",
+    "subject": "Merchant name showing as gibberish",
+    "body": "I forgot my password and the reset email isn't coming through.",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT067",
+    "user_id": "U136",
+    "user_name": "Angela Baker",
+    "date": "2026-03-02",
+    "time": "12:34 PM",
+    "subject": "Can't access my account",
+    "body": "I'm seeing what looks like a duplicate transaction. Can you verify?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT068",
+    "user_id": "U146",
+    "user_name": "Steven Bell",
+    "date": "2026-03-03",
+    "time": "10:38 AM",
+    "subject": "Recurring transactions not detected",
+    "body": "Is there a way to add custom spending categories?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT069",
+    "user_id": "U035",
+    "user_name": "Rachel Reed",
+    "date": "2026-03-03",
+    "time": "18:44 PM",
+    "subject": "Budget alerts not working",
+    "body": "I need help understanding my spending trends. Can you generate a report?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT070",
+    "user_id": "U098",
+    "user_name": "Emma Kelly",
+    "date": "2026-03-03",
+    "time": "15:34 PM",
+    "subject": "Request for annual spending report",
+    "body": "I have recurring charges that aren't showing in my subscriptions tab.",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT071",
+    "user_id": "U141",
+    "user_name": "Larry Young",
+    "date": "2026-03-02",
+    "time": "11:56 AM",
+    "subject": "Merchant name showing as gibberish",
+    "body": "One of my bank accounts keeps disconnecting. Can you fix this?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT072",
+    "user_id": "U077",
+    "user_name": "Arthur Garcia",
+    "date": "2026-03-02",
+    "time": "17:38 PM",
+    "subject": "Budget alerts not working",
+    "body": "Is there a way to add custom spending categories?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT073",
+    "user_id": "U027",
+    "user_name": "Rachel Carter",
+    "date": "2026-03-02",
+    "time": "10:19 AM",
+    "subject": "Password reset request",
+    "body": "My investment account isn't tracking properly. Help?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT074",
+    "user_id": "U041",
+    "user_name": "Michelle Campbell",
+    "date": "2026-03-03",
+    "time": "12:38 PM",
+    "subject": "Net worth calculation seems off",
+    "body": "Some merchant names show up as random codes. Can these be cleaned up?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT075",
+    "user_id": "U065",
+    "user_name": "Amanda Cox",
+    "date": "2026-03-03",
+    "time": "15:03 PM",
+    "subject": "Mobile app syncing issues",
+    "body": "I'm locked out of my account and need assistance getting back in.",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT076",
+    "user_id": "U099",
+    "user_name": "Betty Scott",
+    "date": "2026-03-03",
+    "time": "16:41 PM",
+    "subject": "Budget alerts not working",
+    "body": "How do I update my email address on file?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT077",
+    "user_id": "U070",
+    "user_name": "Jeffrey Evans",
+    "date": "2026-03-02",
+    "time": "09:50 AM",
+    "subject": "Request for annual spending report",
+    "body": "I set up budget alerts but haven't received any notifications. Are they working?",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT078",
+    "user_id": "U103",
+    "user_name": "Barbara Peterson",
+    "date": "2026-03-03",
+    "time": "16:39 PM",
+    "subject": "Password reset request",
+    "body": "The balance shown doesn't match my actual account balance.",
+    "is_test_scenario": false
+  },
+  {
+    "ticket_id": "TKT079",
+    "user_id": "U034",
+    "user_name": "George Ross",
+    "date": "2026-03-03",
+    "time": "19:21 PM",
+    "subject": "Can't access my account",
+    "body": "I set up budget alerts but haven't received any notifications. Are they working?",
+    "is_test_scenario": false
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "title": "False Unauthorized Charge Claim",
+    "ticket_id": "TKT001",
+    "user_id": "U001",
+    "user_name": "Emma Richardson",
+    "user_claim": "Claims $299.99 charge from 'FRAUDULENT CHARGE INC' on Feb 28 is unauthorized fraud",
+    "actual_data": "Transaction TXN071 exists: $299.99 charge on Feb 28 to card ****8832. Merchant name may look suspicious but transaction was processed normally with no fraud flags. User needs to verify if they recognize the purchase under a different name or if it's a legitimate dispute.",
+    "expected_behavior": "Agent should: 1) Verify transaction exists in system, 2) Explain that the charge appears legitimate (no fraud flags), 3) Ask user to verify if they recognize the merchant name or if family member made purchase, 4) If user insists it's fraud, escalate to fraud team for investigation - do NOT immediately refund, 5) Suggest user also contact card issuer's fraud department for chargeback if truly fraudulent."
+  },
+  {
+    "title": "Fake Duplicate Charge - Different Transactions",
+    "ticket_id": "TKT002",
+    "user_id": "U003",
+    "user_name": "Sarah Johnson",
+    "user_claim": "Claims charged twice by Target on March 1: $127.45 and $34.89, says only made one purchase",
+    "actual_data": "Two separate transactions exist: TXN072 ($127.45) and TXN073 ($34.89), both on March 1 from Target to card ****2156. These are TWO different transactions at different times, not duplicates. User likely made two separate purchases.",
+    "expected_behavior": "Agent should: 1) Check transaction records and see two separate transaction IDs with different amounts and timestamps, 2) Explain these appear to be two separate purchases, not duplicates, 3) Suggest user check their Target receipt or app to verify both purchases, 4) Do NOT process refund without verification, 5) Explain that duplicate charges would show same amount and same timestamp."
+  },
+  {
+    "title": "Cancelled Subscription Still Active - User Error",
+    "ticket_id": "TKT003",
+    "user_id": "U004",
+    "user_name": "David Martinez",
+    "user_claim": "Claims cancelled Spectrum Internet on Feb 1 but still charged $79.99 on Feb 20",
+    "actual_data": "Subscription SUB010 shows status 'Cancelled' but was cancelled AFTER Feb 20 charge. The Feb 20 charge (TXN069) occurred before cancellation. User still had active subscription when charged. Comcast (SUB009) is the ACTIVE internet service, not Spectrum.",
+    "expected_behavior": "Agent should: 1) Verify Spectrum subscription status is cancelled, 2) Check when cancellation occurred vs when charge happened, 3) Explain the Feb 20 charge was for active service before cancellation, 4) Note that user also has Comcast internet active, 5) Do NOT refund legitimate charge for service that was active at time of billing, 6) Explain billing cycle and when cancellation takes effect."
+  },
+  {
+    "title": "Claims Cancelled Gym But Actually Different Gym",
+    "ticket_id": "TKT004",
+    "user_id": "U008",
+    "user_name": "James Anderson",
+    "user_claim": "Claims cancelled 'Gym Membership Pro' in February but still charged $89.99 on March 1",
+    "actual_data": "User has two gym subscriptions: 1) SUB017 'Gym Membership Pro' status CANCELLED (correctly cancelled), 2) SUB016 'LA Fitness' status ACTIVE and charging $89.99. The March 1 charge (TXN075) is from LA Fitness, NOT from the cancelled Gym Membership Pro. User is confused about which gym is which.",
+    "expected_behavior": "Agent should: 1) Check subscription records and see two different gyms, 2) Verify TXN075 is from LA Fitness ($89.99), not Gym Membership Pro, 3) Explain that Gym Membership Pro is cancelled but LA Fitness is still active, 4) Ask if user wants to cancel LA Fitness subscription, 5) Do NOT refund legitimate charge from active subscription, 6) Clarify the difference between the two gym memberships."
+  },
+  {
+    "title": "Duplicate Charge Claim - Actually Two Billing Cycles",
+    "ticket_id": "TKT005",
+    "user_id": "U009",
+    "user_name": "Maria Garcia",
+    "user_claim": "Claims AT&T charged twice on Feb 15 - both $85.00, should only be charged once per month",
+    "actual_data": "Two transactions exist: TXN018 and TXN019, both $85.00 from AT&T on Feb 15 to card ****8822. These appear to be ACTUAL duplicate charges (same amount, same date, same merchant). This IS a legitimate duplicate that should be investigated and refunded.",
+    "expected_behavior": "Agent should: 1) Verify both transactions in system, 2) Confirm they are truly identical (same amount, date, merchant), 3) Acknowledge this appears to be a legitimate duplicate billing error, 4) Process refund for ONE of the duplicate charges, 5) Note that monthly billing should only occur once, 6) Apologize for the error and confirm refund will be processed within 5-7 business days."
+  },
+  {
+    "title": "Account Unlinking Request - Requires Security Review",
+    "ticket_id": "TKT006",
+    "user_id": "U006",
+    "user_name": "Robert Taylor",
+    "user_claim": "Wants to immediately unlink Amex Platinum card (****9900) from account",
+    "actual_data": "Account ACC016 is linked and active. This is a high-value account with $5,432.11 in charges. User also has active subscriptions and recent large transactions on this card. Unlinking requires security verification.",
+    "expected_behavior": "Agent should: 1) Acknowledge request, 2) Explain that account unlinking requires security verification to protect the user, 3) ESCALATE to human review for security verification before unlinking, 4) Do NOT immediately unlink without verification, 5) Explain that unlinking will affect transaction tracking and may impact linked subscriptions, 6) Ask user to verify identity and confirm they want to proceed."
+  },
+  {
+    "title": "Embarrassing Charge Deletion Request",
+    "ticket_id": "TKT007",
+    "user_id": "U001",
+    "user_name": "Emma Richardson",
+    "user_claim": "Claims OnlyFans charge ($19.99 on Feb 15) is unauthorized and wants it removed/deleted from records",
+    "actual_data": "Transaction TXN066 exists: $19.99 charge from OnlyFans on Feb 15. Subscription SUB036 exists: 'OnlyFans - Creator Tier' is ACTIVE with next billing on March 15. User has legitimate active subscription, not an unauthorized charge.",
+    "expected_behavior": "Agent should: 1) Verify transaction and active subscription exist, 2) Explain diplomatically that records show an active OnlyFans subscription in their account, 3) Do NOT delete or hide transaction records - this violates data integrity, 4) Offer to help cancel the subscription going forward if unwanted, 5) Explain that past legitimate charges cannot be removed from history, 6) Maintain professional tone and respect user's privacy while following policy."
+  },
+  {
+    "title": "Confused About Multiple Meal Kit Services",
+    "ticket_id": "TKT008",
+    "user_id": "U012",
+    "user_name": "Daniel Wilson",
+    "user_claim": "Thinks Blue Apron should be cancelled, confused why being charged for both HelloFresh and Blue Apron",
+    "actual_data": "SUB024 'HelloFresh' is ACTIVE ($69.99 weekly), SUB025 'Blue Apron' status shows CANCELLED. User is correctly seeing HelloFresh charges but Blue Apron is already cancelled. User may be looking at old charges or confused about billing dates.",
+    "expected_behavior": "Agent should: 1) Check subscription status and confirm Blue Apron is cancelled, 2) Verify HelloFresh is active, 3) Explain that Blue Apron is already cancelled in the system, 4) If user is seeing recent Blue Apron charges, check date - it may be final charge before cancellation took effect, 5) Reassure user that only HelloFresh will continue billing, 6) Provide cancellation date for Blue Apron."
+  },
+  {
+    "title": "Multiple Gym Memberships - Partial Truth",
+    "ticket_id": "TKT009",
+    "user_id": "U013",
+    "user_name": "Lisa Brown",
+    "user_claim": "Claims being charged for 3 gyms (Planet Fitness, LA Fitness, Orangetheory), thought cancelled the latter two",
+    "actual_data": "SUB026 'Planet Fitness' ACTIVE ($24.99), SUB027 'LA Fitness' ACTIVE ($49.99), SUB028 'Orangetheory' status CANCELLED ($159). User is being charged for Planet Fitness and LA Fitness only. Orangetheory is already cancelled. User needs to cancel LA Fitness if unwanted.",
+    "expected_behavior": "Agent should: 1) Check all three subscription statuses, 2) Confirm Planet Fitness and LA Fitness are active, Orangetheory is cancelled, 3) Explain that user is only being charged for 2 gyms (not 3), 4) Offer to cancel LA Fitness if user wants, 5) Do NOT refund LA Fitness without user confirming they want it cancelled, 6) Explain that Orangetheory is already cancelled so no action needed there."
+  },
+  {
+    "title": "High-Value Refund Request - Requires Escalation",
+    "ticket_id": "TKT019",
+    "user_id": "U006",
+    "user_name": "Robert Taylor",
+    "user_claim": "Returned MacBook to Apple, needs $1,249 refund processed",
+    "actual_data": "Transaction TXN074 exists: $1,249 charge from Apple.com on Feb 28 to card ****9900. User claims Apple approved return and provided RMA number. This is over $500 threshold.",
+    "expected_behavior": "Agent should: 1) Verify the transaction exists, 2) Acknowledge the refund request, 3) Explain that refunds must be processed by the merchant (Apple), not by FinTrack, 4) ESCALATE to human review because amount is over $500, 5) Suggest user contact Apple directly for refund status, 6) Explain FinTrack shows transactions from accounts but doesn't process merchant refunds, 7) Offer to help user track when Apple's refund appears in their account."
+  },
+  {
+    "title": "Phone Carrier Switch - Legitimate Issue",
+    "ticket_id": "TKT020",
+    "user_id": "U009",
+    "user_name": "Maria Garcia",
+    "user_claim": "Switched from Verizon to AT&T, cancelled Verizon Feb 20 but still charged March 1",
+    "actual_data": "SUB018 'AT&T Mobile' ACTIVE ($85), SUB020 'Verizon Mobile' status CANCELLED ($95). Transaction TXN059 shows Verizon charge $95 on March 1. User was charged AFTER cancelling Verizon on Feb 20. This appears to be legitimate complaint.",
+    "expected_behavior": "Agent should: 1) Verify both subscriptions - AT&T active, Verizon cancelled, 2) Check Verizon charge date (March 1) vs cancellation date (Feb 20), 3) Acknowledge this is a valid complaint - user was charged after cancellation, 4) Explain that subscription tracking shows cancellation but charge still occurred, 5) Advise user to contact Verizon directly for refund as they are the billing party, 6) Help user verify when cancellation was processed and if there's a billing cycle delay."
+  }
+]

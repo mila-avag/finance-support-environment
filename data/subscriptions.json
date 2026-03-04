@@ -1,0 +1,1667 @@
+[
+  {
+    "subscription_id": "SUB001",
+    "user_id": "U035",
+    "service_name": "AT&T Mobile",
+    "amount": 85.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-22",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB002",
+    "user_id": "U006",
+    "service_name": "Verizon Mobile",
+    "amount": 95.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-18",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB003",
+    "user_id": "U006",
+    "service_name": "Spectrum Internet",
+    "amount": 79.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-15",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB004",
+    "user_id": "U006",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-18",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB005",
+    "user_id": "U055",
+    "service_name": "Peloton All-Access",
+    "amount": 44.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-19",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB006",
+    "user_id": "U055",
+    "service_name": "Audible",
+    "amount": 14.95,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-10",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB007",
+    "user_id": "U055",
+    "service_name": "Adobe Creative Cloud",
+    "amount": 54.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-26",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB008",
+    "user_id": "U055",
+    "service_name": "Blue Apron",
+    "amount": 59.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB009",
+    "user_id": "U127",
+    "service_name": "Peloton All-Access",
+    "amount": 44.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-22",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB010",
+    "user_id": "U127",
+    "service_name": "Amazon Prime",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-27",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB011",
+    "user_id": "U127",
+    "service_name": "Audible",
+    "amount": 14.95,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-24",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB012",
+    "user_id": "U085",
+    "service_name": "T-Mobile",
+    "amount": 70.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB013",
+    "user_id": "U085",
+    "service_name": "Amazon Prime",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-11",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB014",
+    "user_id": "U041",
+    "service_name": "Orangetheory",
+    "amount": 159.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-17",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB015",
+    "user_id": "U041",
+    "service_name": "Microsoft 365",
+    "amount": 99.99,
+    "billing_frequency": "Annual",
+    "next_billing_date": "2026-03-25",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB016",
+    "user_id": "U142",
+    "service_name": "Kindle Unlimited",
+    "amount": 9.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-20",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB017",
+    "user_id": "U016",
+    "service_name": "Comcast Internet",
+    "amount": 89.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-24",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB018",
+    "user_id": "U016",
+    "service_name": "Xbox Game Pass",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-04-01",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB019",
+    "user_id": "U016",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB020",
+    "user_id": "U016",
+    "service_name": "LA Fitness",
+    "amount": 49.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-16",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB021",
+    "user_id": "U118",
+    "service_name": "T-Mobile",
+    "amount": 70.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-04-01",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB022",
+    "user_id": "U118",
+    "service_name": "LA Fitness",
+    "amount": 49.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-10",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB023",
+    "user_id": "U118",
+    "service_name": "Adobe Creative Cloud",
+    "amount": 54.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-11",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB024",
+    "user_id": "U118",
+    "service_name": "iCloud Storage",
+    "amount": 2.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-04-01",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB025",
+    "user_id": "U112",
+    "service_name": "Dropbox Plus",
+    "amount": 11.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-10",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB026",
+    "user_id": "U112",
+    "service_name": "Disney+",
+    "amount": 13.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-19",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB027",
+    "user_id": "U072",
+    "service_name": "LinkedIn Premium",
+    "amount": 29.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-25",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB028",
+    "user_id": "U097",
+    "service_name": "Microsoft 365",
+    "amount": 99.99,
+    "billing_frequency": "Annual",
+    "next_billing_date": "2026-03-21",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB029",
+    "user_id": "U097",
+    "service_name": "LA Fitness",
+    "amount": 49.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-11",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB030",
+    "user_id": "U097",
+    "service_name": "Apple Music",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-19",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB031",
+    "user_id": "U097",
+    "service_name": "Comcast Internet",
+    "amount": 89.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-14",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB032",
+    "user_id": "U069",
+    "service_name": "Kindle Unlimited",
+    "amount": 9.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-12",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB033",
+    "user_id": "U090",
+    "service_name": "Comcast Internet",
+    "amount": 89.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-29",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB034",
+    "user_id": "U090",
+    "service_name": "AT&T Mobile",
+    "amount": 85.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB035",
+    "user_id": "U090",
+    "service_name": "Apple Music",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB036",
+    "user_id": "U020",
+    "service_name": "Audible",
+    "amount": 14.95,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB037",
+    "user_id": "U020",
+    "service_name": "LinkedIn Premium",
+    "amount": 29.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-31",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB038",
+    "user_id": "U020",
+    "service_name": "Amazon Prime",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB039",
+    "user_id": "U020",
+    "service_name": "Peloton All-Access",
+    "amount": 44.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-23",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB040",
+    "user_id": "U140",
+    "service_name": "Apple Music",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-12",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB041",
+    "user_id": "U140",
+    "service_name": "Disney+",
+    "amount": 13.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-21",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB042",
+    "user_id": "U140",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-16",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB043",
+    "user_id": "U024",
+    "service_name": "Orangetheory",
+    "amount": 159.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-08",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB044",
+    "user_id": "U024",
+    "service_name": "Spotify Premium",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-30",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB045",
+    "user_id": "U024",
+    "service_name": "T-Mobile",
+    "amount": 70.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-18",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB046",
+    "user_id": "U024",
+    "service_name": "Apple Music",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB047",
+    "user_id": "U003",
+    "service_name": "Blue Apron",
+    "amount": 59.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-04-02",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB048",
+    "user_id": "U003",
+    "service_name": "Spectrum Internet",
+    "amount": 79.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-15",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB049",
+    "user_id": "U003",
+    "service_name": "Disney+",
+    "amount": 13.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-10",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB050",
+    "user_id": "U003",
+    "service_name": "AT&T Mobile",
+    "amount": 85.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-08",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB051",
+    "user_id": "U068",
+    "service_name": "Hulu Basic",
+    "amount": 7.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-29",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB052",
+    "user_id": "U068",
+    "service_name": "T-Mobile",
+    "amount": 70.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-24",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB053",
+    "user_id": "U123",
+    "service_name": "Microsoft 365",
+    "amount": 99.99,
+    "billing_frequency": "Annual",
+    "next_billing_date": "2026-03-29",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB054",
+    "user_id": "U123",
+    "service_name": "Blue Apron",
+    "amount": 59.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-26",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB055",
+    "user_id": "U063",
+    "service_name": "Xbox Game Pass",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-04",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB056",
+    "user_id": "U063",
+    "service_name": "Planet Fitness",
+    "amount": 24.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-12",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB057",
+    "user_id": "U087",
+    "service_name": "Planet Fitness",
+    "amount": 24.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-05",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB058",
+    "user_id": "U047",
+    "service_name": "LA Fitness",
+    "amount": 49.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB059",
+    "user_id": "U047",
+    "service_name": "YouTube Premium",
+    "amount": 11.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-19",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB060",
+    "user_id": "U021",
+    "service_name": "Netflix Premium",
+    "amount": 15.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-08",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB061",
+    "user_id": "U021",
+    "service_name": "Blue Apron",
+    "amount": 59.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-24",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB062",
+    "user_id": "U021",
+    "service_name": "Amazon Prime",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-24",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB063",
+    "user_id": "U021",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-19",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB064",
+    "user_id": "U125",
+    "service_name": "Kindle Unlimited",
+    "amount": 9.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-28",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB065",
+    "user_id": "U125",
+    "service_name": "Apple Music",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-06",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB066",
+    "user_id": "U050",
+    "service_name": "Blue Apron",
+    "amount": 59.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-05",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB067",
+    "user_id": "U128",
+    "service_name": "Dropbox Plus",
+    "amount": 11.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-12",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB068",
+    "user_id": "U128",
+    "service_name": "PlayStation Plus",
+    "amount": 9.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB069",
+    "user_id": "U128",
+    "service_name": "Disney+",
+    "amount": 13.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-18",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB070",
+    "user_id": "U128",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-23",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB071",
+    "user_id": "U066",
+    "service_name": "Comcast Internet",
+    "amount": 89.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-06",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB072",
+    "user_id": "U066",
+    "service_name": "LA Fitness",
+    "amount": 49.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB073",
+    "user_id": "U066",
+    "service_name": "Netflix Standard",
+    "amount": 12.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-06",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB074",
+    "user_id": "U113",
+    "service_name": "New York Times",
+    "amount": 17.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB075",
+    "user_id": "U113",
+    "service_name": "HBO Max",
+    "amount": 15.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-15",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB076",
+    "user_id": "U113",
+    "service_name": "Peloton All-Access",
+    "amount": 44.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-16",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB077",
+    "user_id": "U113",
+    "service_name": "Blue Apron",
+    "amount": 59.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-15",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB078",
+    "user_id": "U141",
+    "service_name": "Microsoft 365",
+    "amount": 99.99,
+    "billing_frequency": "Annual",
+    "next_billing_date": "2026-03-31",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB079",
+    "user_id": "U141",
+    "service_name": "Disney+",
+    "amount": 13.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-22",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB080",
+    "user_id": "U141",
+    "service_name": "HBO Max",
+    "amount": 15.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-22",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB081",
+    "user_id": "U101",
+    "service_name": "YouTube Premium",
+    "amount": 11.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-28",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB082",
+    "user_id": "U101",
+    "service_name": "iCloud Storage",
+    "amount": 2.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-20",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB083",
+    "user_id": "U101",
+    "service_name": "Blue Apron",
+    "amount": 59.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-31",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB084",
+    "user_id": "U028",
+    "service_name": "Xbox Game Pass",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-05",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB085",
+    "user_id": "U028",
+    "service_name": "Comcast Internet",
+    "amount": 89.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-04-01",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB086",
+    "user_id": "U028",
+    "service_name": "Orangetheory",
+    "amount": 159.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-04",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB087",
+    "user_id": "U028",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-16",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB088",
+    "user_id": "U042",
+    "service_name": "iCloud Storage",
+    "amount": 2.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-04-02",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB089",
+    "user_id": "U042",
+    "service_name": "AT&T Mobile",
+    "amount": 85.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-15",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB090",
+    "user_id": "U042",
+    "service_name": "Spotify Premium",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-22",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB091",
+    "user_id": "U025",
+    "service_name": "Microsoft 365",
+    "amount": 99.99,
+    "billing_frequency": "Annual",
+    "next_billing_date": "2026-03-19",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB092",
+    "user_id": "U025",
+    "service_name": "Xbox Game Pass",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-28",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB093",
+    "user_id": "U025",
+    "service_name": "Peloton All-Access",
+    "amount": 44.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-24",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB094",
+    "user_id": "U130",
+    "service_name": "AT&T Mobile",
+    "amount": 85.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-18",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB095",
+    "user_id": "U104",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-22",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB096",
+    "user_id": "U104",
+    "service_name": "Adobe Creative Cloud",
+    "amount": 54.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB097",
+    "user_id": "U002",
+    "service_name": "Hulu Basic",
+    "amount": 7.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB098",
+    "user_id": "U002",
+    "service_name": "Apple Music",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-28",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB099",
+    "user_id": "U105",
+    "service_name": "Orangetheory",
+    "amount": 159.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB100",
+    "user_id": "U105",
+    "service_name": "YouTube Premium",
+    "amount": 11.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB101",
+    "user_id": "U019",
+    "service_name": "PlayStation Plus",
+    "amount": 9.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-11",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB102",
+    "user_id": "U019",
+    "service_name": "LinkedIn Premium",
+    "amount": 29.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-28",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB103",
+    "user_id": "U019",
+    "service_name": "T-Mobile",
+    "amount": 70.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-24",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB104",
+    "user_id": "U019",
+    "service_name": "Adobe Creative Cloud",
+    "amount": 54.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-19",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB105",
+    "user_id": "U018",
+    "service_name": "AT&T Mobile",
+    "amount": 85.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-31",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB106",
+    "user_id": "U018",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-21",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB107",
+    "user_id": "U018",
+    "service_name": "Spotify Premium",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-17",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB108",
+    "user_id": "U018",
+    "service_name": "Xbox Game Pass",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB109",
+    "user_id": "U043",
+    "service_name": "HBO Max",
+    "amount": 15.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB110",
+    "user_id": "U109",
+    "service_name": "Audible",
+    "amount": 14.95,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-10",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB111",
+    "user_id": "U109",
+    "service_name": "T-Mobile",
+    "amount": 70.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-25",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB112",
+    "user_id": "U061",
+    "service_name": "Adobe Creative Cloud",
+    "amount": 54.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-26",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB113",
+    "user_id": "U143",
+    "service_name": "Kindle Unlimited",
+    "amount": 9.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-15",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB114",
+    "user_id": "U088",
+    "service_name": "Dropbox Plus",
+    "amount": 11.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-13",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB115",
+    "user_id": "U088",
+    "service_name": "Amazon Prime",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-14",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB116",
+    "user_id": "U088",
+    "service_name": "New York Times",
+    "amount": 17.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB117",
+    "user_id": "U081",
+    "service_name": "Disney+",
+    "amount": 13.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-26",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB118",
+    "user_id": "U022",
+    "service_name": "Comcast Internet",
+    "amount": 89.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-08",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB119",
+    "user_id": "U022",
+    "service_name": "YouTube Premium",
+    "amount": 11.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-14",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB120",
+    "user_id": "U098",
+    "service_name": "Orangetheory",
+    "amount": 159.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-26",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB121",
+    "user_id": "U098",
+    "service_name": "Microsoft 365",
+    "amount": 99.99,
+    "billing_frequency": "Annual",
+    "next_billing_date": "2026-03-20",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB122",
+    "user_id": "U040",
+    "service_name": "Verizon Mobile",
+    "amount": 95.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB123",
+    "user_id": "U040",
+    "service_name": "PlayStation Plus",
+    "amount": 9.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-24",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB124",
+    "user_id": "U040",
+    "service_name": "Adobe Creative Cloud",
+    "amount": 54.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-08",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB125",
+    "user_id": "U040",
+    "service_name": "Netflix Standard",
+    "amount": 12.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-31",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB126",
+    "user_id": "U015",
+    "service_name": "LA Fitness",
+    "amount": 49.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-17",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB127",
+    "user_id": "U015",
+    "service_name": "Audible",
+    "amount": 14.95,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-31",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB128",
+    "user_id": "U015",
+    "service_name": "Xbox Game Pass",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB129",
+    "user_id": "U007",
+    "service_name": "YouTube Premium",
+    "amount": 11.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-04-02",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB130",
+    "user_id": "U007",
+    "service_name": "Netflix Premium",
+    "amount": 15.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-29",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB131",
+    "user_id": "U007",
+    "service_name": "PlayStation Plus",
+    "amount": 9.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-18",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB132",
+    "user_id": "U049",
+    "service_name": "Audible",
+    "amount": 14.95,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-28",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB133",
+    "user_id": "U049",
+    "service_name": "Spotify Premium",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-13",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB134",
+    "user_id": "U049",
+    "service_name": "T-Mobile",
+    "amount": 70.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-13",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB135",
+    "user_id": "U049",
+    "service_name": "Peloton All-Access",
+    "amount": 44.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-26",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB136",
+    "user_id": "U080",
+    "service_name": "HBO Max",
+    "amount": 15.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-20",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB137",
+    "user_id": "U080",
+    "service_name": "Netflix Premium",
+    "amount": 15.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB138",
+    "user_id": "U080",
+    "service_name": "Orangetheory",
+    "amount": 159.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB139",
+    "user_id": "U080",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-10",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB140",
+    "user_id": "U026",
+    "service_name": "Adobe Creative Cloud",
+    "amount": 54.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-18",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB141",
+    "user_id": "U026",
+    "service_name": "iCloud Storage",
+    "amount": 2.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-05",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB142",
+    "user_id": "U026",
+    "service_name": "T-Mobile",
+    "amount": 70.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-22",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB143",
+    "user_id": "U026",
+    "service_name": "Apple Music",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-13",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB144",
+    "user_id": "U111",
+    "service_name": "Amazon Prime",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-24",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB145",
+    "user_id": "U091",
+    "service_name": "Apple Music",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-06",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB146",
+    "user_id": "U091",
+    "service_name": "LinkedIn Premium",
+    "amount": 29.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-20",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB147",
+    "user_id": "U091",
+    "service_name": "Disney+",
+    "amount": 13.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB148",
+    "user_id": "U091",
+    "service_name": "HBO Max",
+    "amount": 15.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-30",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB149",
+    "user_id": "U099",
+    "service_name": "Spectrum Internet",
+    "amount": 79.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-31",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB150",
+    "user_id": "U082",
+    "service_name": "LinkedIn Premium",
+    "amount": 29.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-06",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB151",
+    "user_id": "U082",
+    "service_name": "Comcast Internet",
+    "amount": 89.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-22",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB152",
+    "user_id": "U082",
+    "service_name": "Disney+",
+    "amount": 13.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-25",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB153",
+    "user_id": "U070",
+    "service_name": "LA Fitness",
+    "amount": 49.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-25",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB154",
+    "user_id": "U070",
+    "service_name": "Hulu Basic",
+    "amount": 7.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-18",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB155",
+    "user_id": "U070",
+    "service_name": "T-Mobile",
+    "amount": 70.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-05",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB156",
+    "user_id": "U038",
+    "service_name": "Disney+",
+    "amount": 13.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-26",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB157",
+    "user_id": "U038",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-10",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB158",
+    "user_id": "U038",
+    "service_name": "HBO Max",
+    "amount": 15.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-15",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB159",
+    "user_id": "U038",
+    "service_name": "AT&T Mobile",
+    "amount": 85.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-25",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB160",
+    "user_id": "U048",
+    "service_name": "Hulu Basic",
+    "amount": 7.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-09",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB161",
+    "user_id": "U048",
+    "service_name": "Disney+",
+    "amount": 13.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-27",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB162",
+    "user_id": "U048",
+    "service_name": "Spotify Premium",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-10",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB163",
+    "user_id": "U134",
+    "service_name": "AT&T Mobile",
+    "amount": 85.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-11",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB164",
+    "user_id": "U134",
+    "service_name": "Xbox Game Pass",
+    "amount": 14.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-28",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB165",
+    "user_id": "U114",
+    "service_name": "Verizon Mobile",
+    "amount": 95.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-07",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB166",
+    "user_id": "U114",
+    "service_name": "Planet Fitness",
+    "amount": 24.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-11",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB167",
+    "user_id": "U138",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-26",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB168",
+    "user_id": "U138",
+    "service_name": "Apple Music",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-23",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB169",
+    "user_id": "U122",
+    "service_name": "Apple Music",
+    "amount": 10.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-13",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB170",
+    "user_id": "U122",
+    "service_name": "Microsoft 365",
+    "amount": 99.99,
+    "billing_frequency": "Annual",
+    "next_billing_date": "2026-03-05",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB171",
+    "user_id": "U122",
+    "service_name": "Adobe Creative Cloud",
+    "amount": 54.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-25",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB172",
+    "user_id": "U122",
+    "service_name": "Netflix Standard",
+    "amount": 12.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-23",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB173",
+    "user_id": "U144",
+    "service_name": "LA Fitness",
+    "amount": 49.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-23",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB174",
+    "user_id": "U144",
+    "service_name": "Blue Apron",
+    "amount": 59.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-13",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB175",
+    "user_id": "U046",
+    "service_name": "Blue Apron",
+    "amount": 59.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-27",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB176",
+    "user_id": "U046",
+    "service_name": "iCloud Storage",
+    "amount": 2.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-04-01",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB177",
+    "user_id": "U046",
+    "service_name": "LA Fitness",
+    "amount": 49.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-28",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB900",
+    "user_id": "U001",
+    "service_name": "OnlyFans - Creator Tier",
+    "amount": 19.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-15",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB901",
+    "user_id": "U004",
+    "service_name": "Spectrum Internet",
+    "amount": 79.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-20",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB902",
+    "user_id": "U008",
+    "service_name": "Gym Membership Pro",
+    "amount": 89.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-04-01",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB903",
+    "user_id": "U008",
+    "service_name": "LA Fitness",
+    "amount": 89.99,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-04-01",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB904",
+    "user_id": "U009",
+    "service_name": "AT&T Mobile",
+    "amount": 85.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-03-15",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB905",
+    "user_id": "U009",
+    "service_name": "Verizon Mobile",
+    "amount": 95.0,
+    "billing_frequency": "Monthly",
+    "next_billing_date": "2026-04-01",
+    "status": "Cancelled"
+  },
+  {
+    "subscription_id": "SUB906",
+    "user_id": "U012",
+    "service_name": "HelloFresh",
+    "amount": 69.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-08",
+    "status": "Active"
+  },
+  {
+    "subscription_id": "SUB907",
+    "user_id": "U012",
+    "service_name": "Blue Apron",
+    "amount": 59.99,
+    "billing_frequency": "Weekly",
+    "next_billing_date": "2026-03-08",
+    "status": "Cancelled"
+  }
+]
