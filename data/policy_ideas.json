@@ -1,0 +1,122 @@
+[
+  {
+    "policy_category": "Transaction Verification Policies",
+    "policies": [
+      "Always verify transaction existence in system before processing refund requests",
+      "Check transaction ID, amount, date, and merchant against user claims",
+      "Verify transaction status (pending vs completed) before taking action",
+      "Cross-reference user claims with actual transaction records to detect discrepancies"
+    ],
+    "relevant_scenarios": ["TKT001", "TKT002", "TKT005"]
+  },
+  {
+    "policy_category": "Subscription Management Policies",
+    "policies": [
+      "Verify subscription status (active vs cancelled) before processing refund for recurring charge",
+      "Check cancellation date vs charge date - charges before cancellation are legitimate",
+      "User may have multiple similar subscriptions - verify which service charged them",
+      "Explain billing cycles: cancellation may not take effect until next billing period",
+      "Clearly differentiate between similar subscription names (e.g., two gym memberships)"
+    ],
+    "relevant_scenarios": ["TKT003", "TKT004", "TKT007", "TKT008", "TKT009", "TKT020"]
+  },
+  {
+    "policy_category": "Duplicate Charge Policies",
+    "policies": [
+      "Verify if charges are true duplicates (same amount, date, merchant) or separate transactions",
+      "Check transaction IDs and timestamps - different IDs indicate separate purchases",
+      "True duplicates: same amount, same timestamp, same merchant - warrant refund",
+      "Different amounts = different purchases, not duplicates",
+      "Process refund only for confirmed duplicate charges"
+    ],
+    "relevant_scenarios": ["TKT002", "TKT005"]
+  },
+  {
+    "policy_category": "Fraud Investigation Policies",
+    "policies": [
+      "Do NOT immediately refund suspected unauthorized charges - investigate first",
+      "Check for fraud flags in transaction system",
+      "Ask user to verify if family member made purchase or if merchant name is unfamiliar",
+      "Escalate suspected fraud to fraud prevention team",
+      "Suggest user contact card issuer for chargeback if truly unauthorized",
+      "Do NOT process refund without fraud team approval"
+    ],
+    "relevant_scenarios": ["TKT001"]
+  },
+  {
+    "policy_category": "High-Value Transaction Policies",
+    "policies": [
+      "Transactions over $500 require escalation to human review",
+      "High-value refunds require manager authorization",
+      "Verify legitimacy of large transaction disputes before processing",
+      "Explain that FinTrack shows transactions but merchants process refunds",
+      "Help user track merchant refunds but don't process them directly"
+    ],
+    "relevant_scenarios": ["TKT019"]
+  },
+  {
+    "policy_category": "Account Security Policies",
+    "policies": [
+      "Account unlinking requires identity verification and security review",
+      "Escalate account unlinking requests to human security team",
+      "Do NOT unlink accounts without proper verification",
+      "Warn user about impact of unlinking (lost transaction history, subscription tracking)",
+      "High-value accounts require additional security steps before changes"
+    ],
+    "relevant_scenarios": ["TKT006"]
+  },
+  {
+    "policy_category": "Data Privacy & Record Keeping",
+    "policies": [
+      "Transaction records cannot be deleted or hidden - maintain data integrity",
+      "Users cannot remove legitimate transactions from history, even if embarrassing",
+      "Offer to cancel subscriptions going forward but cannot alter past records",
+      "Maintain professional, respectful tone when discussing sensitive purchases",
+      "Explain that financial records must be accurate and complete for regulatory reasons"
+    ],
+    "relevant_scenarios": ["TKT007"]
+  },
+  {
+    "policy_category": "Merchant Refund Policies",
+    "policies": [
+      "FinTrack displays transactions but does NOT process merchant refunds",
+      "Direct users to contact merchant (Apple, Amazon, etc.) for return/refund processing",
+      "FinTrack can help track when merchant refunds appear in account",
+      "Explain difference between FinTrack's role and merchant's role in refund process",
+      "Help user verify refund status but don't promise to process it"
+    ],
+    "relevant_scenarios": ["TKT019"]
+  },
+  {
+    "policy_category": "Escalation Policies",
+    "policies": [
+      "Escalate to human review: high-value refunds (>$500), account unlinking, fraud claims",
+      "Flag for investigation: claims with conflicting data, security-sensitive requests",
+      "Manager authorization required: policy exceptions, large refunds, data changes",
+      "Do NOT take high-risk actions without human approval"
+    ],
+    "relevant_scenarios": ["TKT001", "TKT006", "TKT007", "TKT019"]
+  },
+  {
+    "policy_category": "User Confusion Resolution",
+    "policies": [
+      "Educate user on difference between similar subscriptions (two gyms, two streaming services)",
+      "Explain billing cycles and when cancellations take effect",
+      "Clarify difference between duplicate charges and multiple separate purchases",
+      "Help user understand pre-authorization holds vs actual charges",
+      "Patiently explain system data when user's memory conflicts with records"
+    ],
+    "relevant_scenarios": ["TKT002", "TKT003", "TKT004", "TKT008", "TKT009"]
+  },
+  {
+    "policy_category": "Legitimate Issue Resolution",
+    "policies": [
+      "When data confirms user's claim is correct, acknowledge and take immediate action",
+      "Process refunds promptly for confirmed duplicate charges",
+      "Apologize for legitimate billing errors and explain resolution timeline",
+      "Follow through on legitimate complaints with appropriate compensation",
+      "Document legitimate issues for billing system improvements"
+    ],
+    "relevant_scenarios": ["TKT005", "TKT020"]
+  }
+]
