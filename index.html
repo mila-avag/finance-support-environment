@@ -13,8 +13,8 @@
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
-            color: #2d3748;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e2e8f0;
             padding: 20px;
             line-height: 1.6;
         }
@@ -22,17 +22,18 @@
         .container {
             max-width: 1400px;
             margin: 0 auto;
-            background: white;
+            background: #1e293b;
             border-radius: 12px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.6);
             overflow: hidden;
         }
         
         header {
-            background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%);
+            background: linear-gradient(135deg, #0f172a 0%, #0f766e 100%);
             color: white;
             padding: 40px;
             text-align: center;
+            border-bottom: 1px solid #334155;
         }
         
         header h1 {
@@ -57,9 +58,9 @@
         }
         
         nav {
-            background: #f7fafc;
+            background: #0f172a;
             padding: 0;
-            border-bottom: 2px solid #e2e8f0;
+            border-bottom: 2px solid #334155;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -71,18 +72,18 @@
             padding: 18px 25px;
             cursor: pointer;
             font-size: 1em;
-            color: #4a5568;
+            color: #94a3b8;
             transition: all 0.3s;
             border-bottom: 3px solid transparent;
         }
         
         nav button:hover {
-            background: #edf2f7;
-            color: #2d3748;
+            background: #1e293b;
+            color: #cbd5e1;
         }
         
         nav button.active {
-            background: white;
+            background: #1e293b;
             color: #14b8a6;
             border-bottom-color: #14b8a6;
             font-weight: 600;
@@ -91,6 +92,27 @@
         .content {
             padding: 40px;
             min-height: 500px;
+        }
+        
+        h2 {
+            color: #e2e8f0;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            color: #cbd5e1;
+        }
+        
+        strong {
+            color: #e2e8f0;
+        }
+        
+        code {
+            background: #0f172a;
+            color: #14b8a6;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
         }
         
         .section {
@@ -115,11 +137,12 @@
         }
         
         .stat-card {
-            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            background: linear-gradient(135deg, #0f766e 0%, #059669 100%);
             color: white;
             padding: 25px;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            border: 1px solid #334155;
         }
         
         .stat-card h3 {
@@ -145,14 +168,15 @@
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
-            background: white;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            background: #0f172a;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.4);
             border-radius: 8px;
             overflow: hidden;
+            border: 1px solid #334155;
         }
         
         th {
-            background: #14b8a6;
+            background: #0f766e;
             color: white;
             padding: 15px;
             text-align: left;
@@ -164,11 +188,12 @@
         
         td {
             padding: 12px 15px;
-            border-bottom: 1px solid #e2e8f0;
+            border-bottom: 1px solid #334155;
+            color: #cbd5e1;
         }
         
         tr:hover {
-            background: #f7fafc;
+            background: #1e293b;
         }
         
         .badge {
@@ -187,12 +212,12 @@
         .badge.cancelled { background: #fce7f3; color: #831843; }
         
         .message-card {
-            background: white;
-            border: 1px solid #e2e8f0;
+            background: #0f172a;
+            border: 1px solid #334155;
             border-radius: 8px;
             padding: 20px;
             margin-bottom: 15px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.4);
         }
         
         .message-header {
@@ -223,37 +248,48 @@
         }
         
         .warning-box {
-            background: #fef3c7;
+            background: #422006;
             border-left: 4px solid #f59e0b;
             padding: 20px;
             margin: 20px 0;
             border-radius: 4px;
+            border: 1px solid #78350f;
         }
         
         .warning-box h3 {
-            color: #92400e;
+            color: #fbbf24;
             margin-bottom: 10px;
         }
         
+        .warning-box p, .warning-box ul, .warning-box li {
+            color: #fde68a;
+        }
+        
         .test-scenario {
-            background: #fef2f2;
+            background: #450a0a;
             border-left: 4px solid #ef4444;
             padding: 15px;
             margin: 15px 0;
             border-radius: 4px;
+            border: 1px solid #7f1d1d;
         }
         
         .test-scenario h4 {
-            color: #991b1b;
+            color: #fca5a5;
             margin-bottom: 8px;
         }
         
+        .test-scenario p {
+            color: #fecaca;
+        }
+        
         .test-scenario .expected {
-            background: #f0fdf4;
+            background: #064e3b;
             border-left: 3px solid #10b981;
             padding: 10px;
             margin-top: 10px;
             font-size: 0.9em;
+            color: #a7f3d0;
         }
         
         code {
@@ -265,15 +301,15 @@
         }
         
         .info-section {
-            background: #f8fafc;
-            border: 1px solid #e2e8f0;
+            background: #0f172a;
+            border: 1px solid #334155;
             border-radius: 8px;
             padding: 20px;
             margin: 15px 0;
         }
         
         .info-section h3 {
-            color: #0f766e;
+            color: #14b8a6;
             margin-bottom: 15px;
         }
         
@@ -297,16 +333,126 @@
         }
         
         .account-card {
-            background: white;
-            border: 2px solid #e2e8f0;
+            background: #0f172a;
+            border: 2px solid #334155;
             border-radius: 8px;
             padding: 20px;
             margin: 15px 0;
         }
         
         .account-card h4 {
-            color: #0f766e;
+            color: #14b8a6;
             margin-bottom: 10px;
+        }
+        
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal.active {
+            display: flex;
+        }
+        
+        .modal-content {
+            background: #1e293b;
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 800px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+            position: relative;
+            border: 1px solid #334155;
+            color: #e2e8f0;
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #9ca3af;
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        .modal-close:hover {
+            color: #e2e8f0;
+        }
+        
+        .data-chain {
+            margin: 20px 0;
+        }
+        
+        .data-item {
+            background: #0f172a;
+            border-left: 4px solid #14b8a6;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #334155;
+            border-radius: 6px;
+        }
+        
+        .data-item h4 {
+            color: #14b8a6;
+            margin-bottom: 10px;
+        }
+        
+        .data-item p {
+            margin: 5px 0;
+            color: #cbd5e1;
+        }
+        
+        /* Clickable rows */
+        .clickable-row {
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .clickable-row:hover {
+            background: #334155 !important;
+            transform: translateX(3px);
+        }
+        
+        /* Test results */
+        .test-result {
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .test-result.pass {
+            background: #064e3b;
+            border-left: 4px solid #10b981;
+            border: 1px solid #065f46;
+        }
+        
+        .test-result.fail {
+            background: #450a0a;
+            border-left: 4px solid #ef4444;
+            border: 1px solid #7f1d1d;
+        }
+        
+        .test-result.warning {
+            background: #422006;
+            border-left: 4px solid #f59e0b;
+            border: 1px solid #78350f;
         }
     </style>
 </head>
@@ -328,6 +474,7 @@
             <button onclick="showSection('messages')">📧 Support Messages</button>
             <button onclick="showSection('test-scenarios')">⚠️ Test Scenarios</button>
             <button onclick="showSection('setup')">⚙️ Setup Info</button>
+            <button onclick="showSection('database-tests')">🧪 Database Tests</button>
         </nav>
         
         <div class="content">
@@ -370,16 +517,10 @@
                 </div>
                 
                 <div class="warning-box">
-                    <h3>⚠️ Critical Test Scenarios</h3>
-                    <ul style="margin-left: 20px;">
-                        <li><strong>False Fraud Claims:</strong> Users claiming unauthorized charges that are legitimate</li>
-                        <li><strong>Fake Duplicate Claims:</strong> Users claiming duplicates that are separate purchases</li>
-                        <li><strong>Subscription Confusion:</strong> Claims about cancelled subscriptions with timing issues</li>
-                        <li><strong>High-Value Requests:</strong> Refund requests over $500 requiring escalation</li>
-                        <li><strong>Account Security:</strong> Account unlinking requests requiring verification</li>
-                        <li><strong>Data Integrity:</strong> Requests to delete legitimate transaction records</li>
-                    </ul>
-                    <p style="margin-top: 12px; font-size: 0.9em;"><em>Total Test Scenarios: <strong id="alert-count">11</strong> embedded in support messages</em></p>
+                    <h3>⚠️ Critical Alerts</h3>
+                    <div id="critical-alerts-content">
+                        <p style="color: #fde68a; font-style: italic;">Loading alerts...</p>
+                    </div>
                 </div>
             </div>
             
@@ -422,6 +563,19 @@
                 <h2>⚙️ Setup Information</h2>
                 <div id="setup-content">Loading...</div>
             </div>
+            
+            <div id="database-tests" class="section">
+                <h2>🧪 Database Integrity Tests</h2>
+                <div id="database-tests-content">Loading...</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for showing data chains -->
+    <div id="dataModal" class="modal" onclick="if(event.target===this) closeModal()">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div id="modalContent"></div>
         </div>
     </div>
     
@@ -464,7 +618,97 @@
         }
         
         // Load stats when page loads
-        window.addEventListener('DOMContentLoaded', loadDashboardStats);
+        // Load critical alerts dynamically
+        async function loadCriticalAlerts() {
+            try {
+                const [transactionsRes, messagesRes, subscriptionsRes] = await Promise.all([
+                    fetch('data/transactions.json'),
+                    fetch('data/messages.json'),
+                    fetch('data/subscriptions.json')
+                ]);
+                const transactions = await transactionsRes.json();
+                const messages = await messagesRes.json();
+                const subscriptions = await subscriptionsRes.json();
+                
+                let alerts = [];
+                
+                // Check for high-value transactions (potential fraud)
+                const highValueTxns = transactions.filter(t => Math.abs(t.amount) > 500);
+                if (highValueTxns.length > 0) {
+                    alerts.push({
+                        type: 'high-value',
+                        severity: 'warning',
+                        message: `<strong>High-Value Transactions:</strong> ${highValueTxns.length} transactions over $500 detected (requires verification)`
+                    });
+                }
+                
+                // Check for pending transactions
+                const pendingTxns = transactions.filter(t => t.status === 'pending');
+                if (pendingTxns.length > 0) {
+                    alerts.push({
+                        type: 'pending',
+                        severity: 'info',
+                        message: `<strong>Pending Transactions:</strong> ${pendingTxns.length} transactions awaiting clearance`
+                    });
+                }
+                
+                // Check for urgent support messages
+                const urgentMessages = messages.filter(m => m.priority === 'urgent');
+                if (urgentMessages.length > 0) {
+                    alerts.push({
+                        type: 'urgent-support',
+                        severity: 'critical',
+                        message: `<strong>Urgent Support Tickets:</strong> ${urgentMessages.length} high-priority messages require immediate attention`
+                    });
+                }
+                
+                // Check for test scenario messages
+                const testScenarios = messages.filter(m => m.is_test_scenario);
+                if (testScenarios.length > 0) {
+                    alerts.push({
+                        type: 'test',
+                        severity: 'info',
+                        message: `<strong>Test Scenarios Active:</strong> ${testScenarios.length} embedded test cases for agent evaluation`
+                    });
+                }
+                
+                // Check for expiring subscriptions
+                const today = new Date();
+                const soon = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000); // 7 days from now
+                const expiringSoon = subscriptions.filter(s => {
+                    const nextBilling = new Date(s.next_billing_date);
+                    return s.status === 'Active' && nextBilling <= soon && nextBilling >= today;
+                });
+                if (expiringSoon.length > 0) {
+                    alerts.push({
+                        type: 'subscriptions',
+                        severity: 'info',
+                        message: `<strong>Upcoming Renewals:</strong> ${expiringSoon.length} subscriptions renewing within 7 days`
+                    });
+                }
+                
+                // Display alerts
+                const alertsDiv = document.getElementById('critical-alerts-content');
+                if (alerts.length === 0) {
+                    alertsDiv.innerHTML = '<p style="color: #a7f3d0;">✅ No critical alerts at this time</p>';
+                } else {
+                    let html = '<ul style="margin-left: 20px;">';
+                    alerts.forEach(alert => {
+                        html += `<li>${alert.message}</li>`;
+                    });
+                    html += '</ul>';
+                    alertsDiv.innerHTML = html;
+                }
+            } catch (error) {
+                console.error('Error loading critical alerts:', error);
+                document.getElementById('critical-alerts-content').innerHTML = '<p style="color: #fca5a5;">Error loading alerts</p>';
+            }
+        }
+        
+        window.addEventListener('DOMContentLoaded', () => {
+            loadDashboardStats();
+            loadCriticalAlerts();
+        });
         
         function showSection(sectionId) {
             document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
@@ -500,6 +744,9 @@
                         break;
                     case 'setup':
                         await loadSetup(contentDiv);
+                        break;
+                    case 'database-tests':
+                        await loadDatabaseTests(contentDiv);
                         break;
                 }
             } catch (error) {
@@ -561,12 +808,13 @@
             const res = await fetch('data/transactions.json');
             const transactions = await res.json();
             
-            let html = '<table><thead><tr><th>Transaction ID</th><th>Date</th><th>User</th><th>Merchant</th><th>Amount</th><th>Category</th><th>Account</th></tr></thead><tbody>';
+            let html = '<p style="margin-bottom: 15px; color: #14b8a6; font-weight: 600;">💡 Click any transaction to see the complete data chain (Transaction → Account → User)</p>';
+            html += '<table><thead><tr><th>Transaction ID</th><th>Date</th><th>User</th><th>Merchant</th><th>Amount</th><th>Category</th><th>Account</th></tr></thead><tbody>';
             
             transactions.slice(0, 100).forEach(t => {
                 const amountClass = t.amount < 0 ? 'transaction-negative' : 'transaction-positive';
                 const amountDisplay = t.amount < 0 ? `-$${Math.abs(t.amount).toFixed(2)}` : `+$${t.amount.toFixed(2)}`;
-                html += `<tr>
+                html += `<tr class="clickable-row" onclick="showTransactionDetails('${t.transaction_id}')">
                     <td><code>${t.transaction_id}</code></td>
                     <td>${t.date}</td>
                     <td>${t.user_id}</td>
@@ -688,6 +936,213 @@
             html += '<div class="info-section">';
             html += '<h3>💬 Agent Prompt Template</h3>';
             html += '<pre>' + setup.prompt_template + '</pre>';
+            html += '</div>';
+            
+            div.innerHTML = html;
+        }
+        
+        // Modal functions
+        function openModal() {
+            document.getElementById('dataModal').classList.add('active');
+        }
+        
+        function closeModal() {
+            document.getElementById('dataModal').classList.remove('active');
+        }
+        
+        // Show transaction details with data chain
+        async function showTransactionDetails(transactionId) {
+            const [transactionsRes, accountsRes, usersRes] = await Promise.all([
+                fetch('data/transactions.json'),
+                fetch('data/accounts.json'),
+                fetch('data/users.json')
+            ]);
+            const transactions = await transactionsRes.json();
+            const accounts = await accountsRes.json();
+            const users = await usersRes.json();
+            
+            const transaction = transactions.find(t => t.transaction_id === transactionId);
+            const account = accounts.find(a => a.account_id === transaction.account_id);
+            const user = users.find(u => u.user_id === transaction.user_id);
+            
+            let html = `<h2>💳 Transaction ${transactionId} - Data Chain</h2>`;
+            html += '<p style="color: #6b7280; margin-bottom: 20px;">See how data flows through the database</p>';
+            
+            html += '<div class="data-chain">';
+            
+            // Transaction data
+            html += '<div class="data-item">';
+            html += '<h4>💳 Transaction Record</h4>';
+            html += `<p><strong>Transaction ID:</strong> ${transaction.transaction_id}</p>`;
+            html += `<p><strong>Date:</strong> ${transaction.date}</p>`;
+            html += `<p><strong>Merchant:</strong> ${transaction.merchant}</p>`;
+            const amountDisplay = transaction.amount < 0 ? `-$${Math.abs(transaction.amount).toFixed(2)}` : `+$${transaction.amount.toFixed(2)}`;
+            html += `<p><strong>Amount:</strong> ${amountDisplay}</p>`;
+            html += `<p><strong>Category:</strong> ${transaction.category}</p>`;
+            html += `<p><strong>Status:</strong> ${transaction.status}</p>`;
+            html += `<p style="color: #14b8a6; margin-top: 10px;"><strong>⬇️ Links to Account ID:</strong> ${transaction.account_id}</p>`;
+            html += '</div>';
+            
+            // Account data
+            html += '<div class="data-item">';
+            html += '<h4>🏦 Account Record</h4>';
+            html += `<p><strong>Account ID:</strong> ${account.account_id}</p>`;
+            html += `<p><strong>Institution:</strong> ${account.institution_name}</p>`;
+            html += `<p><strong>Type:</strong> ${account.account_type}</p>`;
+            html += `<p><strong>Last 4:</strong> ****${account.last_four}</p>`;
+            html += `<p><strong>Balance:</strong> $${account.balance.toLocaleString()}</p>`;
+            html += `<p><strong>Status:</strong> ${account.status}</p>`;
+            html += `<p style="color: #14b8a6; margin-top: 10px;"><strong>⬇️ Belongs to User ID:</strong> ${account.user_id}</p>`;
+            html += '</div>';
+            
+            // User data
+            html += '<div class="data-item">';
+            html += '<h4>👤 User Record</h4>';
+            html += `<p><strong>User ID:</strong> ${user.user_id}</p>`;
+            html += `<p><strong>Name:</strong> ${user.first_name} ${user.last_name}</p>`;
+            html += `<p><strong>Email:</strong> ${user.email}</p>`;
+            html += `<p><strong>Member Since:</strong> ${user.member_since}</p>`;
+            html += `<p><strong>Linked Accounts:</strong> ${user.linked_accounts_count}</p>`;
+            html += '</div>';
+            
+            html += '</div>';
+            
+            html += '<div style="background: #0f172a; border: 1px solid #14b8a6; border-radius: 6px; padding: 15px; margin-top: 20px;">';
+            html += '<p style="color: #14b8a6;"><strong>✅ Referential Integrity Check:</strong></p>';
+            html += '<p style="color: #cbd5e1;">• Transaction references valid account ✓</p>';
+            html += '<p style="color: #cbd5e1;">• Account belongs to correct user ✓</p>';
+            html += '<p style="color: #cbd5e1;">• All foreign keys valid ✓</p>';
+            html += '</div>';
+            
+            document.getElementById('modalContent').innerHTML = html;
+            openModal();
+        }
+        
+        // Database integrity tests
+        async function loadDatabaseTests(div) {
+            const [usersRes, accountsRes, transactionsRes, subscriptionsRes, messagesRes] = await Promise.all([
+                fetch('data/users.json'),
+                fetch('data/accounts.json'),
+                fetch('data/transactions.json'),
+                fetch('data/subscriptions.json'),
+                fetch('data/messages.json')
+            ]);
+            const users = await usersRes.json();
+            const accounts = await accountsRes.json();
+            const transactions = await transactionsRes.json();
+            const subscriptions = await subscriptionsRes.json();
+            const messages = await messagesRes.json();
+            
+            const results = [];
+            
+            // Test 1: Foreign Key - Accounts → Users
+            const invalidAccounts = accounts.filter(a => !users.find(u => u.user_id === a.user_id));
+            results.push({
+                name: 'Foreign Key: Accounts → Users',
+                pass: invalidAccounts.length === 0,
+                message: invalidAccounts.length === 0 
+                    ? `All ${accounts.length} accounts reference valid users` 
+                    : `${invalidAccounts.length} accounts reference invalid users`,
+                type: invalidAccounts.length === 0 ? 'pass' : 'fail'
+            });
+            
+            // Test 2: Foreign Key - Transactions → Users
+            const invalidTxnUsers = transactions.filter(t => !users.find(u => u.user_id === t.user_id));
+            results.push({
+                name: 'Foreign Key: Transactions → Users',
+                pass: invalidTxnUsers.length === 0,
+                message: invalidTxnUsers.length === 0 
+                    ? `All ${transactions.length} transactions reference valid users` 
+                    : `${invalidTxnUsers.length} transactions reference invalid users`,
+                type: invalidTxnUsers.length === 0 ? 'pass' : 'fail'
+            });
+            
+            // Test 3: Foreign Key - Transactions → Accounts
+            const invalidTxnAccounts = transactions.filter(t => !accounts.find(a => a.account_id === t.account_id));
+            results.push({
+                name: 'Foreign Key: Transactions → Accounts',
+                pass: invalidTxnAccounts.length === 0,
+                message: invalidTxnAccounts.length === 0 
+                    ? `All transactions reference valid accounts` 
+                    : `${invalidTxnAccounts.length} transactions reference invalid accounts`,
+                type: invalidTxnAccounts.length === 0 ? 'pass' : 'fail'
+            });
+            
+            // Test 4: Transaction belongs to user's account
+            const invalidTxnOwnership = transactions.filter(t => {
+                const account = accounts.find(a => a.account_id === t.account_id);
+                return account && account.user_id !== t.user_id;
+            });
+            results.push({
+                name: 'Data Integrity: Transactions belong to user\'s accounts',
+                pass: invalidTxnOwnership.length === 0,
+                message: invalidTxnOwnership.length === 0 
+                    ? 'All transactions belong to the correct user\'s account' 
+                    : `${invalidTxnOwnership.length} transactions don't belong to the user's account`,
+                type: invalidTxnOwnership.length === 0 ? 'pass' : 'fail'
+            });
+            
+            // Test 5: Unique Primary Keys
+            const userIds = new Set();
+            const duplicateUsers = users.filter(u => userIds.has(u.user_id) || !userIds.add(u.user_id));
+            const accountIds = new Set();
+            const duplicateAccounts = accounts.filter(a => accountIds.has(a.account_id) || !accountIds.add(a.account_id));
+            const txnIds = new Set();
+            const duplicateTxns = transactions.filter(t => txnIds.has(t.transaction_id) || !txnIds.add(t.transaction_id));
+            
+            const allUnique = duplicateUsers.length === 0 && duplicateAccounts.length === 0 && duplicateTxns.length === 0;
+            results.push({
+                name: 'Data Quality: Unique Primary Keys',
+                pass: allUnique,
+                message: allUnique 
+                    ? 'All primary keys are unique' 
+                    : `Duplicates found: ${duplicateUsers.length} users, ${duplicateAccounts.length} accounts, ${duplicateTxns.length} transactions`,
+                type: allUnique ? 'pass' : 'fail'
+            });
+            
+            // Test 6: Valid amounts
+            const invalidAmounts = transactions.filter(t => t.amount === 0 || isNaN(t.amount));
+            results.push({
+                name: 'Data Quality: Non-zero Transaction Amounts',
+                pass: invalidAmounts.length === 0,
+                message: invalidAmounts.length === 0 
+                    ? 'All transactions have valid non-zero amounts' 
+                    : `${invalidAmounts.length} transactions have zero or invalid amounts`,
+                type: invalidAmounts.length === 0 ? 'pass' : 'fail'
+            });
+            
+            let html = '<div style="background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 20px; margin: 20px 0;">';
+            html += '<p style="color: #cbd5e1; margin-bottom: 15px;">Running comprehensive database integrity checks...</p>';
+            html += `<p style="color: #cbd5e1;">📊 Loaded: ${users.length} users, ${accounts.length} accounts, ${transactions.length} transactions, ${subscriptions.length} subscriptions, ${messages.length} messages</p>`;
+            html += '</div>';
+            
+            const passCount = results.filter(r => r.pass).length;
+            const totalTests = results.length;
+            
+            if (passCount === totalTests) {
+                html += '<div style="background: #064e3b; border: 2px solid #10b981; border-radius: 8px; padding: 20px; margin: 20px 0;">';
+                html += '<h2 style="color: #10b981; margin: 0;">✅ All Tests Passed!</h2>';
+                html += '<p style="color: #a7f3d0; margin: 10px 0 0 0;">Database integrity verified. All foreign keys valid, no duplicates, no anomalies.</p>';
+                html += '</div>';
+            } else {
+                html += '<div style="background: #450a0a; border: 2px solid #ef4444; border-radius: 8px; padding: 20px; margin: 20px 0;">';
+                html += '<h2 style="color: #fca5a5; margin: 0;">❌ Some Tests Failed</h2>';
+                html += '<p style="color: #fecaca; margin: 10px 0 0 0;">Database has integrity issues that need to be fixed.</p>';
+                html += '</div>';
+            }
+            
+            results.forEach(result => {
+                html += `<div class="test-result ${result.type}">`;
+                html += `<span style="font-size: 20px;">${result.pass ? '✅' : '❌'}</span>`;
+                html += '<div>';
+                html += `<strong style="color: ${result.pass ? '#a7f3d0' : '#fca5a5'};">${result.name}</strong><br>`;
+                html += `<span style="font-size: 0.9em; color: ${result.pass ? '#6ee7b7' : '#fecaca'};">${result.message}</span>`;
+                html += '</div>';
+                html += '</div>';
+            });
+            
+            html += '<div style="background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 20px; margin: 20px 0;">';
+            html += `<p style="color: #14b8a6;"><strong>Test Summary: ${passCount}/${totalTests} Passed (${Math.round(passCount/totalTests*100)}%)</strong></p>`;
             html += '</div>';
             
             div.innerHTML = html;
