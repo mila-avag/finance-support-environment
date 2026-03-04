@@ -5,7 +5,11 @@
     "email": "mark.scott922@gmail.com",
     "member_since": "2023-11-26",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "656-94-3078",
+    "date_of_birth": "1996-03-02",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-496-983-9035"
   },
   {
     "user_id": "U002",
@@ -13,7 +17,11 @@
     "email": "paul.cox767@yahoo.com",
     "member_since": "2023-08-19",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "161-46-8403",
+    "date_of_birth": "1988-09-07",
+    "mothers_maiden_name": "Taylor",
+    "phone": "+1-865-778-1440"
   },
   {
     "user_id": "U003",
@@ -21,7 +29,11 @@
     "email": "edward.park676@yahoo.com",
     "member_since": "2024-01-22",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "256-33-7726",
+    "date_of_birth": "1974-05-07",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-526-750-9788"
   },
   {
     "user_id": "U004",
@@ -29,7 +41,11 @@
     "email": "raymond.young256@outlook.com",
     "member_since": "2024-12-22",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "808-92-5309",
+    "date_of_birth": "1994-12-06",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-948-768-9098"
   },
   {
     "user_id": "U005",
@@ -37,7 +53,11 @@
     "email": "gary.clark899@outlook.com",
     "member_since": "2025-03-10",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "578-39-7617",
+    "date_of_birth": "1966-08-08",
+    "mothers_maiden_name": "Miller",
+    "phone": "+1-711-214-3414"
   },
   {
     "user_id": "U006",
@@ -45,7 +65,11 @@
     "email": "david.young301@yahoo.com",
     "member_since": "2024-09-16",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "656-83-4848",
+    "date_of_birth": "1985-12-09",
+    "mothers_maiden_name": "Martinez",
+    "phone": "+1-579-272-4475"
   },
   {
     "user_id": "U007",
@@ -53,7 +77,11 @@
     "email": "ashley.green949@gmail.com",
     "member_since": "2024-07-10",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "478-28-6822",
+    "date_of_birth": "1999-04-06",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-277-706-3768"
   },
   {
     "user_id": "U008",
@@ -61,7 +89,11 @@
     "email": "raymond.park628@gmail.com",
     "member_since": "2024-10-20",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "507-35-1167",
+    "date_of_birth": "1978-02-11",
+    "mothers_maiden_name": "Johnson",
+    "phone": "+1-754-771-4470"
   },
   {
     "user_id": "U009",
@@ -69,7 +101,11 @@
     "email": "jessica.martinez992@email.com",
     "member_since": "2024-11-29",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "312-47-8979",
+    "date_of_birth": "1990-07-10",
+    "mothers_maiden_name": "Garcia",
+    "phone": "+1-845-423-6950"
   },
   {
     "user_id": "U010",
@@ -77,7 +113,11 @@
     "email": "jennifer.campbell527@gmail.com",
     "member_since": "2023-08-24",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "645-30-3205",
+    "date_of_birth": "1968-08-11",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-812-947-1946"
   },
   {
     "user_id": "U011",
@@ -85,7 +125,11 @@
     "email": "jennifer.perry706@gmail.com",
     "member_since": "2025-02-03",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "183-27-2789",
+    "date_of_birth": "1969-03-25",
+    "mothers_maiden_name": "Taylor",
+    "phone": "+1-916-630-3444"
   },
   {
     "user_id": "U012",
@@ -93,7 +137,11 @@
     "email": "emily.gray288@yahoo.com",
     "member_since": "2024-05-06",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "716-99-2942",
+    "date_of_birth": "1973-09-21",
+    "mothers_maiden_name": "Rodriguez",
+    "phone": "+1-486-781-6742"
   },
   {
     "user_id": "U013",
@@ -101,7 +149,11 @@
     "email": "timothy.anderson58@outlook.com",
     "member_since": "2023-06-07",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "873-95-9250",
+    "date_of_birth": "1967-10-07",
+    "mothers_maiden_name": "Smith",
+    "phone": "+1-503-259-3569"
   },
   {
     "user_id": "U014",
@@ -109,7 +161,11 @@
     "email": "john.morris80@gmail.com",
     "member_since": "2023-05-09",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "650-25-8359",
+    "date_of_birth": "1978-01-05",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-351-934-2616"
   },
   {
     "user_id": "U015",
@@ -117,7 +173,11 @@
     "email": "arthur.scott481@gmail.com",
     "member_since": "2024-02-05",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "224-63-1871",
+    "date_of_birth": "1991-02-18",
+    "mothers_maiden_name": "Thomas",
+    "phone": "+1-584-459-4432"
   },
   {
     "user_id": "U016",
@@ -125,7 +185,11 @@
     "email": "dennis.park578@email.com",
     "member_since": "2024-07-06",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "147-87-6623",
+    "date_of_birth": "1990-10-06",
+    "mothers_maiden_name": "Smith",
+    "phone": "+1-728-266-4798"
   },
   {
     "user_id": "U017",
@@ -133,7 +197,11 @@
     "email": "stephanie.stewart539@outlook.com",
     "member_since": "2023-05-28",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "303-46-4617",
+    "date_of_birth": "1962-02-20",
+    "mothers_maiden_name": "Lopez",
+    "phone": "+1-413-288-6817"
   },
   {
     "user_id": "U018",
@@ -141,7 +209,11 @@
     "email": "michelle.morris543@email.com",
     "member_since": "2023-10-19",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "304-42-5670",
+    "date_of_birth": "1993-01-23",
+    "mothers_maiden_name": "Jones",
+    "phone": "+1-919-784-4540"
   },
   {
     "user_id": "U019",
@@ -149,7 +221,11 @@
     "email": "jennifer.stewart911@yahoo.com",
     "member_since": "2024-11-26",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "280-79-1888",
+    "date_of_birth": "1974-10-16",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-275-942-5748"
   },
   {
     "user_id": "U020",
@@ -157,7 +233,11 @@
     "email": "richard.bell781@gmail.com",
     "member_since": "2023-12-01",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "709-76-9089",
+    "date_of_birth": "2000-03-13",
+    "mothers_maiden_name": "Martinez",
+    "phone": "+1-369-413-8230"
   },
   {
     "user_id": "U021",
@@ -165,7 +245,11 @@
     "email": "edward.gray474@email.com",
     "member_since": "2025-03-01",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "294-56-2383",
+    "date_of_birth": "1966-11-11",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-764-383-3422"
   },
   {
     "user_id": "U022",
@@ -173,7 +257,11 @@
     "email": "stephanie.powell13@outlook.com",
     "member_since": "2024-04-29",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "349-24-6471",
+    "date_of_birth": "1966-09-22",
+    "mothers_maiden_name": "Jackson",
+    "phone": "+1-898-974-9107"
   },
   {
     "user_id": "U023",
@@ -181,7 +269,11 @@
     "email": "dorothy.baker139@email.com",
     "member_since": "2024-10-05",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "226-36-3730",
+    "date_of_birth": "1997-06-09",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-271-395-2017"
   },
   {
     "user_id": "U024",
@@ -189,7 +281,11 @@
     "email": "mary.adams246@yahoo.com",
     "member_since": "2023-10-21",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "106-14-9586",
+    "date_of_birth": "1979-04-18",
+    "mothers_maiden_name": "Garcia",
+    "phone": "+1-462-768-3634"
   },
   {
     "user_id": "U025",
@@ -197,7 +293,11 @@
     "email": "frank.jenkins573@gmail.com",
     "member_since": "2024-09-06",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "505-99-1092",
+    "date_of_birth": "1967-05-03",
+    "mothers_maiden_name": "Brown",
+    "phone": "+1-924-458-1941"
   },
   {
     "user_id": "U026",
@@ -205,7 +305,11 @@
     "email": "michelle.richardson990@gmail.com",
     "member_since": "2023-05-01",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "594-30-9051",
+    "date_of_birth": "1992-04-26",
+    "mothers_maiden_name": "Jones",
+    "phone": "+1-620-495-6536"
   },
   {
     "user_id": "U027",
@@ -213,7 +317,11 @@
     "email": "rachel.carter655@gmail.com",
     "member_since": "2023-07-14",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "353-75-1226",
+    "date_of_birth": "1986-06-17",
+    "mothers_maiden_name": "Thomas",
+    "phone": "+1-200-320-9136"
   },
   {
     "user_id": "U028",
@@ -221,7 +329,11 @@
     "email": "donna.perry198@yahoo.com",
     "member_since": "2024-01-20",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "230-91-2430",
+    "date_of_birth": "1980-01-16",
+    "mothers_maiden_name": "Miller",
+    "phone": "+1-517-501-3531"
   },
   {
     "user_id": "U029",
@@ -229,7 +341,11 @@
     "email": "dennis.campbell822@email.com",
     "member_since": "2023-05-23",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "124-85-9301",
+    "date_of_birth": "1992-05-16",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-878-720-7105"
   },
   {
     "user_id": "U030",
@@ -237,7 +353,11 @@
     "email": "sandra.young780@yahoo.com",
     "member_since": "2024-08-21",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "473-37-8201",
+    "date_of_birth": "1967-01-04",
+    "mothers_maiden_name": "Davis",
+    "phone": "+1-808-982-8369"
   },
   {
     "user_id": "U031",
@@ -245,7 +365,11 @@
     "email": "robert.king149@outlook.com",
     "member_since": "2025-02-12",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "714-46-9712",
+    "date_of_birth": "1991-10-20",
+    "mothers_maiden_name": "Davis",
+    "phone": "+1-304-423-6293"
   },
   {
     "user_id": "U032",
@@ -253,7 +377,11 @@
     "email": "rebecca.patterson59@outlook.com",
     "member_since": "2024-07-12",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "507-52-4750",
+    "date_of_birth": "1993-03-10",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-229-694-8463"
   },
   {
     "user_id": "U033",
@@ -261,7 +389,11 @@
     "email": "gary.sanders761@email.com",
     "member_since": "2023-10-18",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "201-77-3556",
+    "date_of_birth": "1968-11-24",
+    "mothers_maiden_name": "Johnson",
+    "phone": "+1-805-785-8298"
   },
   {
     "user_id": "U034",
@@ -269,7 +401,11 @@
     "email": "george.ross683@email.com",
     "member_since": "2023-09-03",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "611-55-4492",
+    "date_of_birth": "1970-07-14",
+    "mothers_maiden_name": "Jackson",
+    "phone": "+1-917-864-7546"
   },
   {
     "user_id": "U035",
@@ -277,7 +413,11 @@
     "email": "rachel.reed122@yahoo.com",
     "member_since": "2023-05-04",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "653-30-7831",
+    "date_of_birth": "2001-09-18",
+    "mothers_maiden_name": "Hernandez",
+    "phone": "+1-527-398-5641"
   },
   {
     "user_id": "U036",
@@ -285,7 +425,11 @@
     "email": "elizabeth.harris890@yahoo.com",
     "member_since": "2023-08-28",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "513-86-2112",
+    "date_of_birth": "1999-02-24",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-355-532-8673"
   },
   {
     "user_id": "U037",
@@ -293,7 +437,11 @@
     "email": "gregory.cox23@yahoo.com",
     "member_since": "2024-08-01",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "423-51-9600",
+    "date_of_birth": "1986-11-10",
+    "mothers_maiden_name": "Miller",
+    "phone": "+1-597-236-6178"
   },
   {
     "user_id": "U038",
@@ -301,7 +449,11 @@
     "email": "michelle.ross782@yahoo.com",
     "member_since": "2023-11-24",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "542-85-9326",
+    "date_of_birth": "1984-07-14",
+    "mothers_maiden_name": "Hernandez",
+    "phone": "+1-332-235-2826"
   },
   {
     "user_id": "U039",
@@ -309,7 +461,11 @@
     "email": "mary.harris380@email.com",
     "member_since": "2024-02-06",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "630-68-1020",
+    "date_of_birth": "1965-11-25",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-800-450-7620"
   },
   {
     "user_id": "U040",
@@ -317,7 +473,11 @@
     "email": "kenneth.white168@outlook.com",
     "member_since": "2024-02-05",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "111-92-4063",
+    "date_of_birth": "1989-08-22",
+    "mothers_maiden_name": "Taylor",
+    "phone": "+1-918-669-5857"
   },
   {
     "user_id": "U041",
@@ -325,7 +485,11 @@
     "email": "michelle.campbell517@email.com",
     "member_since": "2023-04-22",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "456-64-6054",
+    "date_of_birth": "1961-07-28",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-376-850-7216"
   },
   {
     "user_id": "U042",
@@ -333,7 +497,11 @@
     "email": "john.bailey660@gmail.com",
     "member_since": "2024-12-27",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "107-30-7191",
+    "date_of_birth": "1964-09-05",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-769-605-1024"
   },
   {
     "user_id": "U043",
@@ -341,7 +509,11 @@
     "email": "daniel.garcia61@outlook.com",
     "member_since": "2024-07-03",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "668-28-7508",
+    "date_of_birth": "1976-02-27",
+    "mothers_maiden_name": "Garcia",
+    "phone": "+1-627-254-5717"
   },
   {
     "user_id": "U044",
@@ -349,7 +521,11 @@
     "email": "amanda.ramirez690@email.com",
     "member_since": "2025-01-08",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "389-73-8095",
+    "date_of_birth": "1961-08-01",
+    "mothers_maiden_name": "Taylor",
+    "phone": "+1-800-334-5864"
   },
   {
     "user_id": "U045",
@@ -357,7 +533,11 @@
     "email": "kevin.perry161@email.com",
     "member_since": "2024-05-13",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "292-56-9157",
+    "date_of_birth": "1965-10-09",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-282-332-1872"
   },
   {
     "user_id": "U046",
@@ -365,7 +545,11 @@
     "email": "maria.evans465@email.com",
     "member_since": "2023-12-15",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "622-53-2461",
+    "date_of_birth": "1983-10-11",
+    "mothers_maiden_name": "Lopez",
+    "phone": "+1-768-230-9193"
   },
   {
     "user_id": "U047",
@@ -373,7 +557,11 @@
     "email": "karen.brooks712@yahoo.com",
     "member_since": "2023-04-12",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "197-70-9446",
+    "date_of_birth": "1981-04-03",
+    "mothers_maiden_name": "Martin",
+    "phone": "+1-578-359-4704"
   },
   {
     "user_id": "U048",
@@ -381,7 +569,11 @@
     "email": "emma.stewart16@yahoo.com",
     "member_since": "2023-02-09",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "838-47-6297",
+    "date_of_birth": "1991-12-24",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-438-895-7851"
   },
   {
     "user_id": "U049",
@@ -389,7 +581,11 @@
     "email": "raymond.kelly733@yahoo.com",
     "member_since": "2023-05-24",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "865-57-8013",
+    "date_of_birth": "1976-03-24",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-402-676-7089"
   },
   {
     "user_id": "U050",
@@ -397,7 +593,11 @@
     "email": "kathleen.phillips884@gmail.com",
     "member_since": "2024-01-21",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "533-43-6279",
+    "date_of_birth": "1978-12-15",
+    "mothers_maiden_name": "Anderson",
+    "phone": "+1-412-478-9319"
   },
   {
     "user_id": "U051",
@@ -405,7 +605,11 @@
     "email": "paul.morris906@yahoo.com",
     "member_since": "2025-03-10",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "684-78-5816",
+    "date_of_birth": "2001-10-26",
+    "mothers_maiden_name": "Johnson",
+    "phone": "+1-970-568-2522"
   },
   {
     "user_id": "U052",
@@ -413,7 +617,11 @@
     "email": "betty.wilson684@outlook.com",
     "member_since": "2024-12-19",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "823-39-6547",
+    "date_of_birth": "1969-02-04",
+    "mothers_maiden_name": "Lopez",
+    "phone": "+1-279-873-7459"
   },
   {
     "user_id": "U053",
@@ -421,7 +629,11 @@
     "email": "gregory.price950@email.com",
     "member_since": "2024-01-28",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "599-45-1425",
+    "date_of_birth": "1979-08-16",
+    "mothers_maiden_name": "Martin",
+    "phone": "+1-960-828-4733"
   },
   {
     "user_id": "U054",
@@ -429,7 +641,11 @@
     "email": "patricia.johnson907@email.com",
     "member_since": "2024-07-19",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "597-41-1572",
+    "date_of_birth": "2000-11-22",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-612-675-1658"
   },
   {
     "user_id": "U055",
@@ -437,7 +653,11 @@
     "email": "melissa.moore124@outlook.com",
     "member_since": "2024-12-01",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "702-77-5090",
+    "date_of_birth": "1978-04-06",
+    "mothers_maiden_name": "Martinez",
+    "phone": "+1-211-400-8500"
   },
   {
     "user_id": "U056",
@@ -445,7 +665,11 @@
     "email": "ronald.clark635@email.com",
     "member_since": "2023-10-06",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "882-48-6323",
+    "date_of_birth": "1995-02-23",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-819-562-5266"
   },
   {
     "user_id": "U057",
@@ -453,7 +677,11 @@
     "email": "michelle.phillips346@email.com",
     "member_since": "2024-03-04",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "156-98-8295",
+    "date_of_birth": "1977-08-20",
+    "mothers_maiden_name": "Thomas",
+    "phone": "+1-587-433-8321"
   },
   {
     "user_id": "U058",
@@ -461,7 +689,11 @@
     "email": "carol.davis63@outlook.com",
     "member_since": "2023-01-02",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "171-94-2002",
+    "date_of_birth": "1998-05-12",
+    "mothers_maiden_name": "Miller",
+    "phone": "+1-674-865-6631"
   },
   {
     "user_id": "U059",
@@ -469,7 +701,11 @@
     "email": "sandra.jenkins726@email.com",
     "member_since": "2024-02-19",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "250-93-9046",
+    "date_of_birth": "1978-11-05",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-500-764-2873"
   },
   {
     "user_id": "U060",
@@ -477,7 +713,11 @@
     "email": "edward.ward583@email.com",
     "member_since": "2023-10-16",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "779-96-4806",
+    "date_of_birth": "1966-04-17",
+    "mothers_maiden_name": "Garcia",
+    "phone": "+1-635-669-7816"
   },
   {
     "user_id": "U061",
@@ -485,7 +725,11 @@
     "email": "daniel.ross590@email.com",
     "member_since": "2023-02-18",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "784-38-2322",
+    "date_of_birth": "1978-10-06",
+    "mothers_maiden_name": "Anderson",
+    "phone": "+1-528-635-6176"
   },
   {
     "user_id": "U062",
@@ -493,7 +737,11 @@
     "email": "donald.garcia279@yahoo.com",
     "member_since": "2023-09-04",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "885-23-2694",
+    "date_of_birth": "1969-02-07",
+    "mothers_maiden_name": "Lopez",
+    "phone": "+1-705-880-4976"
   },
   {
     "user_id": "U063",
@@ -501,7 +749,11 @@
     "email": "cynthia.rivera956@gmail.com",
     "member_since": "2024-03-24",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "505-82-3054",
+    "date_of_birth": "1972-02-10",
+    "mothers_maiden_name": "Wilson",
+    "phone": "+1-709-806-1574"
   },
   {
     "user_id": "U064",
@@ -509,7 +761,11 @@
     "email": "maria.price838@gmail.com",
     "member_since": "2023-11-13",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "744-44-6649",
+    "date_of_birth": "1974-01-01",
+    "mothers_maiden_name": "Thomas",
+    "phone": "+1-517-693-3296"
   },
   {
     "user_id": "U065",
@@ -517,7 +773,11 @@
     "email": "amanda.cox441@yahoo.com",
     "member_since": "2024-12-28",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "755-31-4779",
+    "date_of_birth": "1982-03-22",
+    "mothers_maiden_name": "Smith",
+    "phone": "+1-299-379-9762"
   },
   {
     "user_id": "U066",
@@ -525,7 +785,11 @@
     "email": "raymond.kelly231@outlook.com",
     "member_since": "2024-05-21",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "204-49-7426",
+    "date_of_birth": "1992-07-03",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-404-471-8158"
   },
   {
     "user_id": "U067",
@@ -533,7 +797,11 @@
     "email": "anthony.rivera211@yahoo.com",
     "member_since": "2023-10-25",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "425-10-1804",
+    "date_of_birth": "1973-03-15",
+    "mothers_maiden_name": "Martin",
+    "phone": "+1-796-560-3482"
   },
   {
     "user_id": "U068",
@@ -541,7 +809,11 @@
     "email": "linda.phillips763@email.com",
     "member_since": "2024-12-07",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "417-11-7852",
+    "date_of_birth": "1965-11-08",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-975-447-1507"
   },
   {
     "user_id": "U069",
@@ -549,7 +821,11 @@
     "email": "gregory.anderson800@gmail.com",
     "member_since": "2024-08-18",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "884-72-4228",
+    "date_of_birth": "1967-07-09",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-553-816-6262"
   },
   {
     "user_id": "U070",
@@ -557,7 +833,11 @@
     "email": "jeffrey.evans56@outlook.com",
     "member_since": "2023-02-24",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "791-21-4961",
+    "date_of_birth": "1997-02-13",
+    "mothers_maiden_name": "Martinez",
+    "phone": "+1-858-874-6096"
   },
   {
     "user_id": "U071",
@@ -565,7 +845,11 @@
     "email": "deborah.allen635@yahoo.com",
     "member_since": "2023-11-29",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "805-89-2756",
+    "date_of_birth": "1995-10-17",
+    "mothers_maiden_name": "Hernandez",
+    "phone": "+1-523-219-8946"
   },
   {
     "user_id": "U072",
@@ -573,7 +857,11 @@
     "email": "timothy.king263@gmail.com",
     "member_since": "2024-09-14",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "671-96-8253",
+    "date_of_birth": "1969-01-22",
+    "mothers_maiden_name": "Thomas",
+    "phone": "+1-484-469-8886"
   },
   {
     "user_id": "U073",
@@ -581,7 +869,11 @@
     "email": "james.watson273@outlook.com",
     "member_since": "2024-01-15",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "538-43-2042",
+    "date_of_birth": "1992-05-25",
+    "mothers_maiden_name": "Martin",
+    "phone": "+1-225-568-5363"
   },
   {
     "user_id": "U074",
@@ -589,7 +881,11 @@
     "email": "gerald.campbell235@outlook.com",
     "member_since": "2023-02-26",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "169-73-8547",
+    "date_of_birth": "1965-06-27",
+    "mothers_maiden_name": "Thomas",
+    "phone": "+1-592-565-3180"
   },
   {
     "user_id": "U075",
@@ -597,7 +893,11 @@
     "email": "cynthia.rogers527@outlook.com",
     "member_since": "2025-02-18",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "640-57-8151",
+    "date_of_birth": "1964-06-22",
+    "mothers_maiden_name": "Davis",
+    "phone": "+1-904-914-6846"
   },
   {
     "user_id": "U076",
@@ -605,7 +905,11 @@
     "email": "stephanie.walker323@email.com",
     "member_since": "2023-03-03",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "799-51-1165",
+    "date_of_birth": "1967-09-23",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-686-355-1945"
   },
   {
     "user_id": "U077",
@@ -613,7 +917,11 @@
     "email": "arthur.garcia578@outlook.com",
     "member_since": "2025-01-13",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "659-58-9177",
+    "date_of_birth": "1988-09-06",
+    "mothers_maiden_name": "Hernandez",
+    "phone": "+1-441-638-5509"
   },
   {
     "user_id": "U078",
@@ -621,7 +929,11 @@
     "email": "angela.chen309@yahoo.com",
     "member_since": "2024-08-14",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "176-43-2975",
+    "date_of_birth": "1962-06-13",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-985-653-6975"
   },
   {
     "user_id": "U079",
@@ -629,7 +941,11 @@
     "email": "michael.park440@gmail.com",
     "member_since": "2023-08-07",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "120-20-8612",
+    "date_of_birth": "1977-12-16",
+    "mothers_maiden_name": "Hernandez",
+    "phone": "+1-704-375-8539"
   },
   {
     "user_id": "U080",
@@ -637,7 +953,11 @@
     "email": "donald.scott804@gmail.com",
     "member_since": "2023-01-25",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "621-58-4706",
+    "date_of_birth": "1978-03-09",
+    "mothers_maiden_name": "Hernandez",
+    "phone": "+1-475-695-3227"
   },
   {
     "user_id": "U081",
@@ -645,7 +965,11 @@
     "email": "laura.bailey636@gmail.com",
     "member_since": "2023-05-29",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "312-42-2605",
+    "date_of_birth": "1984-06-04",
+    "mothers_maiden_name": "Jackson",
+    "phone": "+1-490-970-2417"
   },
   {
     "user_id": "U082",
@@ -653,7 +977,11 @@
     "email": "eric.morris379@gmail.com",
     "member_since": "2024-12-05",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "449-23-7058",
+    "date_of_birth": "1990-02-05",
+    "mothers_maiden_name": "Martinez",
+    "phone": "+1-586-994-3607"
   },
   {
     "user_id": "U083",
@@ -661,7 +989,11 @@
     "email": "lisa.white401@yahoo.com",
     "member_since": "2023-08-12",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "579-74-9220",
+    "date_of_birth": "1972-06-13",
+    "mothers_maiden_name": "Taylor",
+    "phone": "+1-889-373-3992"
   },
   {
     "user_id": "U084",
@@ -669,7 +1001,11 @@
     "email": "larry.moore865@email.com",
     "member_since": "2023-01-27",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "341-80-4546",
+    "date_of_birth": "1993-12-27",
+    "mothers_maiden_name": "Martin",
+    "phone": "+1-397-792-7497"
   },
   {
     "user_id": "U085",
@@ -677,7 +1013,11 @@
     "email": "helen.harris858@gmail.com",
     "member_since": "2024-02-06",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "656-69-8648",
+    "date_of_birth": "1995-08-08",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-523-304-9509"
   },
   {
     "user_id": "U086",
@@ -685,7 +1025,11 @@
     "email": "ryan.ross793@gmail.com",
     "member_since": "2023-04-03",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "481-78-1558",
+    "date_of_birth": "1982-10-01",
+    "mothers_maiden_name": "Taylor",
+    "phone": "+1-410-693-1599"
   },
   {
     "user_id": "U087",
@@ -693,7 +1037,11 @@
     "email": "raymond.scott935@outlook.com",
     "member_since": "2023-10-31",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "432-51-8269",
+    "date_of_birth": "1976-04-01",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-582-917-2146"
   },
   {
     "user_id": "U088",
@@ -701,7 +1049,11 @@
     "email": "edward.cooper965@gmail.com",
     "member_since": "2024-09-11",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "165-50-1610",
+    "date_of_birth": "1991-10-13",
+    "mothers_maiden_name": "Smith",
+    "phone": "+1-832-638-8858"
   },
   {
     "user_id": "U089",
@@ -709,7 +1061,11 @@
     "email": "linda.murphy698@outlook.com",
     "member_since": "2023-08-13",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "604-95-4729",
+    "date_of_birth": "1989-03-07",
+    "mothers_maiden_name": "Garcia",
+    "phone": "+1-559-908-6269"
   },
   {
     "user_id": "U090",
@@ -717,7 +1073,11 @@
     "email": "linda.turner151@outlook.com",
     "member_since": "2024-11-10",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "427-46-3665",
+    "date_of_birth": "1997-10-09",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-387-784-9420"
   },
   {
     "user_id": "U091",
@@ -725,7 +1085,11 @@
     "email": "steven.walker627@yahoo.com",
     "member_since": "2025-01-28",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "227-60-6544",
+    "date_of_birth": "1971-07-20",
+    "mothers_maiden_name": "Garcia",
+    "phone": "+1-984-637-1454"
   },
   {
     "user_id": "U092",
@@ -733,7 +1097,11 @@
     "email": "jessica.powell180@email.com",
     "member_since": "2023-11-13",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "736-21-6154",
+    "date_of_birth": "1978-02-04",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-920-398-5608"
   },
   {
     "user_id": "U093",
@@ -741,7 +1109,11 @@
     "email": "jennifer.rogers319@outlook.com",
     "member_since": "2024-11-29",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "650-74-4975",
+    "date_of_birth": "1977-01-14",
+    "mothers_maiden_name": "Rodriguez",
+    "phone": "+1-723-563-2201"
   },
   {
     "user_id": "U094",
@@ -749,7 +1121,11 @@
     "email": "daniel.nelson476@email.com",
     "member_since": "2024-04-30",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "647-71-3213",
+    "date_of_birth": "1973-01-05",
+    "mothers_maiden_name": "Brown",
+    "phone": "+1-608-700-7166"
   },
   {
     "user_id": "U095",
@@ -757,7 +1133,11 @@
     "email": "kimberly.richardson81@gmail.com",
     "member_since": "2025-02-16",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "797-61-8856",
+    "date_of_birth": "1969-10-13",
+    "mothers_maiden_name": "Jackson",
+    "phone": "+1-320-467-8458"
   },
   {
     "user_id": "U096",
@@ -765,7 +1145,11 @@
     "email": "lisa.phillips443@email.com",
     "member_since": "2023-01-03",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "750-88-2735",
+    "date_of_birth": "1995-09-27",
+    "mothers_maiden_name": "Smith",
+    "phone": "+1-884-228-4414"
   },
   {
     "user_id": "U097",
@@ -773,7 +1157,11 @@
     "email": "mark.carter160@gmail.com",
     "member_since": "2023-07-05",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "392-22-8231",
+    "date_of_birth": "1961-12-21",
+    "mothers_maiden_name": "Taylor",
+    "phone": "+1-962-637-8014"
   },
   {
     "user_id": "U098",
@@ -781,7 +1169,11 @@
     "email": "emma.kelly252@yahoo.com",
     "member_since": "2023-04-10",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "100-95-6536",
+    "date_of_birth": "1991-12-08",
+    "mothers_maiden_name": "Martinez",
+    "phone": "+1-830-865-1570"
   },
   {
     "user_id": "U099",
@@ -789,7 +1181,11 @@
     "email": "betty.scott356@gmail.com",
     "member_since": "2024-04-04",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "427-58-3968",
+    "date_of_birth": "1964-11-07",
+    "mothers_maiden_name": "Garcia",
+    "phone": "+1-706-395-2883"
   },
   {
     "user_id": "U100",
@@ -797,7 +1193,11 @@
     "email": "elizabeth.rivera386@outlook.com",
     "member_since": "2024-04-22",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "485-57-6645",
+    "date_of_birth": "1988-01-23",
+    "mothers_maiden_name": "Jackson",
+    "phone": "+1-504-477-4319"
   },
   {
     "user_id": "U101",
@@ -805,7 +1205,11 @@
     "email": "gregory.cooper980@outlook.com",
     "member_since": "2023-10-07",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "384-47-5577",
+    "date_of_birth": "1970-06-27",
+    "mothers_maiden_name": "Garcia",
+    "phone": "+1-400-660-6648"
   },
   {
     "user_id": "U102",
@@ -813,7 +1217,11 @@
     "email": "richard.anderson827@outlook.com",
     "member_since": "2023-09-03",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "447-29-5025",
+    "date_of_birth": "1976-02-01",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-533-974-8628"
   },
   {
     "user_id": "U103",
@@ -821,7 +1229,11 @@
     "email": "barbara.peterson42@outlook.com",
     "member_since": "2023-02-06",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "387-15-4114",
+    "date_of_birth": "1978-05-11",
+    "mothers_maiden_name": "Jackson",
+    "phone": "+1-798-693-2019"
   },
   {
     "user_id": "U104",
@@ -829,7 +1241,11 @@
     "email": "emily.green296@yahoo.com",
     "member_since": "2023-05-02",
     "linked_accounts_count": 1,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "819-82-7388",
+    "date_of_birth": "1973-04-28",
+    "mothers_maiden_name": "Rodriguez",
+    "phone": "+1-383-527-8513"
   },
   {
     "user_id": "U105",
@@ -837,7 +1253,11 @@
     "email": "lisa.bell611@outlook.com",
     "member_since": "2024-11-07",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "273-27-9483",
+    "date_of_birth": "1974-10-03",
+    "mothers_maiden_name": "Rodriguez",
+    "phone": "+1-698-775-3296"
   },
   {
     "user_id": "U106",
@@ -845,7 +1265,11 @@
     "email": "margaret.thompson331@outlook.com",
     "member_since": "2023-06-22",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "656-58-4872",
+    "date_of_birth": "1979-12-28",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-640-677-7485"
   },
   {
     "user_id": "U107",
@@ -853,7 +1277,11 @@
     "email": "sharon.howard661@gmail.com",
     "member_since": "2023-09-22",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "711-63-8310",
+    "date_of_birth": "1989-09-25",
+    "mothers_maiden_name": "Johnson",
+    "phone": "+1-279-908-1091"
   },
   {
     "user_id": "U108",
@@ -861,7 +1289,11 @@
     "email": "karen.gray105@yahoo.com",
     "member_since": "2023-12-22",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "467-59-7414",
+    "date_of_birth": "1972-10-24",
+    "mothers_maiden_name": "Johnson",
+    "phone": "+1-733-992-8646"
   },
   {
     "user_id": "U109",
@@ -869,7 +1301,11 @@
     "email": "kathleen.moore282@yahoo.com",
     "member_since": "2023-01-30",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "519-17-6049",
+    "date_of_birth": "1991-11-28",
+    "mothers_maiden_name": "Martin",
+    "phone": "+1-691-305-4329"
   },
   {
     "user_id": "U110",
@@ -877,7 +1313,11 @@
     "email": "andrew.murphy984@yahoo.com",
     "member_since": "2024-03-08",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "710-91-9182",
+    "date_of_birth": "1990-11-21",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-776-845-7267"
   },
   {
     "user_id": "U111",
@@ -885,7 +1325,11 @@
     "email": "maria.bailey997@yahoo.com",
     "member_since": "2023-08-24",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "446-71-6593",
+    "date_of_birth": "1981-08-06",
+    "mothers_maiden_name": "Smith",
+    "phone": "+1-717-724-2693"
   },
   {
     "user_id": "U112",
@@ -893,7 +1337,11 @@
     "email": "anthony.turner85@outlook.com",
     "member_since": "2024-12-04",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "571-39-6008",
+    "date_of_birth": "1989-04-23",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-873-336-5411"
   },
   {
     "user_id": "U113",
@@ -901,7 +1349,11 @@
     "email": "michelle.barnes203@outlook.com",
     "member_since": "2023-07-18",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "148-83-2357",
+    "date_of_birth": "1966-11-03",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-965-671-5865"
   },
   {
     "user_id": "U114",
@@ -909,7 +1361,11 @@
     "email": "ronald.park20@gmail.com",
     "member_since": "2023-03-25",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "634-83-5175",
+    "date_of_birth": "1962-09-26",
+    "mothers_maiden_name": "Thomas",
+    "phone": "+1-837-320-4495"
   },
   {
     "user_id": "U115",
@@ -917,7 +1373,11 @@
     "email": "thomas.reed889@outlook.com",
     "member_since": "2023-06-13",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "606-55-4323",
+    "date_of_birth": "1997-05-14",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-823-340-9651"
   },
   {
     "user_id": "U116",
@@ -925,7 +1385,11 @@
     "email": "deborah.powell478@gmail.com",
     "member_since": "2023-03-11",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "284-58-4375",
+    "date_of_birth": "2001-11-20",
+    "mothers_maiden_name": "Johnson",
+    "phone": "+1-986-465-4036"
   },
   {
     "user_id": "U117",
@@ -933,7 +1397,11 @@
     "email": "margaret.howard336@outlook.com",
     "member_since": "2024-03-09",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "562-19-5620",
+    "date_of_birth": "1961-01-08",
+    "mothers_maiden_name": "Johnson",
+    "phone": "+1-937-308-1677"
   },
   {
     "user_id": "U118",
@@ -941,7 +1409,11 @@
     "email": "carol.brown972@yahoo.com",
     "member_since": "2023-02-05",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "433-87-9754",
+    "date_of_birth": "1977-04-09",
+    "mothers_maiden_name": "Brown",
+    "phone": "+1-560-515-5109"
   },
   {
     "user_id": "U119",
@@ -949,7 +1421,11 @@
     "email": "eric.carter171@yahoo.com",
     "member_since": "2023-02-02",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "441-87-8408",
+    "date_of_birth": "1974-02-11",
+    "mothers_maiden_name": "Brown",
+    "phone": "+1-425-776-3166"
   },
   {
     "user_id": "U120",
@@ -957,7 +1433,11 @@
     "email": "amanda.kelly699@email.com",
     "member_since": "2024-03-23",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "166-85-9385",
+    "date_of_birth": "1965-11-20",
+    "mothers_maiden_name": "Lopez",
+    "phone": "+1-850-590-7962"
   },
   {
     "user_id": "U121",
@@ -965,7 +1445,11 @@
     "email": "margaret.barnes456@email.com",
     "member_since": "2024-08-04",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "521-69-7978",
+    "date_of_birth": "1975-02-11",
+    "mothers_maiden_name": "Jackson",
+    "phone": "+1-404-764-9030"
   },
   {
     "user_id": "U122",
@@ -973,7 +1457,11 @@
     "email": "margaret.james329@email.com",
     "member_since": "2023-06-27",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "127-10-1117",
+    "date_of_birth": "1977-09-26",
+    "mothers_maiden_name": "Lopez",
+    "phone": "+1-720-568-6817"
   },
   {
     "user_id": "U123",
@@ -981,7 +1469,11 @@
     "email": "anthony.torres204@email.com",
     "member_since": "2023-12-12",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "298-79-1365",
+    "date_of_birth": "1969-01-11",
+    "mothers_maiden_name": "Davis",
+    "phone": "+1-300-932-5746"
   },
   {
     "user_id": "U124",
@@ -989,7 +1481,11 @@
     "email": "john.park231@gmail.com",
     "member_since": "2023-01-04",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "163-11-9397",
+    "date_of_birth": "1975-08-24",
+    "mothers_maiden_name": "Jackson",
+    "phone": "+1-777-687-1628"
   },
   {
     "user_id": "U125",
@@ -997,7 +1493,11 @@
     "email": "ashley.cox737@yahoo.com",
     "member_since": "2023-10-12",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "559-54-9260",
+    "date_of_birth": "1980-08-19",
+    "mothers_maiden_name": "Hernandez",
+    "phone": "+1-954-978-9342"
   },
   {
     "user_id": "U126",
@@ -1005,7 +1505,11 @@
     "email": "nancy.bennett402@email.com",
     "member_since": "2025-03-10",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "282-47-6464",
+    "date_of_birth": "1973-02-12",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-919-738-7776"
   },
   {
     "user_id": "U127",
@@ -1013,7 +1517,11 @@
     "email": "emily.morris361@yahoo.com",
     "member_since": "2023-08-17",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "558-37-4011",
+    "date_of_birth": "1979-08-08",
+    "mothers_maiden_name": "Martin",
+    "phone": "+1-754-306-1452"
   },
   {
     "user_id": "U128",
@@ -1021,7 +1529,11 @@
     "email": "kenneth.scott911@email.com",
     "member_since": "2024-07-04",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "232-69-3753",
+    "date_of_birth": "1971-02-21",
+    "mothers_maiden_name": "Gonzalez",
+    "phone": "+1-802-731-3177"
   },
   {
     "user_id": "U129",
@@ -1029,7 +1541,11 @@
     "email": "andrew.sanders238@gmail.com",
     "member_since": "2023-08-08",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "503-46-7344",
+    "date_of_birth": "1967-02-22",
+    "mothers_maiden_name": "Johnson",
+    "phone": "+1-852-214-5485"
   },
   {
     "user_id": "U130",
@@ -1037,7 +1553,11 @@
     "email": "carol.barnes940@gmail.com",
     "member_since": "2023-12-11",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "194-24-5463",
+    "date_of_birth": "1969-09-26",
+    "mothers_maiden_name": "Jackson",
+    "phone": "+1-926-595-8163"
   },
   {
     "user_id": "U131",
@@ -1045,7 +1565,11 @@
     "email": "ashley.white484@outlook.com",
     "member_since": "2024-11-12",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "114-72-8975",
+    "date_of_birth": "1997-11-05",
+    "mothers_maiden_name": "Davis",
+    "phone": "+1-440-945-5593"
   },
   {
     "user_id": "U132",
@@ -1053,7 +1577,11 @@
     "email": "emily.wilson876@yahoo.com",
     "member_since": "2024-12-18",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "502-41-7186",
+    "date_of_birth": "1987-12-18",
+    "mothers_maiden_name": "Taylor",
+    "phone": "+1-480-827-3471"
   },
   {
     "user_id": "U133",
@@ -1061,7 +1589,11 @@
     "email": "lisa.ramirez869@outlook.com",
     "member_since": "2024-03-30",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "520-90-4682",
+    "date_of_birth": "1962-05-14",
+    "mothers_maiden_name": "Hernandez",
+    "phone": "+1-960-745-8815"
   },
   {
     "user_id": "U134",
@@ -1069,7 +1601,11 @@
     "email": "angela.lee113@yahoo.com",
     "member_since": "2023-12-30",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "469-44-7174",
+    "date_of_birth": "1965-02-15",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-489-432-3348"
   },
   {
     "user_id": "U135",
@@ -1077,7 +1613,11 @@
     "email": "michael.brooks994@yahoo.com",
     "member_since": "2023-04-18",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "585-14-9579",
+    "date_of_birth": "1988-01-09",
+    "mothers_maiden_name": "Moore",
+    "phone": "+1-567-809-5973"
   },
   {
     "user_id": "U136",
@@ -1085,7 +1625,11 @@
     "email": "angela.baker578@outlook.com",
     "member_since": "2023-05-07",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "390-16-1735",
+    "date_of_birth": "1964-01-02",
+    "mothers_maiden_name": "Garcia",
+    "phone": "+1-873-759-4463"
   },
   {
     "user_id": "U137",
@@ -1093,7 +1637,11 @@
     "email": "emma.richardson529@gmail.com",
     "member_since": "2023-01-18",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "764-87-3347",
+    "date_of_birth": "1965-04-18",
+    "mothers_maiden_name": "Smith",
+    "phone": "+1-796-793-9398"
   },
   {
     "user_id": "U138",
@@ -1101,7 +1649,11 @@
     "email": "paul.cooper837@outlook.com",
     "member_since": "2024-01-28",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "566-88-7677",
+    "date_of_birth": "1977-11-14",
+    "mothers_maiden_name": "Martinez",
+    "phone": "+1-240-979-9322"
   },
   {
     "user_id": "U139",
@@ -1109,7 +1661,11 @@
     "email": "brian.chen192@yahoo.com",
     "member_since": "2024-01-10",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "119-85-1682",
+    "date_of_birth": "1985-07-26",
+    "mothers_maiden_name": "Jones",
+    "phone": "+1-866-468-2880"
   },
   {
     "user_id": "U140",
@@ -1117,7 +1673,11 @@
     "email": "barbara.patterson495@yahoo.com",
     "member_since": "2023-02-17",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "762-22-7010",
+    "date_of_birth": "1972-01-02",
+    "mothers_maiden_name": "Martinez",
+    "phone": "+1-562-237-8150"
   },
   {
     "user_id": "U141",
@@ -1125,7 +1685,11 @@
     "email": "larry.young298@gmail.com",
     "member_since": "2023-12-24",
     "linked_accounts_count": 4,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "686-56-4168",
+    "date_of_birth": "1992-06-10",
+    "mothers_maiden_name": "Garcia",
+    "phone": "+1-539-325-3019"
   },
   {
     "user_id": "U142",
@@ -1133,7 +1697,11 @@
     "email": "angela.lee127@gmail.com",
     "member_since": "2023-10-30",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "597-25-2575",
+    "date_of_birth": "1975-07-14",
+    "mothers_maiden_name": "Smith",
+    "phone": "+1-734-476-6249"
   },
   {
     "user_id": "U143",
@@ -1141,7 +1709,11 @@
     "email": "robert.park245@gmail.com",
     "member_since": "2024-01-24",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "100-96-8290",
+    "date_of_birth": "1970-02-13",
+    "mothers_maiden_name": "Anderson",
+    "phone": "+1-493-309-9164"
   },
   {
     "user_id": "U144",
@@ -1149,7 +1721,11 @@
     "email": "brian.patterson196@yahoo.com",
     "member_since": "2024-01-21",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "650-77-3810",
+    "date_of_birth": "1982-05-12",
+    "mothers_maiden_name": "Miller",
+    "phone": "+1-395-214-4075"
   },
   {
     "user_id": "U145",
@@ -1157,7 +1733,11 @@
     "email": "daniel.taylor105@gmail.com",
     "member_since": "2023-04-12",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "274-97-5550",
+    "date_of_birth": "1992-04-26",
+    "mothers_maiden_name": "Williams",
+    "phone": "+1-853-558-2662"
   },
   {
     "user_id": "U146",
@@ -1165,7 +1745,11 @@
     "email": "steven.bell992@outlook.com",
     "member_since": "2023-06-29",
     "linked_accounts_count": 2,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "867-55-4316",
+    "date_of_birth": "1975-04-04",
+    "mothers_maiden_name": "Garcia",
+    "phone": "+1-745-579-9019"
   },
   {
     "user_id": "U147",
@@ -1173,7 +1757,11 @@
     "email": "arthur.white47@email.com",
     "member_since": "2024-01-08",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "478-67-8890",
+    "date_of_birth": "1990-07-06",
+    "mothers_maiden_name": "Smith",
+    "phone": "+1-636-423-1710"
   },
   {
     "user_id": "U148",
@@ -1181,7 +1769,11 @@
     "email": "robert.brooks275@email.com",
     "member_since": "2024-01-22",
     "linked_accounts_count": 5,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "373-63-7781",
+    "date_of_birth": "1976-12-10",
+    "mothers_maiden_name": "Anderson",
+    "phone": "+1-207-202-7222"
   },
   {
     "user_id": "U149",
@@ -1189,7 +1781,11 @@
     "email": "gerald.phillips384@gmail.com",
     "member_since": "2024-11-10",
     "linked_accounts_count": 3,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "137-97-1759",
+    "date_of_birth": "1996-10-24",
+    "mothers_maiden_name": "Jackson",
+    "phone": "+1-728-829-3148"
   },
   {
     "user_id": "U150",
@@ -1197,6 +1793,10 @@
     "email": "ryan.james761@gmail.com",
     "member_since": "2024-07-18",
     "linked_accounts_count": 6,
-    "status": "Active"
+    "status": "Active",
+    "ssn": "612-24-4758",
+    "date_of_birth": "1971-06-11",
+    "mothers_maiden_name": "Davis",
+    "phone": "+1-522-797-7268"
   }
 ]
