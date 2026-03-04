@@ -1055,13 +1055,13 @@
             const res = await fetch('data/users.json');
             const users = await res.json();
             
-            // Update count
             document.getElementById('user-count').textContent = users.length;
             
-            let html = '<table><thead><tr><th>User ID</th><th>Name</th><th>Email</th><th>Member Since</th><th>Linked Accounts</th><th>Status</th></tr></thead><tbody>';
+            let html = '<p style="margin-bottom: 15px; color: #34d399; font-weight: 600;">💡 Click any user to see their accounts, transactions, and subscriptions</p>';
+            html += '<table><thead><tr><th>User ID</th><th>Name</th><th>Email</th><th>Member Since</th><th>Linked Accounts</th><th>Status</th></tr></thead><tbody>';
             
             users.slice(0, 100).forEach(u => {
-                html += `<tr>
+                html += `<tr class="clickable-row" onclick="showUserDetails('${u.user_id}')">
                     <td><code>${u.user_id}</code></td>
                     <td>${u.name}</td>
                     <td>${u.email}</td>
@@ -1073,7 +1073,7 @@
             
             html += '</tbody></table>';
             if (users.length > 100) {
-                html += '<p style="margin-top: 15px; color: #6b7280;"><em>Showing 100 of ' + users.length + ' total users</em></p>';
+                html += '<p style="margin-top: 15px; color: #9ca3af;"><em>Showing 100 of ' + users.length + ' total users</em></p>';
             }
             div.innerHTML = html;
         }
@@ -1082,11 +1082,12 @@
             const res = await fetch('data/accounts.json');
             const accounts = await res.json();
             
-            let html = '<table><thead><tr><th>Account ID</th><th>User</th><th>Institution</th><th>Type</th><th>Last 4</th><th>Balance</th><th>Status</th></tr></thead><tbody>';
+            let html = '<p style="margin-bottom: 15px; color: #34d399; font-weight: 600;">💡 Click any account to see the owner and recent transactions</p>';
+            html += '<table><thead><tr><th>Account ID</th><th>User</th><th>Institution</th><th>Type</th><th>Last 4</th><th>Balance</th><th>Status</th></tr></thead><tbody>';
             
-            accounts.forEach(a => {
+            accounts.slice(0, 150).forEach(a => {
                 const balanceClass = a.balance >= 0 ? 'transaction-positive' : 'transaction-negative';
-                html += `<tr>
+                html += `<tr class="clickable-row" onclick="showAccountDetails('${a.account_id}')">
                     <td><code>${a.account_id}</code></td>
                     <td>${a.user_id}</td>
                     <td>${a.institution_name}</td>
@@ -1098,6 +1099,9 @@
             });
             
             html += '</tbody></table>';
+            if (accounts.length > 150) {
+                html += '<p style="margin-top: 15px; color: #9ca3af;"><em>Showing 150 of ' + accounts.length + ' total accounts</em></p>';
+            }
             div.innerHTML = html;
         }
         
@@ -1131,10 +1135,11 @@
             const res = await fetch('data/subscriptions.json');
             const subscriptions = await res.json();
             
-            let html = '<table><thead><tr><th>Sub ID</th><th>User</th><th>Service</th><th>Amount</th><th>Frequency</th><th>Next Billing</th><th>Status</th></tr></thead><tbody>';
+            let html = '<p style="margin-bottom: 15px; color: #34d399; font-weight: 600;">💡 Click any subscription to see the owner and related transactions</p>';
+            html += '<table><thead><tr><th>Sub ID</th><th>User</th><th>Service</th><th>Amount</th><th>Frequency</th><th>Next Billing</th><th>Status</th></tr></thead><tbody>';
             
             subscriptions.forEach(s => {
-                html += `<tr>
+                html += `<tr class="clickable-row" onclick="showSubscriptionDetails('${s.subscription_id}')">
                     <td><code>${s.subscription_id}</code></td>
                     <td>${s.user_id}</td>
                     <td>${s.service_name}</td>
@@ -1221,74 +1226,251 @@
             document.getElementById('dataModal').classList.remove('active');
         }
         
+        async function fetchAllData() {
+            const [usersRes, accountsRes, transactionsRes, subscriptionsRes] = await Promise.all([
+                fetch('data/users.json'), fetch('data/accounts.json'),
+                fetch('data/transactions.json'), fetch('data/subscriptions.json')
+            ]);
+            return {
+                users: await usersRes.json(),
+                accounts: await accountsRes.json(),
+                transactions: await transactionsRes.json(),
+                subscriptions: await subscriptionsRes.json()
+            };
+        }
+
+        function renderUserBlock(user) {
+            let html = '<div class="data-item"><h4>👤 User Record</h4>';
+            html += `<p><strong>User ID:</strong> ${user.user_id}</p>`;
+            html += `<p><strong>Name:</strong> ${user.name}</p>`;
+            html += `<p><strong>Email:</strong> ${user.email}</p>`;
+            html += `<p><strong>Phone:</strong> ${user.phone || 'N/A'}</p>`;
+            html += `<p><strong>Member Since:</strong> ${user.member_since}</p>`;
+            html += `<p><strong>Status:</strong> ${user.status}</p>`;
+            html += `<p><strong>Linked Accounts:</strong> ${user.linked_accounts_count}</p>`;
+            html += '</div>';
+            return html;
+        }
+
         // Show transaction details with data chain
         async function showTransactionDetails(transactionId) {
-            const [transactionsRes, accountsRes, usersRes] = await Promise.all([
-                fetch('data/transactions.json'),
-                fetch('data/accounts.json'),
-                fetch('data/users.json')
-            ]);
-            const transactions = await transactionsRes.json();
-            const accounts = await accountsRes.json();
-            const users = await usersRes.json();
+            const data = await fetchAllData();
             
-            const transaction = transactions.find(t => t.transaction_id === transactionId);
-            const account = accounts.find(a => a.account_id === transaction.account_id);
-            const user = users.find(u => u.user_id === transaction.user_id);
+            const transaction = data.transactions.find(t => t.transaction_id === transactionId);
+            const account = data.accounts.find(a => a.user_id === transaction.user_id && a.last_four === transaction.account_last_four);
+            const user = data.users.find(u => u.user_id === transaction.user_id);
             
             let html = `<h2>💳 Transaction ${transactionId} - Data Chain</h2>`;
-            html += '<p style="color: #6b7280; margin-bottom: 20px;">See how data flows through the database</p>';
-            
+            html += '<p style="color: #9ca3af; margin-bottom: 20px;">Transaction → Account → User</p>';
             html += '<div class="data-chain">';
             
-            // Transaction data
-            html += '<div class="data-item">';
-            html += '<h4>💳 Transaction Record</h4>';
+            html += '<div class="data-item"><h4>💳 Transaction Record</h4>';
             html += `<p><strong>Transaction ID:</strong> ${transaction.transaction_id}</p>`;
             html += `<p><strong>Date:</strong> ${transaction.date}</p>`;
             html += `<p><strong>Merchant:</strong> ${transaction.merchant}</p>`;
-            const amountDisplay = transaction.amount < 0 ? `-$${Math.abs(transaction.amount).toFixed(2)}` : `+$${transaction.amount.toFixed(2)}`;
-            html += `<p><strong>Amount:</strong> ${amountDisplay}</p>`;
+            const amtDisplay = transaction.amount < 0 ? `-$${Math.abs(transaction.amount).toFixed(2)}` : `+$${transaction.amount.toFixed(2)}`;
+            html += `<p><strong>Amount:</strong> ${amtDisplay}</p>`;
             html += `<p><strong>Category:</strong> ${transaction.category}</p>`;
-            html += `<p><strong>Status:</strong> ${transaction.status}</p>`;
-            html += `<p style="color: #34d399; margin-top: 10px;"><strong>⬇️ Links to Account ID:</strong> ${transaction.account_id}</p>`;
+            html += `<p style="color: #34d399; margin-top: 10px;"><strong>⬇️ FK user_id →</strong> ${transaction.user_id}</p>`;
+            html += `<p style="color: #34d399;"><strong>⬇️ FK account_last_four →</strong> ****${transaction.account_last_four}</p>`;
             html += '</div>';
             
-            // Account data
-            html += '<div class="data-item">';
-            html += '<h4>🏦 Account Record</h4>';
+            if (account) {
+                html += '<div class="data-item"><h4>🏦 Account Record</h4>';
+                html += `<p><strong>Account ID:</strong> ${account.account_id}</p>`;
+                html += `<p><strong>Institution:</strong> ${account.institution_name}</p>`;
+                html += `<p><strong>Type:</strong> ${account.account_type}</p>`;
+                html += `<p><strong>Last 4:</strong> ****${account.last_four}</p>`;
+                html += `<p><strong>Balance:</strong> $${account.balance.toLocaleString()}</p>`;
+                html += `<p><strong>Status:</strong> ${account.status}</p>`;
+                html += `<p style="color: #34d399; margin-top: 10px;"><strong>⬇️ FK user_id →</strong> ${account.user_id}</p>`;
+                html += '</div>';
+            }
+            
+            if (user) html += renderUserBlock(user);
+            html += '</div>';
+            
+            html += '<div style="background: #0a0e1a; border: 1px solid #10b981; border-radius: 6px; padding: 15px; margin-top: 20px;">';
+            html += '<p style="color: #34d399;"><strong>✅ Referential Integrity Check:</strong></p>';
+            html += `<p style="color: #cbd5e1;">• Transaction → User (${transaction.user_id}): ${user ? '✓' : '✗ NOT FOUND'}</p>`;
+            html += `<p style="color: #cbd5e1;">• Transaction → Account (****${transaction.account_last_four}): ${account ? '✓' : '✗ NOT FOUND'}</p>`;
+            if (account) html += `<p style="color: #cbd5e1;">• Account → User (${account.user_id}): ${account.user_id === transaction.user_id ? '✓' : '✗ MISMATCH'}</p>`;
+            html += '</div>';
+            
+            document.getElementById('modalContent').innerHTML = html;
+            openModal();
+        }
+
+        // Show user details: accounts, recent transactions, subscriptions
+        async function showUserDetails(userId) {
+            const data = await fetchAllData();
+            
+            const user = data.users.find(u => u.user_id === userId);
+            const userAccounts = data.accounts.filter(a => a.user_id === userId);
+            const userTransactions = data.transactions.filter(t => t.user_id === userId).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 10);
+            const userSubs = data.subscriptions.filter(s => s.user_id === userId);
+            
+            let html = `<h2>👤 User ${userId} - Full Profile</h2>`;
+            html += '<p style="color: #9ca3af; margin-bottom: 20px;">User → Accounts → Transactions → Subscriptions</p>';
+            
+            html += renderUserBlock(user);
+            
+            html += `<div class="data-item"><h4>🏦 Linked Accounts (${userAccounts.length})</h4>`;
+            if (userAccounts.length > 0) {
+                html += '<table style="margin-top: 10px;"><thead><tr><th>Account ID</th><th>Institution</th><th>Type</th><th>Last 4</th><th>Balance</th><th>Status</th></tr></thead><tbody>';
+                userAccounts.forEach(a => {
+                    html += `<tr><td><code>${a.account_id}</code></td><td>${a.institution_name}</td><td>${a.account_type}</td><td>****${a.last_four}</td><td>$${a.balance.toLocaleString()}</td><td>${a.status}</td></tr>`;
+                });
+                html += '</tbody></table>';
+            } else {
+                html += '<p>No linked accounts</p>';
+            }
+            html += `<p style="color: #34d399; margin-top: 10px;"><strong>⬆️ FK user_id ←</strong> ${userId}</p></div>`;
+            
+            html += `<div class="data-item"><h4>💳 Recent Transactions (${userTransactions.length} of ${data.transactions.filter(t => t.user_id === userId).length})</h4>`;
+            if (userTransactions.length > 0) {
+                html += '<table style="margin-top: 10px;"><thead><tr><th>ID</th><th>Date</th><th>Merchant</th><th>Amount</th><th>Account</th></tr></thead><tbody>';
+                userTransactions.forEach(t => {
+                    const amt = t.amount < 0 ? `-$${Math.abs(t.amount).toFixed(2)}` : `+$${t.amount.toFixed(2)}`;
+                    html += `<tr><td><code>${t.transaction_id}</code></td><td>${t.date}</td><td>${t.merchant}</td><td>${amt}</td><td>****${t.account_last_four}</td></tr>`;
+                });
+                html += '</tbody></table>';
+            } else {
+                html += '<p>No transactions</p>';
+            }
+            html += `<p style="color: #34d399; margin-top: 10px;"><strong>⬆️ FK user_id ←</strong> ${userId}</p></div>`;
+            
+            html += `<div class="data-item"><h4>🔄 Subscriptions (${userSubs.length})</h4>`;
+            if (userSubs.length > 0) {
+                html += '<table style="margin-top: 10px;"><thead><tr><th>ID</th><th>Service</th><th>Amount</th><th>Frequency</th><th>Status</th></tr></thead><tbody>';
+                userSubs.forEach(s => {
+                    html += `<tr><td><code>${s.subscription_id}</code></td><td>${s.service_name}</td><td>$${s.amount.toFixed(2)}</td><td>${s.billing_frequency}</td><td>${s.status}</td></tr>`;
+                });
+                html += '</tbody></table>';
+            } else {
+                html += '<p>No subscriptions</p>';
+            }
+            html += `<p style="color: #34d399; margin-top: 10px;"><strong>⬆️ FK user_id ←</strong> ${userId}</p></div>`;
+            
+            html += '<div style="background: #0a0e1a; border: 1px solid #10b981; border-radius: 6px; padding: 15px; margin-top: 20px;">';
+            html += '<p style="color: #34d399;"><strong>✅ Foreign Key Summary:</strong></p>';
+            html += `<p style="color: #cbd5e1;">• ${userAccounts.length} accounts reference this user ✓</p>`;
+            html += `<p style="color: #cbd5e1;">• ${data.transactions.filter(t => t.user_id === userId).length} transactions reference this user ✓</p>`;
+            html += `<p style="color: #cbd5e1;">• ${userSubs.length} subscriptions reference this user ✓</p>`;
+            html += '</div>';
+            
+            document.getElementById('modalContent').innerHTML = html;
+            openModal();
+        }
+
+        // Show account details: owner + recent transactions on this account
+        async function showAccountDetails(accountId) {
+            const data = await fetchAllData();
+            
+            const account = data.accounts.find(a => a.account_id === accountId);
+            const user = data.users.find(u => u.user_id === account.user_id);
+            const accountTxns = data.transactions.filter(t => t.user_id === account.user_id && t.account_last_four === account.last_four).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 10);
+            
+            let html = `<h2>🏦 Account ${accountId} - Data Chain</h2>`;
+            html += '<p style="color: #9ca3af; margin-bottom: 20px;">Account → User + Transactions on this account</p>';
+            
+            html += '<div class="data-item"><h4>🏦 Account Record</h4>';
             html += `<p><strong>Account ID:</strong> ${account.account_id}</p>`;
             html += `<p><strong>Institution:</strong> ${account.institution_name}</p>`;
             html += `<p><strong>Type:</strong> ${account.account_type}</p>`;
             html += `<p><strong>Last 4:</strong> ****${account.last_four}</p>`;
             html += `<p><strong>Balance:</strong> $${account.balance.toLocaleString()}</p>`;
             html += `<p><strong>Status:</strong> ${account.status}</p>`;
-            html += `<p style="color: #34d399; margin-top: 10px;"><strong>⬇️ Belongs to User ID:</strong> ${account.user_id}</p>`;
+            html += `<p style="color: #34d399; margin-top: 10px;"><strong>⬇️ FK user_id →</strong> ${account.user_id}</p>`;
             html += '</div>';
             
-            // User data
-            html += '<div class="data-item">';
-            html += '<h4>👤 User Record</h4>';
-            html += `<p><strong>User ID:</strong> ${user.user_id}</p>`;
-            html += `<p><strong>Name:</strong> ${user.first_name} ${user.last_name}</p>`;
-            html += `<p><strong>Email:</strong> ${user.email}</p>`;
-            html += `<p><strong>Member Since:</strong> ${user.member_since}</p>`;
-            html += `<p><strong>Linked Accounts:</strong> ${user.linked_accounts_count}</p>`;
-            html += '</div>';
+            if (user) html += renderUserBlock(user);
             
+            const totalTxns = data.transactions.filter(t => t.user_id === account.user_id && t.account_last_four === account.last_four).length;
+            html += `<div class="data-item"><h4>💳 Recent Transactions on ****${account.last_four} (${accountTxns.length} of ${totalTxns})</h4>`;
+            if (accountTxns.length > 0) {
+                html += '<table style="margin-top: 10px;"><thead><tr><th>ID</th><th>Date</th><th>Merchant</th><th>Amount</th><th>Category</th></tr></thead><tbody>';
+                accountTxns.forEach(t => {
+                    const amt = t.amount < 0 ? `-$${Math.abs(t.amount).toFixed(2)}` : `+$${t.amount.toFixed(2)}`;
+                    html += `<tr><td><code>${t.transaction_id}</code></td><td>${t.date}</td><td>${t.merchant}</td><td>${amt}</td><td>${t.category}</td></tr>`;
+                });
+                html += '</tbody></table>';
+            } else {
+                html += '<p>No transactions on this account</p>';
+            }
             html += '</div>';
             
             html += '<div style="background: #0a0e1a; border: 1px solid #10b981; border-radius: 6px; padding: 15px; margin-top: 20px;">';
             html += '<p style="color: #34d399;"><strong>✅ Referential Integrity Check:</strong></p>';
-            html += '<p style="color: #cbd5e1;">• Transaction references valid account ✓</p>';
-            html += '<p style="color: #cbd5e1;">• Account belongs to correct user ✓</p>';
-            html += '<p style="color: #cbd5e1;">• All foreign keys valid ✓</p>';
+            html += `<p style="color: #cbd5e1;">• Account → User (${account.user_id}): ${user ? '✓' : '✗ NOT FOUND'}</p>`;
+            html += `<p style="color: #cbd5e1;">• ${totalTxns} transactions on this account ✓</p>`;
             html += '</div>';
             
             document.getElementById('modalContent').innerHTML = html;
             openModal();
         }
-        
+
+        // Show subscription details: owner + matching transactions
+        async function showSubscriptionDetails(subscriptionId) {
+            const data = await fetchAllData();
+            
+            const sub = data.subscriptions.find(s => s.subscription_id === subscriptionId);
+            const user = data.users.find(u => u.user_id === sub.user_id);
+            const matchingTxns = data.transactions.filter(t => 
+                t.user_id === sub.user_id && 
+                t.merchant.toLowerCase().includes(sub.service_name.split(' ')[0].toLowerCase())
+            ).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5);
+            
+            let html = `<h2>🔄 Subscription ${subscriptionId} - Data Chain</h2>`;
+            html += '<p style="color: #9ca3af; margin-bottom: 20px;">Subscription → User + Related Transactions</p>';
+            
+            html += '<div class="data-item"><h4>🔄 Subscription Record</h4>';
+            html += `<p><strong>Subscription ID:</strong> ${sub.subscription_id}</p>`;
+            html += `<p><strong>Service:</strong> ${sub.service_name}</p>`;
+            html += `<p><strong>Amount:</strong> $${sub.amount.toFixed(2)}</p>`;
+            html += `<p><strong>Billing Frequency:</strong> ${sub.billing_frequency}</p>`;
+            html += `<p><strong>Next Billing:</strong> ${sub.next_billing_date}</p>`;
+            html += `<p><strong>Status:</strong> ${sub.status}</p>`;
+            html += `<p style="color: #34d399; margin-top: 10px;"><strong>⬇️ FK user_id →</strong> ${sub.user_id}</p>`;
+            html += '</div>';
+            
+            if (user) html += renderUserBlock(user);
+            
+            html += `<div class="data-item"><h4>💳 Related Transactions (matching "${sub.service_name.split(' ')[0]}")</h4>`;
+            if (matchingTxns.length > 0) {
+                html += '<table style="margin-top: 10px;"><thead><tr><th>ID</th><th>Date</th><th>Merchant</th><th>Amount</th><th>Account</th></tr></thead><tbody>';
+                matchingTxns.forEach(t => {
+                    const amt = t.amount < 0 ? `-$${Math.abs(t.amount).toFixed(2)}` : `+$${t.amount.toFixed(2)}`;
+                    html += `<tr><td><code>${t.transaction_id}</code></td><td>${t.date}</td><td>${t.merchant}</td><td>${amt}</td><td>****${t.account_last_four}</td></tr>`;
+                });
+                html += '</tbody></table>';
+            } else {
+                html += '<p>No matching transactions found</p>';
+            }
+            html += '</div>';
+            
+            // Show other subs for same user
+            const otherSubs = data.subscriptions.filter(s => s.user_id === sub.user_id && s.subscription_id !== subscriptionId);
+            if (otherSubs.length > 0) {
+                html += `<div class="data-item"><h4>📋 Other Subscriptions for ${user ? user.name : sub.user_id}</h4>`;
+                html += '<table style="margin-top: 10px;"><thead><tr><th>ID</th><th>Service</th><th>Amount</th><th>Status</th></tr></thead><tbody>';
+                otherSubs.forEach(s => {
+                    html += `<tr><td><code>${s.subscription_id}</code></td><td>${s.service_name}</td><td>$${s.amount.toFixed(2)}</td><td>${s.status}</td></tr>`;
+                });
+                html += '</tbody></table></div>';
+            }
+            
+            html += '<div style="background: #0a0e1a; border: 1px solid #10b981; border-radius: 6px; padding: 15px; margin-top: 20px;">';
+            html += '<p style="color: #34d399;"><strong>✅ Referential Integrity Check:</strong></p>';
+            html += `<p style="color: #cbd5e1;">• Subscription → User (${sub.user_id}): ${user ? '✓' : '✗ NOT FOUND'}</p>`;
+            html += `<p style="color: #cbd5e1;">• ${matchingTxns.length} related transactions found</p>`;
+            html += `<p style="color: #cbd5e1;">• User has ${otherSubs.length} other subscription(s)</p>`;
+            html += '</div>';
+            
+            document.getElementById('modalContent').innerHTML = html;
+            openModal();
+        }
+
         // Database integrity tests
         async function loadDatabaseTests(div) {
             const [usersRes, accountsRes, transactionsRes, subscriptionsRes, messagesRes] = await Promise.all([
