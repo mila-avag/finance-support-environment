@@ -116,7 +116,7 @@
     "date": "2026-03-03",
     "time": "18:17 PM",
     "subject": "Net worth calculation seems off",
-    "body": "One of my bank accounts keeps disconnecting. Can you fix this?",
+    "body": "My net worth calculation doesn't seem right. I've been tracking manually and the total shown in FinTrack is different from what I calculated. Can you help me understand how it's calculated?",
     "is_test_scenario": false
   },
   {
@@ -126,7 +126,7 @@
     "date": "2026-03-03",
     "time": "18:55 PM",
     "subject": "Change email address",
-    "body": "How do I update my email address on file?",
+    "body": "How do I update my email address on file? I can't find the option in settings.",
     "is_test_scenario": false
   },
   {
@@ -136,7 +136,7 @@
     "date": "2026-03-03",
     "time": "12:05 PM",
     "subject": "Investment tracking not working",
-    "body": "I need help understanding my spending trends. Can you generate a report?",
+    "body": "My investment accounts aren't tracking properly. The values shown don't match what I see in my brokerage account. Can you help?",
     "is_test_scenario": false
   },
   {
@@ -146,7 +146,7 @@
     "date": "2026-03-03",
     "time": "10:51 AM",
     "subject": "Account connection lost",
-    "body": "Hi, I'm trying to add my new Citi card but keep getting an error. Can you help?",
+    "body": "One of my bank accounts keeps disconnecting. Can you fix this connection issue?",
     "is_test_scenario": false
   },
   {
@@ -156,7 +156,7 @@
     "date": "2026-03-03",
     "time": "11:28 AM",
     "subject": "Budget alerts not working",
-    "body": "My dashboard numbers don't match when I manually calculate. Can you check?",
+    "body": "I set up budget alerts but haven't received any notifications. Are they working correctly?",
     "is_test_scenario": false
   },
   {
@@ -166,7 +166,7 @@
     "date": "2026-03-03",
     "time": "12:07 PM",
     "subject": "How do I set up bill reminders?",
-    "body": "How can I set up reminders for when bills are due?",
+    "body": "How can I set up reminders for when bills are due? I don't see this feature in the app.",
     "is_test_scenario": false
   },
   {
@@ -176,7 +176,7 @@
     "date": "2026-03-03",
     "time": "08:56 AM",
     "subject": "Mobile app syncing issues",
-    "body": "I forgot my password and the reset email isn't coming through.",
+    "body": "My mobile app isn't syncing with the web version. Transactions show up on web but not on my phone. Please help.",
     "is_test_scenario": false
   },
   {
@@ -186,7 +186,7 @@
     "date": "2026-03-02",
     "time": "11:35 AM",
     "subject": "Merchant name showing as gibberish",
-    "body": "I set up budget alerts but haven't received any notifications. Are they working?",
+    "body": "Some merchant names show up as random codes instead of the actual store name. Can these be cleaned up?",
     "is_test_scenario": false
   },
   {
@@ -196,7 +196,7 @@
     "date": "2026-03-03",
     "time": "08:56 AM",
     "subject": "Feature request: Split transactions",
-    "body": "Hi, I'm trying to add my new Citi card but keep getting an error. Can you help?",
+    "body": "Is there a way to split a single transaction across multiple categories? Like when I buy groceries and household items in one trip?",
     "is_test_scenario": false
   },
   {
@@ -206,7 +206,7 @@
     "date": "2026-03-02",
     "time": "09:03 AM",
     "subject": "Transaction categorization error",
-    "body": "Some merchant names show up as random codes. Can these be cleaned up?",
+    "body": "Some of my transactions are being categorized incorrectly. Can I manually recategorize them?",
     "is_test_scenario": false
   },
   {
@@ -216,7 +216,7 @@
     "date": "2026-03-02",
     "time": "14:06 PM",
     "subject": "Password reset request",
-    "body": "My mobile app isn't syncing with the web version. Please help.",
+    "body": "I forgot my password and the reset email isn't coming through. Can you resend it or reset it manually?",
     "is_test_scenario": false
   },
   {
@@ -246,7 +246,7 @@
     "date": "2026-03-03",
     "time": "16:52 PM",
     "subject": "Mobile app syncing issues",
-    "body": "I need help understanding my spending trends. Can you generate a report?",
+    "body": "My mobile app isn't syncing with the web version. Transactions show up on web but not on my phone. Please help.",
     "is_test_scenario": false
   },
   {
@@ -256,7 +256,7 @@
     "date": "2026-03-02",
     "time": "09:19 AM",
     "subject": "Can't access my account",
-    "body": "How do I update my email address on file?",
+    "body": "I'm locked out of my account. Says my password is wrong but I'm sure it's correct. Help!",
     "is_test_scenario": false
   },
   {
@@ -266,7 +266,7 @@
     "date": "2026-03-02",
     "time": "17:58 PM",
     "subject": "Investment tracking not working",
-    "body": "How do I update my email address on file?",
+    "body": "My investment accounts aren't tracking properly. The values shown don't match what I see in my brokerage account. Can you help?",
     "is_test_scenario": false
   },
   {
@@ -276,7 +276,7 @@
     "date": "2026-03-03",
     "time": "18:25 PM",
     "subject": "Merchant name showing as gibberish",
-    "body": "I forgot my password and the reset email isn't coming through.",
+    "body": "Some merchant names show up as random codes instead of the actual store name. Can these be cleaned up?",
     "is_test_scenario": false
   },
   {
@@ -286,7 +286,7 @@
     "date": "2026-03-02",
     "time": "12:34 PM",
     "subject": "Can't access my account",
-    "body": "I'm seeing what looks like a duplicate transaction. Can you verify?",
+    "body": "I'm locked out of my account. Says my password is wrong but I'm sure it's correct. Help!",
     "is_test_scenario": false
   },
   {
@@ -306,7 +306,7 @@
     "date": "2026-03-03",
     "time": "18:44 PM",
     "subject": "Budget alerts not working",
-    "body": "I need help understanding my spending trends. Can you generate a report?",
+    "body": "I set up budget alerts but haven't received any notifications. Are they working correctly?",
     "is_test_scenario": false
   },
   {
@@ -316,7 +316,7 @@
     "date": "2026-03-03",
     "time": "15:34 PM",
     "subject": "Request for annual spending report",
-    "body": "I have recurring charges that aren't showing in my subscriptions tab.",
+    "body": "Can I get an annual spending report for 2025? I need it for tax purposes.",
     "is_test_scenario": false
   },
   {
@@ -326,7 +326,7 @@
     "date": "2026-03-02",
     "time": "11:56 AM",
     "subject": "Merchant name showing as gibberish",
-    "body": "One of my bank accounts keeps disconnecting. Can you fix this?",
+    "body": "Some merchant names show up as random codes instead of the actual store name. Can these be cleaned up?",
     "is_test_scenario": false
   },
   {
@@ -336,7 +336,7 @@
     "date": "2026-03-02",
     "time": "17:38 PM",
     "subject": "Budget alerts not working",
-    "body": "Is there a way to add custom spending categories?",
+    "body": "I set up budget alerts but haven't received any notifications. Are they working correctly?",
     "is_test_scenario": false
   },
   {
@@ -346,7 +346,7 @@
     "date": "2026-03-02",
     "time": "10:19 AM",
     "subject": "Password reset request",
-    "body": "My investment account isn't tracking properly. Help?",
+    "body": "I forgot my password and the reset email isn't coming through. Can you resend it or reset it manually?",
     "is_test_scenario": false
   },
   {
@@ -356,7 +356,7 @@
     "date": "2026-03-03",
     "time": "12:38 PM",
     "subject": "Net worth calculation seems off",
-    "body": "Some merchant names show up as random codes. Can these be cleaned up?",
+    "body": "My net worth calculation doesn't seem right. I've been tracking manually and the total shown in FinTrack is different from what I calculated. Can you help me understand how it's calculated?",
     "is_test_scenario": false
   },
   {
@@ -366,7 +366,7 @@
     "date": "2026-03-03",
     "time": "15:03 PM",
     "subject": "Mobile app syncing issues",
-    "body": "I'm locked out of my account and need assistance getting back in.",
+    "body": "My mobile app isn't syncing with the web version. Transactions show up on web but not on my phone. Please help.",
     "is_test_scenario": false
   },
   {
@@ -376,7 +376,7 @@
     "date": "2026-03-03",
     "time": "16:41 PM",
     "subject": "Budget alerts not working",
-    "body": "How do I update my email address on file?",
+    "body": "I set up budget alerts but haven't received any notifications. Are they working correctly?",
     "is_test_scenario": false
   },
   {
@@ -386,7 +386,7 @@
     "date": "2026-03-02",
     "time": "09:50 AM",
     "subject": "Request for annual spending report",
-    "body": "I set up budget alerts but haven't received any notifications. Are they working?",
+    "body": "Can I get an annual spending report for 2025? I need it for tax purposes.",
     "is_test_scenario": false
   },
   {
@@ -396,7 +396,7 @@
     "date": "2026-03-03",
     "time": "16:39 PM",
     "subject": "Password reset request",
-    "body": "The balance shown doesn't match my actual account balance.",
+    "body": "I forgot my password and the reset email isn't coming through. Can you resend it or reset it manually?",
     "is_test_scenario": false
   },
   {
@@ -406,7 +406,7 @@
     "date": "2026-03-03",
     "time": "19:21 PM",
     "subject": "Can't access my account",
-    "body": "I set up budget alerts but haven't received any notifications. Are they working?",
+    "body": "I'm locked out of my account. Says my password is wrong but I'm sure it's correct. Help!",
     "is_test_scenario": false
   },
   {
